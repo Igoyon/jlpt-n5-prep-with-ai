@@ -44,7 +44,8 @@ Pułapki zapisu kaną (sama hiragana nie ma granic słów, syntezator zgaduje po
 - きょうは przed słowem kaną: po zamianie は → わ Kyoko czyta „きょうわ” jak jedno słowo i zlewa je z następnym
   bez pauzy (きょうわきのうより; głoski dobre, więc rozpoznawanie mowy tego nie widzi, nagranie krótsze o ok. 0,2 s).
   Pisz 今日は: po kanji granica słowa jest pewna i po partykule jest pauza (今日は　きのうより　あたたかいですね).
-  To samo w data-say w lekcjach.
+  To samo w data-say w lekcjach. Tak samo zlewa się くうこうは　えきより (pisz 空港は　駅より); きのうは　今日より jest dobre.
+  Wykrywanie: długość nagrania z は i z わ w tym samym miejscu różni się o więcej niż ok. 0,08 s.
 Podział słów syntezatora pokazuje anki/segment.swift (instrukcja w pliku); „は | つか” albo „と | おか” = błąd.
 Sam .segment nie wystarcza (えいがかんへ wyglądało dobrze, a brzmiało źle): nagrania z nowej talii warto przepuścić
 przez rozpoznawanie mowy (model whisper large-v3-turbo, language="ja"; mlx-whisper liczy ok. 1,5 s na plik,
