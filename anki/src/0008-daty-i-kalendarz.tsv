@@ -1,0 +1,18 @@
+#typ	id	tekst	wyjaśnienie	tagi	tekst_do_audio
+cloze	0008-01	{{c1::いつ::kiedy? z に czy bez?}}　京都へ　行きますか。	Kiedy jedziesz do Kioto? いつ nigdy nie bierze に (✗ いつに), tak jak 来週, 明日, 今日. W 0008 uznałeś いつに za poprawne.	daty blad	いつ　京都へ　行きますか。
+cloze	0008-02	何曜日{{c1::に::z に czy bez?}}　美術館へ　行きますか。	W który dzień tygodnia idziesz do muzeum? 何曜日, 何日, 何時 pytają o konkretny punkt w kalendarzu, więc biorą に (jak 日曜日に, 十日に, 三時に). Bez に jest tylko いつ.	daty blad	なんようびに　びじゅつかんへ　いきますか。
+cloze	0008-03	（ホテルで）パスポートを　{{c1::見せて::pokazać, nie popatrzeć}}ください。	Proszę pokazać paszport. 見せる（みせる）= pokazać → 見せて. 見る（みる）= patrzeć → 見て. W 0008 wpisałeś ✗ 見てください („proszę popatrzeć”).	daty blad	パスポートを　みせてください。
+cloze	0008-04	京都は　有名（{{c1::ゆうめい::ile ゆ?}}）で、きれいな　町です。	Kioto jest sławne i ładne. 有名 = ゆう-めい, długie u. ゆめ to 夢 (sen), inne słowo. W 0008 wpisałeś ✗ ゆめいで. Forma で była dobra.	daty blad	京都は　ゆうめいで、きれいな　まちです。
+cloze	0008-05	パーティーは　三日{{c1::じゃなくて::nie X, tylko Y}}、四日ですよ。	Impreza jest nie trzeciego, tylko czwartego. ～じゃなくて poprawia informację: liczy się to, co stoi po nim. W 0008 ze słuchu wybrałeś pierwszą datę.	daty blad	パーティーは　みっかじゃなくて、よっかですよ。
+cloze	0008-06	四月 = {{c1::しがつ}}　七月 = {{c2::しちがつ}}　九月 = {{c3::くがつ}}	Trzy miesiące z rzadszym czytaniem liczby: 4 → し, 7 → しち, 9 → く (✗ よんがつ, なながつ, きゅうがつ).	daty	しがつ、しちがつ、くがつ
+cloze	0008-07	一日・二日・三日・四日・五日 = {{c1::ついたち}}・{{c2::ふつか}}・{{c3::みっか}}・{{c4::よっか}}・{{c5::いつか}}	Dni 1–5 mają stare czytania. 一日 jako data to ついたち; いちにち = „jeden dzień” (ile dni).	daty	ついたち、ふつか、みっか、よっか、いつか
+cloze	0008-08	六日・七日・八日・九日・十日 = {{c1::むいか}}・{{c2::なのか}}・{{c3::ようか}}・{{c4::ここのか}}・{{c5::とおか}}	Dni 6–10. とおか ma długie お (と-お-か).	daty	むいか、なのか、ようか、ここのか、トオカ
+cloze	0008-09	四日 = {{c1::よっか::4.}}　八日 = {{c2::ようか::8.}}	Najczęstsza pułapka w 聴解: よっか (4., krótkie, z っ) i ようか (8., długie よう). Słuchaj, czy jest pauza っ.	daty	よっか、ようか
+cloze	0008-10	十四日 = {{c1::じゅうよっか}}　二十日 = {{c2::はつか}}　二十四日 = {{c3::にじゅうよっか}}	Poza 1–10 czytania specjalne mają tylko 14, 20 i 24. Reszta: liczba + にち (十七日 = じゅうしちにち).	daty	ジュウヨッカ、ハツカ、ニジュウヨッカ
+cloze	0008-11	来週{{c1::（bez に）::z に czy bez?}}　京都へ　行って、十日{{c2::に::z に czy bez?}}　帰ります。	W przyszłym tygodniu jadę do Kioto, wracam dziesiątego. Słowa względne (来週, 来月, 明日) bez に; konkretna data (十日, 日曜日) z に.	daty	来週　京都へいって、トオカに　かえります。
+cloze	0008-12	火曜日 = {{c1::かようび}}　木曜日 = {{c2::もくようび}}　土曜日 = {{c3::どようび}}	Dni tygodnia to żywioły: 月 księżyc (げつ), 火 ogień (か), 水 woda (すい), 木 drzewo (もく), 金 złoto (きん), 土 ziemia (ど), 日 słońce (にち).	daty	かようび、もくようび、どようび
+cloze	0008-13	誕生日は　{{c1::何月何日::którego?}}ですか。七月七日です。	Którego masz urodziny? Siódmego lipca (しちがつ　なのか). Przy です nie ma に.	daty	誕生日は　何月　何日ですか。七月　七日です。
+listen	0008-L1	パーティーは　三日の　土曜日ですよね。いいえ、三日じゃなくて、四日の　日曜日ですよ。	Impreza jest w sobotę trzeciego, prawda? Nie, nie trzeciego, tylko w niedzielę czwartego. (liczy się poprawka po じゃなくて: よっか, にちようび)	daty sluchanie blad	パーティーは　みっかの　土曜日ですよね。いいえ、みっかじゃなくて、よっかの　日曜日ですよ。
+listen	0008-L2	来月、京都へ　行きます。一日に　行って、十日に　帰ります。	W przyszłym miesiącu jadę do Kioto. Jadę pierwszego, wracam dziesiątego. (ついたち = wyjazd, とおか = powrót; data stoi tuż przed czasownikiem)	daty sluchanie blad	来月、京都へ　行きます。ついたちに　いって、トオカに　かえります。
+listen	0008-L3	チェックインは　十月二十日です。チェックアウトは　二十四日です。	Zameldowanie dwudziestego października, wymeldowanie dwudziestego czwartego. (はつか, にじゅうよっか)	daty sluchanie	チェックインは　じゅうがつ　ハツカです。チェックアウトは　ニジュウヨッカです。
+listen	0008-L4	美術館は　火曜日から　日曜日までです。月曜日は　休みです。	Muzeum jest otwarte od wtorku do niedzieli. W poniedziałek jest zamknięte. (休み = wolne, zamknięte)	daty sluchanie	美術館は　火曜日から　日曜日までです。月曜日は　休みです。

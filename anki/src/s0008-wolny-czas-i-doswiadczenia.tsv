@@ -1,0 +1,21 @@
+#typ	id	słowo	czytanie	znaczenie	przykład	przykład_pl	tagi	przykład_do_audio	uwaga	słowo_do_audio
+word	s0008-01	山	やま	góra	週末、友達と　山へ　行きました。	W weekend pojechałem ze znajomymi w góry.	ta	しゅうまつ、ともだちと　やまへ　いきました。	富士山（ふじさん）: w nazwach gór 山 czyta się さん.
+word	s0008-02	登る	のぼる	wspinać się, wchodzić (na górę)	富士山に　登ったことが　ありますか。	Wszedłeś kiedyś na Fuji?	takoto	ふじさんに　のぼった　ことが　ありますか。	Czasownik u: 登らない, 登って, 登った. Góra bierze に.
+word	s0008-03	掃除	そうじ	sprzątanie	日曜日は　掃除を　したり、買い物を　したり　します。	W niedziele m.in. sprzątam i robię zakupy.	tari	にちようびは　そうじを　したり、かいものを　したり　します。	掃除(を)する = sprzątać.
+word	s0008-04	洗濯	せんたく	pranie	天気が　いいですから、洗濯を　します。	Jest ładna pogoda, więc robię pranie.	tari	てんきが　いいですから、せんたくを　します。	洗濯(を)する = prać.
+word	s0008-05	散歩	さんぽ	spacer	晩ご飯の　あとで、公園を　散歩します。	Po kolacji spaceruję po parku.	taato	ばんごはんの　あとで、こうえんを　さんぽします。	散歩する = spacerować. Miejsce, po którym chodzisz, bierze を.
+word	s0008-06	公園	こうえん	park	うちの　近くに　大きい　公園が　あります。	Niedaleko mojego domu jest duży park.	ta	うちの　ちかくに　おおきい　こうえんが　あります。
+word	s0008-07	図書館	としょかん	biblioteka	授業の　あとで、図書館で　勉強します。	Po zajęciach uczę się w bibliotece.	taato	授業の　あとで、図書館で　べんきょうします。		図書館
+word	s0008-08	映画館	えいがかん	kino	仕事が　終わったあとで、映画館へ　行きませんか。	Może po pracy pójdziemy do kina?	taato	しごとが　おわった　あとで、映画館へ　行きませんか。	映画 (film) + 館 (budynek), jak 図書館.
+word	s0008-09	授業	じゅぎょう	zajęcia, lekcja	授業は　九時から　十二時までです。	Zajęcia są od dziewiątej do dwunastej.	taato	じゅぎょうは　くじから　じゅうにじまでです。		授業
+word	s0008-10	外国	がいこく	zagranica, obcy kraj	外国へ　行ったことが　ありますか。	Byłeś kiedyś za granicą?	takoto	がいこくへ　いった　ことが　ありますか。	外国人（がいこくじん）= obcokrajowiec.
+word	s0008-11	手紙	てがみ	list	昨日、友達に　手紙を　書きました。	Wczoraj napisałem list do znajomego.	ta	きのう、ともだちに　てがみを　かきました。
+word	s0008-12	新聞	しんぶん	gazeta	朝ご飯を　食べたあとで、新聞を　読みます。	Po śniadaniu czytam gazetę.	taato	あさごはんを　たべた　あとで、しんぶんを　よみます。
+word	s0008-13	雑誌	ざっし	czasopismo	コンビニで　雑誌を　買いました。	Kupiłem czasopismo w konbini.	ta	コンビニで　ざっしを　かいました。
+word	s0008-14	絵	え	obraz, rysunek	この　絵は　とても　きれいです。	Ten obraz jest bardzo ładny.	ta	この　絵は　とても　きれいです。	絵をかく = rysować, malować.	エ
+word	s0008-15	遊ぶ	あそぶ	bawić się, spędzać miło czas	週末は　友達と　遊んだり、うちで　本を　読んだり　します。	W weekendy m.in. spotykam się ze znajomymi i czytam w domu.	tari	しゅうまつは　ともだちと　あそんだり、うちで　ほんを　よんだり　します。	Czasownik u: 遊ばない, 遊んで, 遊んだ. Dorośli też „遊ぶ”: wyjść gdzieś dla przyjemności.
+word	s0008-16	会う	あう	spotykać (się)	三時に　駅で　友達に　会わなければなりません。	O trzeciej muszę się spotkać ze znajomym na stacji.	nakereba	さんじに　えきで　ともだちに　あわなければなりません。	Osoba bierze に (albo と): 友達に 会います. う → わ: 会わない. Forma て: 会って.
+word	s0008-17	作る	つくる	robić, przygotowywać (np. jedzenie)	日本料理を　作ったことが　あります。	Zdarzyło mi się gotować japońskie jedzenie.	takoto	にほんりょうりを　つくった　ことが　あります。	Czasownik u: 作らない, 作って, 作った.
+word	s0008-18	習う	ならう	uczyć się (od kogoś)	先生に　日本語を　習っています。	Uczę się japońskiego u nauczyciela.	ta	せんせいに　にほんごを　ならっています。	習う = uczyć się od kogoś (kurs, nauczyciel); 勉強する = uczyć się samemu. う → わ: 習わない.
+word	s0008-19	練習	れんしゅう	ćwiczenie, trening	毎日　漢字を　練習しなければなりません。	Muszę codziennie ćwiczyć kanji.	nakereba	まいにち　かんじを　練習しなければなりません。	練習(を)する = ćwiczyć.
+word	s0008-20	疲れる	つかれる	męczyć się	たくさん　歩きましたから、疲れました。	Dużo chodziłem, więc jestem zmęczony.	ta	たくさん　あるきましたから、つかれました。	Czasownik る: 疲れない, 疲れて. „Jestem zmęczony” mówi się w przeszłości: 疲れました.

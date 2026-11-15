@@ -1,0 +1,20 @@
+#typ	id	tekst	wyjaśnienie	tagi	tekst_do_audio
+cloze	0001-01	きのうは　あまり　{{c1::さむくなかったです::さむい → nie był}}。	い: 〜くなかったです. あまり wymaga przeczenia.	przymiotniki	きのうは　あまり　さむくなかったです。
+cloze	0001-02	前の　かばんは　{{c1::高くなかったです::高い → nie był}}。	„Nie był” = 〜くなかったです. W lekcji 1 napisałeś 高くないです, a to znaczy „nie jest”.	przymiotniki blad	まえの　かばんは　たかくなかったです。
+cloze	0001-03	この　かばんは　{{c1::高くないです::高い → nie jest}}。	„Nie jest” = 〜くないです. Porównaj z „nie był”: 高くなかったです.	przymiotniki	この　かばんは　たかくないです。
+cloze	0001-04	りょこうは　{{c1::たのしかったです::たのしい → był}}。	Forma grzeczna: 〜かったです. Samo たのしかった to forma zwykła.	przymiotniki blad	旅行は　楽しかったです。
+cloze	0001-05	その　えいがは　あまり　{{c1::よくなかったです::いい → nie był}}。	いい odmienia się od よ. Pamiętaj o です.	przymiotniki blad	その　えいがは　あまり　よくなかったです。
+cloze	0001-06	天気は　{{c1::よかったです::いい → był}}。	いい → よかったです. Formy いかった nie ma.	przymiotniki	てんきは　よかったです。
+cloze	0001-07	ホテルの　へやは　{{c1::きれいじゃなかったです::きれい → nie był}}。	きれい to przymiotnik な (pułapka): じゃなかったです.	przymiotniki	ホテルの　部屋は　きれいじゃなかったです。
+cloze	0001-08	この　町は　{{c1::しずかでした::しずか → był}}。	な: słowo bez zmian + でした.	przymiotniki	この　まちは　しずかでした。
+cloze	0001-09	わたしは　さかなが　{{c1::すきじゃないです::すき → nie jest}}。	すき to przymiotnik な: じゃないです (albo ではありません).	przymiotniki	わたしは　さかなが　すきじゃないです。
+cloze	0001-10	前は　やさいが　{{c1::きらいでした::きらい → był}}。	きらい to przymiotnik な (pułapka): でした, a nie ✗ きらかった.	przymiotniki	まえは　野菜が　きらいでした。
+cloze	0001-11	{{c1::ゆうめいな::ゆうめい + rzeczownik}}　レストランへ　行きました。	ゆうめい kończy się na い, ale to な: ゆうめいな.	przymiotniki	有名な　レストランへ　行きました。
+cloze	0001-12	この　ラーメンは　{{c1::あまり::niezbyt}}　おいしくないです。	あまり + przeczenie = niezbyt. とても + twierdzenie = bardzo.	przymiotniki	この　ラーメンは　あまり　おいしくないです。
+cloze	0001-13	テストは　とても　{{c1::やさしかったです::やさしい → był}}。	✗ やさしいでした to typowy rozpraszacz. い nie łączy się z でした.	przymiotniki	テストは　とても　やさしかったです。
+listen	0001-L1	きのうの　テストは　やさしくなかったです。	Wczorajszy test nie był łatwy.	przymiotniki sluchanie	きのうの　テストは　やさしくなかったです。
+listen	0001-L2	この　ホテルは　とても　きれいでした。	Ten hotel był bardzo czysty (ładny).	przymiotniki sluchanie	この　ホテルは　とても　きれいでした。
+listen	0001-L3	駅は　あまり　大きくないです。	Stacja nie jest zbyt duża.	przymiotniki sluchanie	駅は　あまり　おおきくないです。
+listen	0001-L4	りょこうは　たのしかったです。	Podróż była przyjemna.	przymiotniki sluchanie	旅行は　楽しかったです。
+listen	0001-L5	あの　レストランは　よくなかったです。	Tamta restauracja nie była dobra.	przymiotniki sluchanie	あの　レストランは　よくなかったです。
+listen	0001-L6	へやは　しずかじゃありませんでした。	Pokój nie był cichy. (Formalny wariant じゃありませんでした.)	przymiotniki sluchanie	部屋は　しずかじゃありませんでした。

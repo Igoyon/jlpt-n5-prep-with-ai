@@ -1,0 +1,19 @@
+#typ	id	słowo	czytanie	znaczenie	przykład	przykład_pl	tagi	przykład_do_audio	uwaga
+word	s0002-01	住む	すむ	mieszkać	ワルシャワに　住んでいます。	Mieszkam w Warszawie.	codziennosc	ワルシャワに　すんでいます。	Prawie zawsze w ～ています (stan). む → んで.
+word	s0002-02	働く	はたらく	pracować	銀行で　働いています。	Pracuję w banku.	codziennosc	ぎんこうで　はたらいています。	く → いて. Miejsce pracy z で.
+word	s0002-03	知る	しる	wiedzieć, znać	田中さんを　知っていますか。	Znasz Tanakę?	codziennosc	たなかさんを　しっていますか。	Czasownik u (lista 帰る・入る・走る・知る・切る). Nie = 知りません.
+word	s0002-04	持つ	もつ	trzymać, mieć przy sobie	傘を　持っていますか。	Masz przy sobie parasol?	codziennosc	かさを　もっていますか。	もって ≠ まって (待つ).
+word	s0002-05	結婚する	けっこんする	wyjść za mąż, ożenić się	兄は　結婚しています。	Mój brat jest żonaty.	codziennosc	兄は　結婚しています。	結婚しています = jest w związku małżeńskim (stan). 兄（あに）= mój starszy brat.
+word	s0002-06	電話	でんわ	telefon	今、電話を　かけています。	Teraz dzwonię.	codziennosc	いま、でんわを　かけています。	電話をかける = dzwonić. 電話番号 = numer telefonu.
+word	s0002-07	番号	ばんごう	numer	電話番号を　教えてください。	Proszę mi podać numer telefonu.	codziennosc podroz	でんわばんごうを　おしえてください。	Też: 部屋の番号 (numer pokoju).
+word	s0002-08	会社	かいしゃ	firma	東京の　会社で　働いています。	Pracuję w firmie w Tokio.	codziennosc	とうきょうの　かいしゃで　はたらいています。	会社員（かいしゃいん）= pracownik firmy.
+word	s0002-09	部屋	へや	pokój	部屋で　音楽を　聞いています。	Słucham muzyki w pokoju.	codziennosc podroz	部屋で　おんがくを　きいています。		部屋
+word	s0002-10	音楽	おんがく	muzyka	毎日　音楽を　聞いています。	Codziennie słucham muzyki.	codziennosc	まいにち　おんがくを　きいています。	
+word	s0002-11	休み	やすみ	dzień wolny, przerwa, zamknięte	今日は　休みです。	Dziś jest zamknięte (dzień wolny).	codziennosc podroz	きょうは　やすみです。	W sklepie: 休み = nieczynne. 休む（やすむ）= odpoczywać, nie iść (do pracy).
+word	s0002-12	店	みせ	sklep, lokal	この　店は　今　開いていますか。	Czy ten sklep jest teraz otwarty?	codziennosc podroz	この　みせは　いま　あいていますか。	喫茶店（きっさてん）= kawiarnia.
+word	s0002-13	昼ご飯	ひるごはん	obiad (posiłek w południe)	今、昼ご飯を　食べています。	Teraz jem obiad.	codziennosc	いま、ひるごはんを　たべています。	朝ご飯 = śniadanie, 晩ご飯 = kolacja.
+word	s0002-14	毎日	まいにち	codziennie	毎日　日本語を　勉強しています。	Codziennie uczę się japońskiego.	codziennosc	まいにち　にほんごを　べんきょうしています。	毎朝（まいあさ）= co rano, 毎週（まいしゅう）= co tydzień.
+word	s0002-15	聞く	きく	słuchać, słyszeć; pytać	音楽を　聞いています。	Słucham muzyki.	codziennosc	おんがくを　きいています。	きいて ≠ きて (来る). Też: 道を聞く = zapytać o drogę.
+word	s0002-16	映画	えいが	film	土曜日に　映画を　見ませんか。	Nie obejrzymy filmu w sobotę?	codziennosc	土曜日に　映画を　みませんか。	映画館（えいがかん）= kino.	映画
+word	s0002-17	友達	ともだち	przyjaciel, kolega	駅の　前で　友達を　待っています。	Czekam na kolegę przed dworcem.	codziennosc	えきの　まえで　ともだちを　まっています。	Pisownia 友だち też jest częsta.
+word	s0002-18		かける	dzwonić (電話をかける); nakładać	田中さんは　今　電話を　かけています。	Tanaka teraz dzwoni.	codziennosc	たなかさんは　いま　でんわを　かけています。	Czasownik る: かけて. めがねをかける = nosić okulary.

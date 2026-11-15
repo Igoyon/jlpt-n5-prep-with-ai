@@ -1,0 +1,19 @@
+#typ	id	tekst	wyjaśnienie	tagi	tekst_do_audio
+cloze	0007-01	朝　{{c1::起きて::起きる → forma て, „i potem”}}、シャワーを　浴びて、朝ご飯を　食べます。	Rano wstaję, biorę prysznic i jem śniadanie. Każdy czasownik oprócz ostatniego dostaje formę て; czas i ます niesie tylko ostatni. Kolejność w zdaniu = kolejność w czasie.	renketsu	あさ　起きて、シャワーを　あびて、あさごはんを　たべます。
+cloze	0007-02	駅で　切符を　{{c1::買って::買う → う znika, wchodzi って}}、電車に　乗って、京都へ　行きます。	Kupuję bilet na dworcu, wsiadam do pociągu i jadę do Kioto. 買う: wymień う na って (✗ 買うって). W 0007 było dobrze, trzymaj wzór.	renketsu	駅で　切符を　かって、電車に　のって、京都へ　行きます。
+cloze	0007-03	昨日　友達に　会って、映画を　見て、晩ご飯を　{{c1::食べました::czas przeszły tylko na końcu}}。	Wczoraj spotkałem się z kolegą, obejrzeliśmy film i zjedliśmy kolację. 会って i 見て nie mają czasu, „wczoraj” niesie dopiero 食べました.	renketsu	きのう　ともだちに　あって、えいがを　みて、ばんごはんを　たべました。
+cloze	0007-04	切符を　{{c1::買ってから::買う + てから = dopiero po}}、電車に　乗ってください。	Najpierw kup bilet, potem wsiądź do pociągu. ～てから podkreśla kolejność. W 聴解 „まず何をしますか” → odpowiedź stoi przed てから.	renketsu	きっぷを　かってから、でんしゃに　のってください。
+cloze	0007-05	この　ホテルは　{{c1::安くて::安い → くて}}、駅から　近いです。	Ten hotel jest tani i blisko dworca. Przymiotnik い: い → くて, ten sam rdzeń co w くない／くなかった.	renketsu	この　ホテルは　やすくて、えきから　ちかいです。
+cloze	0007-06	部屋は　{{c1::静かで::静か（な） → で}}、きれいです。	Pokój jest cichy i czysty. Przymiotnik な łączysz samym で (✗ 静かくて).	renketsu	部屋は　しずかで、きれいです。
+cloze	0007-07	今日は　天気が　{{c1::よくて::いい → よくて}}、暖かいです。	Dziś pogoda jest dobra i jest ciepło. いい odmienia się od よ: よくて, jak よくない, よかった (✗ いくて).	renketsu	きょうは　てんきが　よくて、あたたかいです。
+cloze	0007-08	田中さんは　{{c1::学生で::rzeczownik + で}}、二十歳です。	Tanaka jest studentem i ma 20 lat (二十歳＝はたち). Rzeczownik łączysz przez で, jak przymiotnik な (✗ 学生です、).	renketsu	たなかさんは　がくせいで、二十歳です。
+cloze	0007-09	✗ 静かくて → {{c1::静かで::な → で}}　　✗ 安いで → {{c2::安くて::い → くて}}　　✗ いくて → {{c3::よくて::いい → よ}}	Trzy dystraktory z egzaminu. Zasada jak przy przeczeniu: 静かじゃない → 静かで; 安くない → 安くて; よくない → よくて.	renketsu	しずかで、やすくて、よくて
+cloze	0007-10	この　店は　{{c1::安いですが::cechy się kłócą → が, nie くて}}、おいしくないです。	Tanio, ale niesmacznie. くて／で łączy cechy w tę samą stronę (tani i blisko; drogi i niesmaczny). Plus i minus → が albo でも.	renketsu	この　みせは　やすいですが、おいしくないです。
+cloze	0007-11	朝　起きて、朝ご飯を　{{c1::食べて::kawałek na ★}}、会社に　行きます。	Zadanie ★ (文の組み立て): ułóż zdanie od końca. 会社に pasuje do 行きます, więc ★ = 食べて. Rano wstaję, jem śniadanie i idę do firmy.	renketsu	あさ　起きて、あさごはんを　たべて、かいしゃに　いきます。
+cloze	0007-12	大阪は　{{c1::にぎやかで::にぎやか（な） → で}}、楽しい　町です。	Osaka jest gwarna i wesoła. にぎやか to przymiotnik な → で. Na egzaminie pisane kaną (kanji 賑 jest spoza N5).	renketsu	おおさかは　にぎやかで、たのしい　まちです。
+cloze	0007-13	ホテルは　安くて、駅から　{{c1::近かったです::czas przeszły na końcu}}。	Hotel był tani i blisko dworca. Pierwszy przymiotnik zostaje w くて, czas przeszły dostaje tylko ostatni.	renketsu	ホテルは　やすくて、えきから　ちかかったです。
+cloze	0007-14	本{{c1::と::rzeczowniki łączysz przez と}}　ペン　／　読ん{{c2::で::czynności łączysz przez て／で}}、書きます	Rzeczowniki przez と, czynności przez formę て. ✗ 読みますと書きます.	renketsu	ほんと　ペン、よんで、かきます
+listen	0007-L1	毎朝　六時に　起きて、シャワーを　浴びて、朝ご飯を　食べます。それから、会社に　行きます。	Codziennie rano wstaję o szóstej, biorę prysznic i jem śniadanie. Potem idę do firmy. (kolejność: wstać → prysznic → śniadanie → firma; それから = potem)	renketsu sluchanie	まいあさ　ろくじに　おきて、シャワーを　あびて、あさごはんを　たべます。それから、かいしゃに　いきます。
+listen	0007-L2	ホテルは　どうでしたか。安くて、駅から　近かったです。でも、部屋は　ちょっと　狭かったです。	Jaki był hotel? Tani i blisko dworca. Ale pokój był trochę ciasny. (狭い＝せまい; po でも przychodzi minus)	renketsu sluchanie	ホテルは　どうでしたか。やすくて、えきから　ちかかったです。でも、部屋は　ちょっと　せまかったです。
+listen	0007-L3	明日は　朝　京都へ　行って、お寺を　見て、午後は　大阪で　買い物を　します。	Jutro rano jadę do Kioto, oglądam świątynię, a po południu robię zakupy w Osace. (お寺＝おてら; 午後 = po południu)	renketsu sluchanie	あしたは　あさ　京都へいって、おてらを　みて、午後は　大阪で　買い物を　します。
+listen	0007-L4	すみません、切符を　買ってから、電車に　乗ってください。	Przepraszam, proszę najpierw kupić bilet, a potem wsiąść do pociągu. (～てから = dopiero po; najpierw to, co przed てから)	renketsu sluchanie	すみません、きっぷを　かってから、でんしゃに　のってください。

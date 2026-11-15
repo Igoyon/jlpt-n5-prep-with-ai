@@ -1,0 +1,112 @@
+/* Plansze na ścianę: A4 poziomo, druk czarno-biały, czytelne z ok. 1,5 m.
+ *
+ * Strona: <body class="print"> → .bar (pasek tylko na ekranie) + jedna lub więcej <article class="sheet">.
+ * Plansza: 3–5 × <section class="row"> + <footer class="legend">.
+ *   .row > .head  (.pl etykieta po polsku, .note dopisek, .ex mały przykład po japońsku)
+ *   .row > .pat   (wzór dużymi znakami; słowa w <span>, odstępy robi gap)
+ *   .pat > .alt   (mniejszy wariant obok wzoru, np. rzeczownik + の)
+ *
+ * Formy czasownika mają stały znak na wszystkich planszach (bez koloru):
+ *   .f-dict  ramka ciągła           forma słownikowa
+ *   .f-nai   białe na czarnym       forma ない (albo ない bez い)
+ *   .f-te    gruba kreska pod spodem forma て
+ *   .f-ta    ramka podwójna         forma た
+ *   .mark    kółko                  pojedyncza partykuła, o której łatwo zapomnieć
+ *
+ * Wszystkie wymiary są w jednostce --u (na papierze 1 mm, na ekranie skalowana do szerokości okna),
+ * więc podgląd w przeglądarce ma te same proporcje co wydruk.
+ * Znak 23u ≈ 65 pt. Poniżej 8u nic, co ma być czytane z krzesła.
+ */
+
+@page { size: A4 landscape; margin: 0; }
+
+:root {
+  --u: min(1mm, (100vw - 32px) / 297);
+  --jp: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", sans-serif;
+  --pl: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body.print {
+  margin: 0; padding: 16px;
+  background: #77756e; color: #000;
+  font-family: var(--pl);
+  -webkit-print-color-adjust: exact; print-color-adjust: exact;
+}
+
+.bar {
+  max-width: calc(297 * var(--u)); margin: 0 auto 12px;
+  display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center;
+  color: #fff; font-size: 15px; line-height: 1.4;
+}
+.bar a { color: #fff; }
+.bar button {
+  font: inherit; padding: 6px 14px; border: 0; border-radius: 4px;
+  background: #fff; color: #000; cursor: pointer;
+}
+.bar .how { flex: 1 1 20rem; opacity: 0.9; }
+
+.sheet {
+  width: calc(297 * var(--u)); height: calc(210 * var(--u));
+  margin: 0 auto 16px; padding: calc(9 * var(--u)) calc(11 * var(--u)) calc(7 * var(--u));
+  background: #fff; color: #000; overflow: hidden;
+  display: flex; flex-direction: column;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+  break-inside: avoid;
+}
+
+.row {
+  flex: 1 1 0; min-height: 0;
+  display: flex; flex-direction: column; justify-content: center;
+  gap: calc(2.5 * var(--u));
+  border-bottom: calc(0.35 * var(--u)) solid #000;
+}
+
+.head { display: flex; align-items: baseline; gap: calc(5 * var(--u)); white-space: nowrap; }
+.head .pl { font-size: calc(9 * var(--u)); font-weight: 800; letter-spacing: 0.04em; }
+.head .note { font-size: calc(5.6 * var(--u)); }
+.head .ex { margin-left: auto; font-family: var(--jp); font-size: calc(8.6 * var(--u)); font-weight: 500; }
+
+.pat {
+  display: flex; align-items: center; gap: calc(6 * var(--u));
+  font-family: var(--jp); font-size: calc(23 * var(--u)); font-weight: 700;
+  line-height: 1.15; white-space: nowrap;
+}
+.pat .alt {
+  margin-left: auto; display: flex; align-items: center; gap: calc(3 * var(--u));
+  font-size: calc(12 * var(--u)); font-weight: 600;
+}
+.pat .alt small {
+  font-family: var(--pl); font-size: calc(5.6 * var(--u)); font-weight: 400;
+  line-height: 1.2; text-align: right;
+}
+
+.f-dict, .f-nai, .f-te, .f-ta { font-weight: inherit; font-style: normal; padding: 0 0.12em; }
+.f-dict { border: 0.07em solid #000; border-radius: 0.1em; }
+.f-nai { background: #000; color: #fff; border: 0.07em solid #000; border-radius: 0.1em; }
+.f-te { border-bottom: 0.11em solid #000; }
+.f-ta { border: 0.16em double #000; border-radius: 0.1em; }
+.mark {
+  font-weight: inherit; display: inline-block; text-align: center;
+  width: 1.35em; height: 1.35em; line-height: 1.2em;
+  border: 0.08em solid #000; border-radius: 50%; margin: 0 0.1em;
+}
+.ex .f-dict, .ex .f-nai, .ex .f-te, .ex .f-ta { margin: 0 0.08em; }
+
+.legend {
+  flex: 0 0 auto; padding-top: calc(3 * var(--u));
+  display: flex; align-items: center; gap: calc(9 * var(--u));
+  font-size: calc(4.8 * var(--u)); white-space: nowrap;
+}
+.legend [lang="ja"] { font-family: var(--jp); }
+.legend .src { margin-left: auto; }
+
+@media print {
+  :root { --u: 1mm; }
+  body.print { padding: 0; background: #fff; }
+  .bar { display: none; }
+  /* 209.5 zamiast 210: zaokrąglenie nie może wypchnąć pustej drugiej strony */
+  .sheet { height: 209.5mm; margin: 0; box-shadow: none; break-after: page; }
+  .sheet:last-of-type { break-after: auto; }
+}

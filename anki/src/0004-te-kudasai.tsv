@@ -1,0 +1,20 @@
+#typ	id	tekst	wyjaśnienie	tagi	tekst_do_audio
+cloze	0004-01	走る（はしる）: grupa {{c1::czasownik u::る / u / nieregularny?}}	Z listy 帰る・入る・走る・知る・切る: wyglądają jak る, ale to zwykłe czasowniki u → 走って. Nieregularne są tylko する i 来る.	kudasai blad	はしる、はしって
+cloze	0004-02	知る（しる）: grupa {{c1::czasownik u::る / u / nieregularny?}}	Ta sama lista: 帰る・入る・走る・知る・切る → 知って.	kudasai blad	しる、しって
+cloze	0004-03	道を　{{c1::教えてください::教える → cała prośba}}。	Proszę wskazać drogę. Forma て (教えて) + ください. Bez ください to prośba tylko do bliskich.	kudasai blad	みちを　おしえてください。
+cloze	0004-04	ちょっと　{{c1::来てください::来る → cała prośba}}。	Proszę przyjść na chwilę. 来る → 来て（きて）+ ください.	kudasai blad	ちょっと　きてください。
+cloze	0004-05	この　漢字の　読み方を　{{c1::教えて::教える → forma て}}ください。	Proszę mi powiedzieć, jak czyta się to kanji. 読み方（よみかた）= sposób czytania: rdzeń ます + 方. ✗ おしえって (czasownik る).	kudasai blad	この　かんじの　よみかたを　おしえてください。
+cloze	0004-06	えんぴつ = {{c1::ołówek}} · けしゴム = {{c2::gumka}} · ボールペン = {{c3::długopis}}	Słowa z zadania 聴解 o teście. WaniKani ich szybko nie da (鉛筆 to poziom 26, 消しゴム i ボールペン są w katakanie).	slownictwo blad	えんぴつ、けしゴム、ボールペン
+cloze	0004-07	かばんは　机の　{{c1::下::した czy うえ?}}に　置いてください。	Torbę proszę położyć pod ławkę. 机（つくえ）= ławka, biurko; 置く（おく）= położyć.	slownictwo blad	かばんは　つくえの　したに　おいてください。
+cloze	0004-08	すみません、水{{c1::を::rzecz czy czynność?}}ください。	Prosisz o rzecz: rzeczownik + を + ください.	kudasai	すみません、みずを　ください。
+cloze	0004-09	水を　{{c1::飲んで::飲む → forma て}}ください。	Prosisz o czynność: forma て + ください. む → んで.	kudasai	みずを　のんでください。
+cloze	0004-10	✗ 待ちください → {{c1::待ってください}}	ください łączy się z formą て, nie z rdzeniem ます. Poprawne jest też お待ちください (bardzo grzeczne, obsługa).	kudasai	まってください
+cloze	0004-11	あの　コンビニで　パンを　{{c1::買って::買う → forma て}}ください。	う → って. かいて to 書いて (pisać), かえって to 帰って (wrócić).	kudasai	あの　コンビニで　パンを　かってください。
+cloze	0004-12	銀行の　角を　右に　{{c1::曲がって::曲がる（まがる） → forma て}}ください。	Proszę skręcić w prawo na rogu przy banku. 曲がる to czasownik u (-aru) → 曲がって.	kudasai	ぎんこうの　かどを　みぎに　まがってください。
+cloze	0004-13	ゆっくり　{{c1::話してください::話す → cała prośba}}。	Proszę mówić wolniej. す → して. Zestaw ratunkowy w podróży.	kudasai	ゆっくり　はなしてください。
+cloze	0004-14	もう一度　{{c1::言ってください::言う → cała prośba}}。	Proszę powtórzyć. 言う（いう）→ 言って.	kudasai	もういちど　いってください。
+listen	0004-L1	では、テストを　始めます。かばんは　机の　下に　置いてください。えんぴつと　消しゴムだけ　机の　上に　出してください。	Zaczynamy test. Torba pod ławkę. Na ławce tylko ołówek i gumka. (出す＝wyjąć, 置く＝położyć)	kudasai sluchanie blad	では、テストを　はじめます。かばんは　つくえの　したに　おいてください。えんぴつと　けしゴムだけ　つくえの　うえに　だしてください。
+listen	0004-L2	すみません、この　荷物を　持ってください。	Proszę ponieść ten bagaż. (もって＝持つ; czekać byłoby まって)	kudasai sluchanie	すみません、この　荷物を　もってください。
+listen	0004-L3	あの　銀行の　角を　右に　曲がってください。	Proszę skręcić w prawo na rogu przy tamtym banku.	kudasai sluchanie	あの　ぎんこうの　かどを　みぎに　まがってください。
+listen	0004-L4	少々　お待ちください。	Proszę chwilkę poczekać. (bardzo grzeczny język obsługi: お + rdzeń ます + ください)	kudasai sluchanie	しょうしょう　おまちください。
+listen	0004-L5	こちらに　お名前と　電話番号を　書いてください。	Proszę tu wpisać nazwisko i numer telefonu.	kudasai sluchanie	こちらに　おなまえと　でんわばんごうを　かいてください。

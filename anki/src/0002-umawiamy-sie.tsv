@@ -1,0 +1,19 @@
+#typ	id	tekst	wyjaśnienie	tagi	tekst_do_audio
+cloze	0002-01	七時{{c1::に::partykuła?}}　起きます。	Godzina z zegarka → に („pinezka na osi czasu”).	czas	しちじに　おきます。
+cloze	0002-02	あした{{c1::（nic）::partykuła?}}　京都へ　行きます。	Czas względny (あした, きょう, 来週, 先月) nie dostaje に.	czas	あした　京都へ　行きます。
+cloze	0002-03	毎朝　六時{{c1::に::partykuła?}}　起きます。	毎～ bez に, godzina z に.	czas	まいあさ　ろくじに　おきます。
+cloze	0002-04	ぎんこうは　九時{{c1::から::od}}　三時{{c2::まで::do}}です。	A から B まで = od A do B. Często tuż przed です.	czas	ぎんこうは　くじから　さんじまでです。
+cloze	0002-05	ホテル{{c1::から::od}}　駅{{c2::まで::do}}　バスで　十分です。	から／まで działa też dla miejsca.	czas	ホテルから　えきまで　バスで　じゅっぷんです。
+cloze	0002-06	どようびに　いっしょに　えいがを　{{c1::見ませんか::見る → zaproszenie}}。	Zaproszenie = ～ませんか. To nie przeczenie ani czas przeszły.	zaproszenia	どようびに　いっしょに　えいがを　みませんか。
+cloze	0002-07	きのうは　どこも　{{c1::行きませんでした::行く → nie poszedłem}}。	Czas przeszły przeczący: ～ませんでした. Nie myl z zaproszeniem ～ませんか.	zaproszenia	きのうは　どこも　いきませんでした。
+cloze	0002-08	いいですね。じゃあ、{{c1::行きましょう::行く → chodźmy!}}。	～ましょう = decyzja zapadła, „zróbmy to”.	zaproszenia	いいですね。じゃあ、いきましょう。
+cloze	0002-09	にもつが　重いですね。一つ　{{c1::持ちましょうか::持つ → może ponieść?}}。	Oferujesz pomoc: ～ましょうか.	zaproszenia	荷物が　重いですね。ひとつ　もちましょうか。
+cloze	0002-10	駅で　十分　{{c1::待ちましょうか::待つ → może poczekam?}}。	待つ（まつ）= czekać. 持つ（もつ）= trzymać, nieść.	zaproszenia	えきで　じゅっぷん　まちましょうか。
+cloze	0002-11	A: あした　すしを　食べませんか。 B: すみません、あしたは　{{c1::ちょっと…::uprzejme „nie”}}。	Urwane ちょっと… = grzeczna odmowa.	zaproszenia	すみません、あしたは　ちょっと。
+cloze	0002-12	九時（{{c1::くじ::czytanie}}）に　会いましょう。	Godziny-pułapki: 四時 よじ, 七時 しちじ, 九時 くじ (nie きゅうじ).	czas	くじに　あいましょう。
+cloze	0002-13	{{c1::何時::なんじ}}に　会いましょうか。	Pytanie o godzinę: 何時に…?	czas	なんじに　あいましょうか。
+listen	0002-L1	びじゅつかんは　九時から　五時までです。	Muzeum jest otwarte od 9 do 17.	czas sluchanie	びじゅつかんは　くじから　ごじまでです。
+listen	0002-L2	すみません、どようびは　ちょっと…。	Przepraszam, sobota to trochę… (uprzejma odmowa).	zaproszenia sluchanie	すみません、どようびは　ちょっと。
+listen	0002-L3	十時に　駅で　会いましょう。	Spotkajmy się o 10 na stacji.	czas sluchanie	じゅうじに　えきで　あいましょう。
+listen	0002-L4	四時から　七時まで　アルバイトです。	Od 4 do 7 mam pracę dorywczą. (よじ, しちじ)	czas sluchanie	よじから　しちじまで　アルバイトです。
+listen	0002-L5	いっしょに　コーヒーを　飲みませんか。	Może napijemy się razem kawy? (zaproszenie)	zaproszenia sluchanie	いっしょに　コーヒーを　のみませんか。

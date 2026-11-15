@@ -1,0 +1,19 @@
+#typ	id	tekst	wyjaśnienie	tagi	tekst_do_audio
+cloze	0003-01	はやく　{{c1::起きて::起きる → forma て}}！	Wstawaj szybko! 起きる to czasownik る (-iru, nie ma go na liście wyjątków): odetnij る, dodaj て. ✗ 起きって.	forma-te blad	はやく　おきて！
+cloze	0003-02	これ、{{c1::見て::見る → forma て}}！	Patrz! 見る to czasownik る: 見て. ✗ 見って.	forma-te blad	これ、みて！
+cloze	0003-03	もう　{{c1::寝て::寝る → forma て}}。	Idź już spać. 寝る (-eru) to czasownik る: 寝て.	forma-te blad	もう　ねて。
+cloze	0003-04	着る（きる, wkładać ubranie） → {{c1::着て}}	着る to czasownik る: 着て. Ten sam dźwięk, inny czasownik: 切る（きる, ciąć） → 切って.	forma-te blad	きる、きて
+cloze	0003-05	切る（きる, ciąć） → {{c1::切って}}	切る jest na liście wyjątków (帰る・入る・走る・知る・切る): czasownik u, る → って.	forma-te blad	きる、きって
+cloze	0003-06	帰る（かえる）: grupa {{c1::czasownik u::る / u / nieregularny?}}	Wygląda jak czasownik る (-eru), ale to czasownik u → 帰って. Nieregularne są tylko dwa: する i 来る.	forma-te blad	かえる、かえって
+cloze	0003-07	Czasowniki nieregularne są tylko dwa: する i {{c1::来る（くる）}}.	Reszta to czasownik る albo u. 帰る i 行く nie są nieregularne, tylko mają swoje pułapki.	forma-te blad	する、くる
+cloze	0003-08	ちょっと　{{c1::待って::待つ → forma て}}！	Czekaj chwilę! 待つ（まつ）→ 待って. Nie myl z 持つ（もつ, trzymać）→ 持って.	forma-te	ちょっと　まって！
+cloze	0003-09	先に　{{c1::行って::行く → forma て}}。	Idź przodem. 行く to jedyny wyjątek wśród く: 行って, nie ✗ 行いて.	forma-te	さきに　いって。
+cloze	0003-10	ちょっと　{{c1::来て::来る → forma て}}！	Chodź tu na chwilę! 来る → 来て（きて）.	forma-te	ちょっと　きて！
+cloze	0003-11	どうぞ、{{c1::入って::入る → forma て}}。	Proszę, wejdź. 入る（はいる）to wyjątek: czasownik u → 入って.	forma-te	どうぞ、入って。
+cloze	0003-12	ゆっくり　{{c1::話して::話す → forma て}}。	Mów powoli. す → して.	forma-te	ゆっくり　はなして。
+cloze	0003-13	泳ぐ（およぐ） → {{c1::泳いで}}	ぐ → いで. Dźwięczne „d” w いで zawsze pochodzi od ぐ.	forma-te	およぐ、およいで
+listen	0003-L1	ちょっと　待って！	Czekaj chwilę! (待つ, nie 持つ)	forma-te sluchanie	ちょっと　まって！
+listen	0003-L2	にもつ、持って。	Weź bagaż. (持つ → もって)	forma-te sluchanie	荷物、もって。
+listen	0003-L3	聞いて！	Słuchaj! (聞く → きいて; 来て to きて, bez い)	forma-te sluchanie	きいて！
+listen	0003-L4	はやく　起きて！	Wstawaj szybko! (起きる → おきて)	forma-te sluchanie blad	はやく　おきて！
+listen	0003-L5	はやく　帰って。	Wracaj szybko do domu. (帰る → かえって)	forma-te sluchanie	はやく　かえって。

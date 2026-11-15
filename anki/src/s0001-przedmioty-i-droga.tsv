@@ -1,0 +1,22 @@
+#typ	id	słowo	czytanie	znaczenie	przykład	przykład_pl	tagi	przykład_do_audio	uwaga
+word	s0001-01	鉛筆	えんぴつ	ołówek	鉛筆で　名前を　書いてください。	Proszę napisać nazwisko ołówkiem.	przedmioty blad	えんぴつで　なまえを　かいてください。	
+word	s0001-02		ボールペン	długopis	ボールペンは　かばんの　中に　あります。	Długopis jest w torbie.	przedmioty blad	ボールペンは　かばんの　なかに　あります。	
+word	s0001-03	消しゴム	けしゴム	gumka (do ścierania)	消しゴムを　持っていますか。	Masz gumkę?	przedmioty blad	けしゴムを　もっていますか。	消す（けす）= ścierać, gasić + ゴム (guma).
+word	s0001-04	机	つくえ	biurko, ławka, stolik	机の　上に　本を　置いてください。	Proszę położyć książkę na biurku.	przedmioty blad	つくえの　うえに　ほんを　おいてください。	
+word	s0001-05		いす	krzesło	いすに　座ってください。	Proszę usiąść na krześle.	przedmioty	いすに　すわってください。	座る（すわる）= siadać, czasownik u.
+word	s0001-06		かばん	torba, teczka	かばんは　机の　下に　置いてください。	Torbę proszę położyć pod ławką.	przedmioty	かばんは　つくえの　したに　おいてください。	
+word	s0001-07	傘	かさ	parasol	駅で　傘を　買いました。	Kupiłem parasol na dworcu.	przedmioty	えきで　かさを　かいました。	
+word	s0001-08	窓	まど	okno	この　部屋は　窓が　大きいです。	W tym pokoju okno jest duże.	przedmioty	この　部屋は　まどが　おおきいです。	
+word	s0001-09		かぎ	klucz	部屋の　かぎを　ください。	Poproszę klucz do pokoju.	przedmioty podroz	部屋の　かぎを　ください。	
+word	s0001-10	財布	さいふ	portfel	財布を　なくしました。	Zgubiłem portfel.	przedmioty podroz	さいふを　なくしました。	なくす = zgubić.
+word	s0001-11	切符	きっぷ	bilet (na pociąg, autobus)	京都までの　切符を　ください。	Poproszę bilet do Kioto.	przedmioty podroz	京都までの　きっぷを　ください。	Bilet na film czy koncert to チケット.
+word	s0001-12	荷物	にもつ	bagaż	この　荷物を　持ってください。	Proszę ponieść ten bagaż.	przedmioty podroz	この　荷物を　もってください。	
+word	s0001-13	置く	おく	kłaść, położyć	かばんは　ここに　置いてください。	Torbę proszę położyć tutaj.	czasowniki blad	かばんは　ここに　おいてください。	Czasownik u: 置いて.
+word	s0001-14	出す	だす	wyjąć, wystawić (też: wysłać list)	鉛筆だけ　出してください。	Proszę wyjąć tylko ołówek.	czasowniki blad	えんぴつだけ　だしてください。	Czasownik u: 出して. 手紙を出す = wysłać list.
+word	s0001-15	消す	けす	gasić, wyłączać, ścierać	電気を　消してください。	Proszę zgasić światło.	czasowniki	でんきを　けしてください。	電気（でんき）= światło, prąd.
+word	s0001-16	開く	あく	otwierać się, być otwartym	この　店は　九時に　開きます。	Ten sklep otwiera się o dziewiątej.	czasowniki	この　みせは　くじに　あきます。	開く（あく）samo się otwiera; 開ける（あける）ktoś otwiera (窓を開けてください).
+word	s0001-17	曲がる	まがる	skręcać	あの　角を　右に　曲がってください。	Proszę skręcić w prawo na tamtym rogu.	czasowniki droga	あの　かどを　みぎに　まがってください。	Czasownik u (-aru): 曲がって.
+word	s0001-18	角	かど	róg (ulicy)	銀行の　角を　左に　曲がってください。	Na rogu przy banku proszę skręcić w lewo.	droga	ぎんこうの　かどを　ひだりに　まがってください。	
+word	s0001-19	右	みぎ	prawo, prawa strona	駅は　右に　あります。	Dworzec jest po prawej.	droga	駅は　右に　あります。	
+word	s0001-20	左	ひだり	lewo, lewa strona	銀行は　左に　あります。	Bank jest po lewej.	droga	ぎんこうは　ひだりに　あります。	
+word	s0001-21	自転車	じてんしゃ	rower	自転車で　駅へ　行きます。	Jadę rowerem na dworzec.	droga blad	自転車で　駅へ　行きます。	Nie „pociąg” (電車、でんしゃ). 転 = toczyć się.	自転車

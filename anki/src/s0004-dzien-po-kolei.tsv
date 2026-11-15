@@ -1,0 +1,20 @@
+#typ	id	słowo	czytanie	znaczenie	przykład	przykład_pl	tagi	przykład_do_audio	uwaga
+word	s0004-01	起きる	おきる	wstawać (z łóżka)	毎朝　七時に　起きて、朝ご飯を　食べます。	Codziennie rano wstaję o siódmej i jem śniadanie.	dzien	まいあさ　しちじに　おきて、あさごはんを　たべます。	Czasownik る: 起きて (✗ 起きって). Para: 寝る（ねる） = iść spać.
+word	s0004-02	寝る	ねる	iść spać, spać	ホテルに　帰って、寝ます。	Wracam do hotelu i idę spać.	dzien	ホテルに　かえって、ねます。	Czasownik る: 寝て. Para: 起きる.
+word	s0004-03	シャワー	シャワー	prysznic	朝　シャワーを　浴びて、出かけます。	Rano biorę prysznic i wychodzę.	dzien	あさ　シャワーを　あびて、でかけます。	Brać prysznic = シャワーを 浴びる（あびる）, czasownik る.
+word	s0004-04	出かける	でかける	wychodzić (z domu), wybierać się	八時に　出かけます。	Wychodzę o ósmej.	dzien	はちじに　でかけます。	Czasownik る: 出かけて. 出る = wyjść (skądś), 出かける = wybrać się gdzieś.
+word	s0004-05	朝ご飯	あさごはん	śniadanie	ホテルで　朝ご飯を　食べました。	Zjadłem śniadanie w hotelu.	dzien	ホテルで　あさごはんを　たべました。	朝 + ご飯. Tak samo 昼ご飯（ひるごはん）, 晩ご飯（ばんごはん）.
+word	s0004-06	晩ご飯	ばんごはん	kolacja	友達と　晩ご飯を　食べて、帰りました。	Zjadłem kolację z kolegą i wróciłem.	dzien	ともだちと　ばんごはんを　たべて、かえりました。	晩（ばん） = wieczór. Usłyszysz też 夕ご飯（ゆうごはん）.
+word	s0004-08	買い物	かいもの	zakupy	午後は　大阪で　買い物を　します。	Po południu robię zakupy w Osace.	dzien	午後は　大阪で　買い物を　します。	買い物を する = robić zakupy. Od 買う.
+word	s0004-09	午後	ごご	po południu	午後　二時に　会いましょう。	Spotkajmy się o drugiej po południu.	dzien	ごご　にじに　あいましょう。	Para: 午前（ごぜん）. 午後二時 = 14:00.
+word	s0004-10	午前	ごぜん	przed południem, rano (do 12)	店は　午前　十時に　開きます。	Sklep otwiera się o dziesiątej rano.	dzien	みせは　ごぜん　じゅうじに　あきます。	Para: 午後. 午前中（ごぜんちゅう） = w godzinach przedpołudniowych.
+word	s0004-11	それから	それから	potem, a następnie	朝ご飯を　食べます。それから、会社に　行きます。	Jem śniadanie. Potem idę do firmy.	dzien	あさごはんを　たべます。それから、かいしゃに　いきます。	Zaczyna nowe zdanie, gdy ciąg て、て robi się za długi. そして = i.
+word	s0004-12	お風呂	おふろ	kąpiel, wanna	お風呂に　入ってから、寝ます。	Kładę się spać po kąpieli.	dzien	おふろに　入ってから、ねます。	Brać kąpiel = お風呂に 入る（はいる）, nie ✗ 浴びる.
+word	s0004-13	天気	てんき	pogoda	今日は　天気が　よくて、暖かいです。	Dziś pogoda jest dobra i jest ciepło.	dzien	きょうは　てんきが　よくて、あたたかいです。	天気が いい／悪い. Prognoza: 天気予報（てんきよほう）.
+word	s0004-14	暖かい	あたたかい	ciepły (o pogodzie, pokoju)	今日は　暖かいですね。	Dziś jest ciepło, prawda?	dzien	きょうは　暖かいですね。	Przymiotnik い. W mowie często あったかい. Para: 涼しい（すずしい） = chłodny, przyjemnie.
+word	s0004-15	狭い	せまい	ciasny, wąski	部屋は　ちょっと　狭かったです。	Pokój był trochę ciasny.	dzien	部屋は　ちょっと　せまかったです。	Przymiotnik い. Para: 広い（ひろい） = przestronny.
+word	s0004-16	町	まち	miasto, miasteczko, dzielnica	大阪は　にぎやかで、楽しい　町です。	Osaka to gwarne i wesołe miasto.	dzien	おおさかは　にぎやかで、たのしい　まちです。	Ten sam dźwięk co 待ち (czekanie), inne kanji.
+word	s0004-17	楽しい	たのしい	wesoły, przyjemny (o czasie, miejscu)	旅行は　楽しかったです。	Podróż była przyjemna.	dzien	旅行は　楽しかったです。	Przymiotnik い: 楽しくて, 楽しかった. Nie o osobie („wesoły człowiek”), o przeżyciu.
+word	s0004-18	二十歳	はたち	20 lat (wiek)	田中さんは　学生で、二十歳です。	Tanaka jest studentem i ma 20 lat.	dzien	たなかさんは　がくせいで、二十歳です。	Wyjątkowe czytanie, nie ✗ にじゅっさい. Inne lata: ～歳（さい）: 十八歳 じゅうはっさい.	ハタチ
+word	s0004-19	有名	ゆうめい	sławny, znany	京都は　有名で、きれいな　町です。	Kioto jest znane i piękne.	dzien	京都は　ゆうめいで、きれいな　まちです。	Przymiotnik な: 有名で, 有名じゃない. Łączy się z で.
+word	s0004-20	便利	べんり	wygodny, praktyczny	この　ホテルは　駅から　近くて、便利です。	Ten hotel jest blisko dworca i wygodny.	dzien	この　ホテルは　えきから　ちかくて、べんりです。	Przymiotnik な. Para: 不便（ふべん） = niewygodny.

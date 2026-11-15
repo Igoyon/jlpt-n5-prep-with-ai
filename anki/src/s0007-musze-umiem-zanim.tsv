@@ -1,0 +1,21 @@
+#typ	id	słowo	czytanie	znaczenie	przykład	przykład_pl	tagi	przykład_do_audio	uwaga	słowo_do_audio
+word	s0007-01	宿題	しゅくだい	praca domowa	今日は　宿題を　しなければなりません。	Dziś muszę zrobić pracę domową.	nakereba	きょうは　宿題を　しなければなりません。	宿題をする = odrabiać pracę domową.
+word	s0007-02	歯	は	ząb, zęby	寝るまえに、歯を　磨きます。	Przed snem myję zęby.	mae	ねる　まえに、歯を　みがきます。	歯を磨く = myć zęby.	ハ
+word	s0007-03	磨く	みがく	szczotkować, czyścić (zęby, buty)	朝と　夜、歯を　磨きます。	Rano i wieczorem myję zęby.	mae	あさと　よる、歯を　みがきます。	Czasownik u: 磨かない, 磨いて.
+word	s0007-04	手	て	ręka, dłoń	ご飯の　まえに、手を　洗います。	Przed posiłkiem myję ręce.	mae	ごはんの　まえに、てを　あらいます。
+word	s0007-05	漢字	かんじ	kanji, znaki chińskie	漢字を　読むことが　できます。	Umiem czytać kanji.	koto	かんじを　よむ　ことが　できます。
+word	s0007-06	書く	かく	pisać	ここに　名前を　書かなければなりませんか。	Czy muszę tu wpisać imię i nazwisko?	nakereba	ここに　なまえを　かかなければなりませんか。	Czasownik u: 書かない, 書いて.
+word	s0007-07	歌う	うたう	śpiewać	日本語の　歌を　歌うことが　できますか。	Umiesz śpiewać japońskie piosenki?	koto	にほんごの　うたを　うたう　ことが　できますか。	う → わ: 歌わない. Forma て: 歌って.
+word	s0007-08	歌	うた	piosenka	この　歌を　知っていますか。	Znasz tę piosenkę?	koto	この　うたを　しっていますか。
+word	s0007-09	弾く	ひく	grać (na gitarze, pianinie)	兄は　ギターを　弾くことが　できます。	Mój starszy brat umie grać na gitarze.	koto	あには　ギターを　ひく　ことが　できます。	Tylko instrumenty strunowe i klawiszowe: ピアノを弾く. Forma て: 弾いて.
+word	s0007-10	ギター	ギター	gitara	夜は　ギターを　弾かないでください。	Proszę nie grać na gitarze w nocy.	koto	よるは　ギターを　ひかないでください。
+word	s0007-11	教える	おしえる	uczyć (kogoś); powiedzieć, wskazać	すみません、駅までの　道を　教えてください。	Przepraszam, proszę mi wskazać drogę do stacji.	koto	すみません、えきまでの　みちを　おしえてください。	Czasownik る: 教えない, 教えて. Też „podać”: 電話番号を教えてください.
+word	s0007-12	覚える	おぼえる	zapamiętać, nauczyć się na pamięć	毎日　漢字を　覚えなければなりません。	Codziennie muszę uczyć się kanji na pamięć.	nakereba	まいにち　かんじを　おぼえなければなりません。	Czasownik る: 覚えない, 覚えて.
+word	s0007-13	答える	こたえる	odpowiadać	日本語で　答えなくても　いいです。	Nie trzeba odpowiadać po japońsku.	nakereba	にほんごで　こたえなくても　いいです。	Czasownik る. Na pytanie: 質問に答える (partykuła に).
+word	s0007-14	階段	かいだん	schody	危ないですから、階段で　走らないでください。	Jest niebezpiecznie, więc proszę nie biegać po schodach.	nakereba	あぶないですから、かいだんで　走らないでください。
+word	s0007-15	エレベーター	エレベーター	winda	荷物が　ありますから、エレベーターを　使ってください。	Ma pan bagaż, więc proszę skorzystać z windy.	koto	にもつが　ありますから、エレベーターを　つかってください。
+word	s0007-16	早い	はやい	wczesny; 早く = wcześnie	明日は　早く　起きなければなりません。	Jutro muszę wcześnie wstać.	nakereba	あしたは　早く　おきなければなりません。	Przymiotnik い. 早く (przysłówek): 早く帰る = wcześnie wrócić.	ハヤイ
+word	s0007-17	勉強	べんきょう	nauka (勉強する = uczyć się)	日本へ　来るまえに、日本語を　勉強しました。	Zanim przyjechałem do Japonii, uczyłem się japońskiego.	mae	にほんへ　くる　まえに、にほんごを　べんきょうしました。	Z する: 勉強しない, 勉強して.
+word	s0007-18	英語	えいご	język angielski	英語を　話すことが　できますか。	Czy umie pan mówić po angielsku?	koto	えいごを　話す　ことが　できますか。
+word	s0007-19	できる	できる	umieć, móc; być gotowym	日本語が　少し　できます。	Umiem trochę po japońsku.	koto	にほんごが　すこし　できます。	Czasownik る: できない, できて. To, co umiesz, bierze が.
+word	s0007-20	料理	りょうり	gotowanie; potrawa, kuchnia	父は　料理が　できません。	Mój tata nie umie gotować.	koto	ちちは　りょうりが　できません。	料理をする = gotować. 日本料理 = kuchnia japońska.

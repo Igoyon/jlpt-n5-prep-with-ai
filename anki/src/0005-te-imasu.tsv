@@ -1,0 +1,19 @@
+#typ	id	tekst	wyjaśnienie	tagi	tekst_do_audio
+cloze	0005-01	駅へ　行く　道を　{{c1::教えてください::教える → cała prośba}}。	Proszę mi powiedzieć, jak dojść na dworzec. Forma て to połowa: bez ください (✗ 教えて) prośba do obcej osoby brzmi szorstko. Trzeci raz pominięte (0004 a5, a6; 0005 r2).	teimasu kudasai blad	えきへ　いく　みちを　おしえてください。
+cloze	0005-02	昨日の　祭りは　{{c1::にぎやかじゃなかったです::にぎやか → nie był (grzecznie)}}。	Wczorajszy festyn nie był gwarny. Przymiotnik な, „nie był”: じゃなかったです (albo ではありませんでした). ✗ にぎやかじゃないでした: przeczenie + でした to częsty dystraktor.	teimasu przymiotniki blad	きのうの　まつりは　にぎやかじゃなかったです。
+cloze	0005-03	✗ 静かじゃないでした → {{c1::静かじゃなかったです}}	„Nie był cichy”. Czas przeszły wchodzi do środka przeczenia: じゃない → じゃなかった, potem です. Tak samo przymiotniki い: 寒くない → 寒くなかったです.	teimasu przymiotniki blad	しずかじゃなかったです
+cloze	0005-04	ホテルの　前で　友だちを　{{c1::待っています::待つ → czekam}}。	Czekam na kolegę przed hotelem. つ → って + います. Uwaga na literówki: ～ています kończy się na す.	teimasu	ホテルの　まえで　ともだちを　まっています。
+cloze	0005-05	今、電車で　本を　{{c1::読んでいます::読む → czytam (teraz)}}。	Teraz czytam książkę w pociągu. む → んで + います. ✗ 読みています (rdzeń ます + います) to dystraktor.	teimasu	いま、電車で　本を　よんでいます。
+cloze	0005-06	私は　ワルシャワに　{{c1::住んでいます::住む → mieszkam}}。	Mieszkam w Warszawie. 住む opisuje stan, więc prawie zawsze ～ています. 住みます = zamieszkam (plan).	teimasu	わたしは　ワルシャワに　すんでいます。
+cloze	0005-07	「山田さんを　知っていますか。」「いいえ、{{c1::知りません::nie 知っていません}}。」	Wyjątek: tak = 知っています, nie = 知りません. ✗ 知っていません brzmi dziwnie i na egzaminie jest dystraktorem.	teimasu	やまださんを　しっていますか。いいえ、しりません。
+cloze	0005-08	傘を　{{c1::持っています::持つ → mam przy sobie}}か。	Masz (przy sobie) parasol? 持つ w ～ています = stan posiadania. もって ≠ まって (待つ).	teimasu	かさを　もっていますか。
+cloze	0005-09	東京の　会社で　{{c1::働いています::働く（はたらく） → pracuję}}。	Pracuję w firmie w Tokio. Praca i nawyk też idą w ～ています. く → いて.	teimasu	とうきょうの　かいしゃで　はたらいています。
+cloze	0005-10	毎日　日本語を　{{c1::勉強しています::勉強する → uczę się (codziennie)}}。	Codziennie uczę się japońskiego: nawyk. する → して + います.	teimasu	まいにち　にほんごを　べんきょうしています。
+cloze	0005-11	田中さんは　今　電話を　{{c1::かけています::かける; sygnał 今}}。	Tanaka teraz dzwoni. 今 + czynność w toku → ～ています. かけます = zadzwoni, かけました = zadzwonił.	teimasu	たなかさんは　いま　でんわを　かけています。
+cloze	0005-12	テレビを　{{c1::見ていません::見る → nie oglądam}}。	Nie oglądam telewizji. Przeczenie ～ています to ～ていません (poza 知る). Czasownik る: 見て, bez っ.	teimasu	テレビを　みていません。
+cloze	0005-13	Z anime: 「何してるの？」 → grzecznie: {{c1::何を　していますか::pełne ～ています}}	W mowie potocznej い wypada (～てる) i znika を. Rozumiej, ale na egzaminie i w ćwiczeniach pisz pełne ～ています.	teimasu anime	なにを　していますか
+cloze	0005-14	知る（しる）: grupa {{c1::czasownik u::る / u / nieregularny?}}	Lista 帰る・入る・走る・知る・切る: wyglądają jak る, ale to czasowniki u → 知って → 知っています.	teimasu	しる、しっています
+listen	0005-L1	もしもし、田中です。今　駅の　前で　待っています。	Halo, tu Tanaka. Czekam teraz przed dworcem. (駅の前 = przed dworcem)	teimasu sluchanie	もしもし、たなかです。いま　えきの　まえで　まっています。
+listen	0005-L2	山田さんは　今　何を　していますか。部屋で　音楽を　聞いています。	Co teraz robi Yamada? Słucha muzyki w pokoju. (聞いています = 聞く)	teimasu sluchanie	やまださんは　いま　なにを　していますか。部屋で　おんがくを　きいています。
+listen	0005-L3	どこに　住んでいますか。大阪に　住んでいます。でも、東京の　会社で　働いています。	Gdzie mieszkasz? Mieszkam w Osace, ale pracuję w firmie w Tokio. (pułapka: dwa miasta, pytanie o jedno)	teimasu sluchanie	どこに　すんでいますか。おおさかに　すんでいます。でも、とうきょうの　かいしゃで　はたらいています。
+listen	0005-L4	すみません、この　店は　今　開いていますか。いいえ、今日は　休みです。明日は　開いています。	Czy ten sklep jest teraz otwarty? Nie, dziś jest zamknięte. Jutro jest otwarte. (開いています = stan: otwarte)	teimasu sluchanie	すみません、この　みせは　いま　あいていますか。いいえ、きょうは　やすみです。あしたは　あいています。

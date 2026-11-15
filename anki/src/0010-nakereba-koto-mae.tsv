@@ -1,0 +1,20 @@
+#typ	id	tekst	wyjaśnienie	tagi	tekst_do_audio
+cloze	0010-01	毎日　この　薬を　{{c1::飲まなければなりません::飲む → muszę}}。	Muszę codziennie brać to lekarstwo. Forma ない bez い + ければなりません: 飲まない → 飲まな + ければなりません. Na końcu zawsze przeczenie なりません.	nakereba	まいにち　この　くすりを　のまなければなりません。
+cloze	0010-02	明日は　六時に　{{c1::起きなければなりません::起きる → muszę}}。	Jutro muszę wstać o szóstej. Czasownik る: 起きない → 起きなければなりません.	nakereba	あしたは　ろくじに　おきなければなりません。
+cloze	0010-03	電車に　乗りますから、切符を　{{c1::買わなければなりません::買う → muszę}}。	Jadę pociągiem, więc muszę kupić bilet. う → わ: 買わない → 買わなければなりません.	nakereba	でんしゃに　のりますから、きっぷを　かわなければなりません。
+cloze	0010-04	今日は　早く　うちに　{{c1::帰らなければなりません::帰る → muszę}}。	Dziś muszę wcześnie wrócić do domu. 帰る to czasownik u: 帰らない → 帰らなければなりません.	nakereba	きょうは　早く　うちに　かえらなければなりません。
+cloze	0010-05	ここでは　靴を　{{c1::脱がなくてもいいです::脱ぐ → nie trzeba}}。	Tu nie trzeba zdejmować butów. Forma ない bez い + くてもいいです = „wolno nie robić”. „Nie wolno” to co innego: 脱いではいけません.	nakereba	ここでは　くつを　ぬがなくても　いいです。
+cloze	0010-06	行かなければなりません → potocznie: {{c1::行かなきゃ}}！	Muszę iść! W anime ～なければ skraca się do ～なきゃ (albo ～なくちゃ), a なりません znika.	nakereba	いかなきゃ！
+cloze	0010-07	私は　{{c1::泳ぐ::泳ぎます → forma przed こと}}ことが　できます。	Umiem pływać. Przed こと stoi forma słownikowa (泳ぐ), nie rdzeń ます. W 0010 napisałeś ✗ 泳ぎことができます.	koto blad	わたしは　およぐ　ことが　できます。
+cloze	0010-08	ここから　富士山を　{{c1::見ることができます::見ます → można (こと)}}。	Stąd można zobaczyć Fuji. Forma słownikowa + ことができます = umiem albo można.	koto	ここから　ふじさんを　みる　ことが　できます。
+cloze	0010-09	マリアさんは　日本語{{c1::が::partykuła}}　できます。	Maria zna japoński. Po rzeczowniku od razu ができます (bez こと). To, co umiesz, bierze が, nie を.	koto	マリアさんは　日本語が　できます。
+cloze	0010-10	田中さんは　英語を　{{c1::話すことができます::話します → umie (こと)}}。	Pan Tanaka umie mówić po angielsku. 話します → forma słownikowa 話す, potem ことができます (✗ 話しことが).	koto blad	たなかさんは　えいごを　話す　ことが　できます。
+cloze	0010-11	{{c1::寝るまえに::寝る → przed}}、歯を　磨きます。	Przed snem myję zęby. Przed まえに zawsze forma słownikowa.	mae	ねる　まえに、歯を　みがきます。
+cloze	0010-12	日本へ　{{c1::来るまえに::来る → zanim (zdanie o przeszłości)}}、日本語を　勉強しました。	Zanim przyjechałem do Japonii, uczyłem się japońskiego. Przed まえに forma słownikowa także w zdaniu o przeszłości (✗ 来たまえに). Czas pokazuje koniec zdania.	mae	にほんへ　くる　まえに、にほんごを　べんきょうしました。
+cloze	0010-13	ご飯{{c1::の::rzeczownik + ? + まえに}}　まえに、手を　洗います。	Przed posiłkiem myję ręce. Rzeczownik + の + まえに. Po czasowniku bez の: 食べるまえに.	mae	ごはんの　まえに、てを　あらいます。
+cloze	0010-14	プールの　そばで　{{c1::走らないでください::走る → proszę nie (cała prośba)}}。	Proszę nie biegać przy basenie. Forma ない + でください. W 0010 napisałeś samo 走らない („nie biegam”): forma dobra, zabrakło でください.	nai blad	プールの　そばで　走らないでください。
+cloze	0010-15	手を　洗ってから　食べます。＝ {{c1::食べるまえに::食べる → zanim}}　手を　洗います。	Myję ręce i dopiero potem jem = zanim zjem, myję ręce. ～てから (po) z formą て, ～まえに (przed) z formą słownikową.	mae	たべる　まえに　てを　あらいます。
+listen	0010-L1	すみません、今日は　病院へ　行かなければなりません。	Przepraszam, dziś muszę iść do lekarza. (odmowa z powodem: ～なければなりません)	nakereba sluchanie	すみません、きょうは　びょういんへ　いかなければなりません。
+listen	0010-L2	切符を　見せなければ　なりませんか。― いいえ、見せなくても　いいですよ。	Czy muszę pokazać bilet? – Nie, nie trzeba. (koniec zdania: なりません = trzeba, いいです = nie trzeba)	nakereba sluchanie	きっぷを　みせなければ　なりませんか。いいえ、みせなくても　いいですよ。
+listen	0010-L3	危ないですから、ここで　泳ぐ　ことは　できません。	Jest niebezpiecznie, więc tu nie można pływać. (～ことはできません: は w przeczeniu)	koto sluchanie	あぶないですから、ここで　およぐ　ことは　できません。
+listen	0010-L4	ホテルに　帰る　まえに、コンビニで　水を　買います。	Zanim wrócę do hotelu, kupię wodę w konbini. (najpierw woda, potem hotel)	mae sluchanie	ホテルに　かえる　まえに、コンビニで　みずを　かいます。

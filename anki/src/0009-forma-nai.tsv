@@ -1,0 +1,18 @@
+#typ	id	tekst	wyjaśnienie	tagi	tekst_do_audio
+cloze	0009-01	飲みます → {{c1::飲む::pić}}　読みます → {{c2::読む::czytać}}	Forma słownikowa: rząd い przed ます → rząd う (み → む). 飲む（のむ）= pić, 読む（よむ）= czytać. W 0009 z 飲みます zrobiłeś ✗ 読む: końcówka dobra, ale inne słowo. 飲 ma radykał 食 (jedzenie), 読 ma 言 (mowa).	nai blad	のむ、よむ
+cloze	0009-02	待ちます → {{c1::待つ}}　起きます → {{c2::起きる}}	Rząd い przed ます: zwykle czasownik u (待ち → 待つ), ale 起きる, 見る, いる, 借りる, できる to る. Rząd え (食べ, 寝) → zawsze る.	nai	まつ、おきる
+cloze	0009-03	高いから、{{c1::買わない::買う → nie (forma ない)}}。	Drogie, więc nie kupię. Czasownik na う: う → わ, nie あ (✗ 買あない). Tak samo 会わない, 言わない, 吸わない.	nai	たかいから、かわない。
+cloze	0009-04	今日は　うちに　{{c1::帰らない::帰る → nie (forma ない)}}。	Dziś nie wracam do domu. 帰る wygląda jak る, ale to u: る → ら (✗ 帰ない). Tak samo 入らない, 知らない, 走らない.	nai	きょうは　うちに　かえらない。
+cloze	0009-05	来る → {{c1::こない}}　する → {{c2::しない}}	Nieregularne. 来ない czytasz こない: く・き・こ (来る, 来ます, 来ない).	nai	こない、しない
+cloze	0009-06	今日は　お金が　{{c1::ない::ある → nie (forma ない)}}。	Dziś nie mam pieniędzy. ある to jedyny czasownik u z nieregularnym przeczeniem: samo ない (✗ あらない). Grzecznie: ありません.	nai	きょうは　おかねが　ない。
+cloze	0009-07	お酒は　{{c1::飲まない::飲む → nie (forma ない)}}。	Alkoholu nie piję. 飲む: む → ま, potem ない. Grzecznie: 飲みません.	nai	おさけは　のまない。
+cloze	0009-08	ここで　写真を　{{c1::撮らないで::撮る → proszę nie (ないで)}}ください。	Proszę tu nie robić zdjęć. Forma ない + で + ください (✗ 撮らないください, ✗ 撮りないでください).	nai	ここで　しゃしんを　とらないでください。
+cloze	0009-09	部屋で　たばこを　{{c1::吸わないで::吸う → proszę nie (ないで)}}ください。	Proszę nie palić w pokoju. 吸う: う → わ.	nai	部屋で　たばこを　すわないでください。
+cloze	0009-10	かぎを　{{c1::忘れないで::忘れる → proszę nie (ないで)}}ください。	Proszę nie zapomnieć klucza. 忘れる to czasownik る: odcinasz る, dodajesz ない.	nai	かぎを　わすれないでください。
+cloze	0009-11	ここから　中に　{{c1::入らないで::入る → proszę nie (ないで)}}ください。	Proszę stąd nie wchodzić do środka. 入る to u (る → ら).	nai	ここから　なかに　はいらないでください。
+cloze	0009-12	ここで　写真を　撮っても　いいですか。 ― すみません、{{c1::撮らないでください::撮る → grzeczna odmowa (ないで)}}。	Grzeczna odmowa: すみません + ～ないでください. ～ないでください to prośba (obsługa, tabliczki), ～てはいけません to reguła („nie wolno”).	nai	ここで　しゃしんを　とっても　いいですか。すみません、とらないでください。
+cloze	0009-13	明日、海に　{{c1::行かない::行く → zaproszenie, forma zwykła}}？	Pójdziemy jutro nad morze? ～ない？ z intonacją w górę to zwykła wersja ～ませんか. Odpowiedź: 行く、行く！	nai	あした、うみに　いかない？
+listen	0009-L1	美術館の　中で　写真を　撮らないでください。飲み物も　飲まないでください。	Proszę nie robić zdjęć w muzeum. Napojów też proszę nie pić. (も = też)	nai sluchanie	びじゅつかんの　なかで　しゃしんを　とらないでください。のみものも　のまないでください。
+listen	0009-L2	明日、海に　行かない？ ― 行く、行く！何時に　会う？	Pójdziemy jutro nad morze? Idę, idę! O której się spotkamy? (行かない？ = zaproszenie)	nai sluchanie	あした、うみに　いかない？いく、いく！なんじに　あう？
+listen	0009-L3	すみません、そこには　置かないでください。あちらに　置いてください。	Przepraszam, proszę tego tam nie kłaść. Proszę położyć tam dalej. (置かないで = nie kłaść, あちら = tam dalej)	nai sluchanie	すみません、そこには　おかないでください。あちらに　おいてください。
+listen	0009-L4	田中さん、来ないですね。電話を　かけましょうか。	Tanaka nie przychodzi, prawda? Może zadzwonimy? (来ない = こない)	nai sluchanie	たなかさん、こないですね。でんわを　かけましょうか。

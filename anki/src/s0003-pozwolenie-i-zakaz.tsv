@@ -1,0 +1,19 @@
+#typ	id	słowo	czytanie	znaczenie	przykład	przykład_pl	tagi	przykład_do_audio	uwaga
+word	s0003-01	たばこ	たばこ	papierosy	部屋で　たばこを　吸ってはいけません。	W pokoju nie wolno palić.	pozwolenie	部屋で　たばこを　すっては　いけません。	Zawsze z 吸う: たばこを 吸う = palić.
+word	s0003-02	吸う	すう	palić (papierosy), wdychać	外で　たばこを　吸ってもいいですか。	Czy mogę palić na zewnątrz?	pozwolenie	そとで　たばこを　すってもいいですか。	Czasownik u na う: 吸って (✗ 吸うって).
+word	s0003-03	写真	しゃしん	zdjęcie	ここで　写真を　撮ってもいいですか。	Czy mogę tu zrobić zdjęcie?	pozwolenie	ここで　しゃしんを　とってもいいですか。	
+word	s0003-04	撮る	とる	robić (zdjęcie)	友達の　写真を　撮りました。	Zrobiłem zdjęcie kolegi.	pozwolenie	ともだちの　しゃしんを　とりました。	Czasownik u: 撮って. Brzmi jak 取る (brać), ale kanji inne.
+word	s0003-05	開ける	あける	otwierać (coś)	窓を　開けてもいいですか。	Czy mogę otworzyć okno?	pozwolenie	まどを　あけてもいいですか。	Czasownik る: 開けて. Para: 開く（あく） = otwierać się. ✗ 置く（おく） = kłaść.
+word	s0003-06	閉める	しめる	zamykać (coś)	寒いですから、ドアを　閉めてください。	Zimno, proszę zamknąć drzwi.	pozwolenie	さむいですから、ドアを　しめてください。	Czasownik る: 閉めて. Para: 閉まる（しまる） = zamykać się.
+word	s0003-07	座る	すわる	siadać	ここに　座ってもいいですか。	Czy mogę tu usiąść?	pozwolenie	ここに　すわってもいいですか。	Czasownik u: 座って. Miejsce z に.
+word	s0003-08	使う	つかう	używać	カードを　使ってもいいですか。	Czy mogę zapłacić kartą?	pozwolenie	カードを　つかってもいいですか。	う → って: 使って.
+word	s0003-09	入る	はいる	wchodzić	中に　入ってもいいですか。	Czy mogę wejść do środka?	pozwolenie	なかに　入ってもいいですか。	Czasownik u mimo る: 入って. Miejsce z に.
+word	s0003-10	出る	でる	wychodzić	八時に　家を　出ます。	O ósmej wychodzę z domu.	pozwolenie	はちじに　うちを　でます。	Czasownik る: 出て. Miejsce, z którego wychodzisz, z を.
+word	s0003-11	水	みず	woda	この　水を　飲んでもいいですか。	Czy mogę pić tę wodę?	pozwolenie	この　みずを　のんでもいいですか。	W restauracji: お水を ください.
+word	s0003-12	外	そと	na zewnątrz, dwór	たばこは　外で　お願いします。	Papierosy proszę na zewnątrz.	pozwolenie	たばこは　そとで　おねがいします。	Para: 中（なか） = środek.
+word	s0003-13	中	なか	środek, w	電車の　中で　電話を　かけてはいけません。	W pociągu nie wolno dzwonić.	pozwolenie	でんしゃの　なかで　でんわを　かけては　いけません。	Xの 中で = w X. Para: 外（そと）.
+word	s0003-14	こちら	こちら	tu, ta strona, ten (grzecznie)	こちらに　座ってください。	Proszę usiąść tutaj.	pozwolenie	こちらに　すわってください。	Grzeczne これ／ここ. Też „ta osoba”: こちらは 田中さんです.
+word	s0003-15	そちら	そちら	tam (u ciebie), tamten (grzecznie)	そちらの　席は　だめです。	To miejsce (przy tobie) jest zajęte.	pozwolenie	そちらの　せきは　だめです。	Grzeczne それ／そこ.
+word	s0003-16	あちら	あちら	tam (daleko), tamten (grzecznie)	あちらの　水を　飲んでください。	Proszę pić tamtą wodę.	pozwolenie	あちらの　みずを　のんでください。	Grzeczne あれ／あそこ. Blisko nikogo z rozmawiających.
+word	s0003-17	大丈夫	だいじょうぶ	w porządku, nic się nie stało	メールは　大丈夫です。	Wiadomości są w porządku (wolno).	pozwolenie	メールは　だいじょうぶです。	Przymiotnik な. Odpowiedź na „czy wolno?” i na „wszystko dobrze?”.
+word	s0003-18	乗る	のる	wsiadać, jechać (czymś)	駅で　電車に　乗ります。	Na stacji wsiadam do pociągu.	pozwolenie	えきで　でんしゃに　のります。	Czasownik u: 乗って. Pojazd z に (✗ を). Para: 降りる（おりる） = wysiadać.

@@ -1,0 +1,21 @@
+#typ	id	tekst	wyjaśnienie	tagi	tekst_do_audio
+cloze	0006-01	部屋で　たばこを　{{c1::吸ってはいけません::吸う（すう） → nie wolno palić}}。	W pokoju nie wolno palić. 吸う to czasownik u na う: końcówkę う WYMIENIASZ na って (吸って), nie dokładasz jej (✗ 吸うって). Tak samo 買う → 買って, 言う → 言って, 会う → 会って.	temoii blad	部屋で　たばこを　すっては　いけません。
+cloze	0006-02	✗ 吸うって → {{c1::吸って::う → って}}　　✗ 買うって → {{c2::買って::う → って}}	Czasowniki u na う: ostatnia sylaba znika, w jej miejsce wchodzi って. 使う → 使って było dobrze, 吸う → 吸うって nie. To ta sama reguła.	temoii blad	すって、かって
+cloze	0006-03	窓を　{{c1::開けてもいいですか::開ける（あける） → czy mogę otworzyć?}}。	Czy mogę otworzyć okno? 開ける czytasz あける, czasownik る → 開けて. ✗ 置けて: 置く（おく） to „położyć”, inny czasownik i inne kanji.	temoii blad	まどを　あけてもいいですか。
+cloze	0006-04	開ける（{{c1::あける::otworzyć coś}}）　置く（{{c2::おく::położyć}}）　開く（{{c3::あく::otworzyć się, być otwartym}}）	Trzy różne czasowniki. 開ける = otwieram coś (窓を 開ける). 開く = coś się otwiera, jest otwarte (店が 開いている). 置く = kładę (かばんを 置く).	temoii blad	あける、おく、あく
+cloze	0006-05	この　水は　だめです。{{c1::あちらの::tamta (daleko od nas obu)}}　水を　飲んでください。	Ta woda nie. Proszę pić tamtą wodę. こちら = tu (u mnie), そちら = tam (u ciebie), あちら = tam (daleko od nas obu). Grzeczne wersje これ・それ・あれ i ここ・そこ・あそこ.	temoii blad	この　みずは　だめです。あちらの　みずを　のんでください。
+cloze	0006-06	電車の　中で　電話を　{{c1::かけてはいけません::かける → nie wolno dzwonić}}。	W pociągu nie wolno dzwonić. 電話を かける = dzwonić (nie „rozmawiać”, to 話す). Ze słuchu: でんわを かけては いけません.	temoii blad	でんしゃの　なかで　でんわを　かけては　いけません。
+cloze	0006-07	ここで　写真を　{{c1::撮ってもいいですか::撮る → czy mogę zrobić?}}。	Czy mogę tu zrobić zdjęcie? Forma て + もいいですか. 撮る to czasownik u (る → って).	temoii	ここで　しゃしんを　とってもいいですか。
+cloze	0006-08	ここで　写真を　{{c1::撮ってはいけません::撮る → nie wolno}}。	Tu nie wolno robić zdjęć. Forma て + はいけません. は czytasz „wa”.	temoii	ここで　しゃしんを　とっては　いけません。
+cloze	0006-09	て{{c1::も::→ いいです}}いいです　／　て{{c2::は::→ いけません}}いけません	Jedna sylaba decyduje: ても → いい (wolno), ては → いけません (nie wolno). ✗ てはいいです, ✗ てもいけません.	temoii	てもいいです、ては　いけません
+cloze	0006-10	「ここに　座ってもいいですか。」「はい、{{c1::どうぞ::proszę bardzo (zgoda)}}。」	Czy mogę tu usiąść? Tak, proszę. Zgoda: はい、どうぞ・ええ、いいですよ.	temoii	ここに　すわってもいいですか。はい、どうぞ。
+cloze	0006-11	「部屋で　たばこを　吸ってもいいですか。」「すみません、{{c1::ちょっと…::grzeczna odmowa}}。」	Czy mogę palić w pokoju? Przepraszam, raczej nie… Odmowa bez „nie”: すみません、ちょっと…. Dosadniej: だめです.	temoii	部屋で　たばこを　すってもいいですか。すみません、ちょっと…。
+cloze	0006-12	✗ 書きてはいけません → {{c1::書いてはいけません::く → いて}}	Przed はいけません stoi forma て, nie rdzeń ます. 書く → 書いて. Tak samo ✗ 読みてもいいですか → 読んでもいいですか.	temoii	かいては　いけません
+cloze	0006-13	中に　{{c1::入ってもいいですか::入る（はいる） → czy mogę wejść?}}。	Czy mogę wejść do środka? 入る to czasownik u (lista 帰る・入る・走る・知る・切る) → 入って, nie ✗ 入て.	temoii	なかに　入ってもいいですか。
+cloze	0006-14	カードを　{{c1::使ってもいいですか::使う（つかう） → czy mogę zapłacić kartą?}}。	Czy mogę użyć karty? 使う → 使って: う → って. W lekcji było dobrze, trzymaj ten wzór dla 吸う i 買う.	temoii	カードを　つかってもいいですか。
+cloze	0006-15	Z anime: 「見ちゃだめ！」 → grzecznie: {{c1::見てはいけません::pełne ～てはいけません}}	Potocznie ては → ちゃ, では → じゃ: 見ちゃだめ, 飲んじゃいけない. Rozumiej, ale sam mówisz ～てはいけません.	temoii anime	みては　いけません
+listen	0006-L1	すみません、ここで　写真を　撮ってもいいですか。はい、どうぞ。でも、フラッシュは　使ってはいけません。	Czy mogę tu zrobić zdjęcie? Tak, proszę. Ale nie wolno używać lampy błyskowej. (zgoda z warunkiem: でも)	temoii sluchanie	すみません、ここで　しゃしんを　とってもいいですか。はい、どうぞ。でも、フラッシュは　つかっては　いけません。
+listen	0006-L2	電車の　中では、電話を　かけてはいけません。メールは　大丈夫です。	W pociągu nie wolno dzwonić. Wiadomości są w porządku. (かける = dzwonić; 大丈夫 = w porządku, wolno)	temoii sluchanie blad	でんしゃの　なかでは、でんわを　かけては　いけません。メールは　だいじょうぶです。
+listen	0006-L3	この　水を　飲んでもいいですか。いいえ、飲んではいけません。あちらの　水を　飲んでください。	Czy mogę pić tę wodę? Nie, nie wolno. Proszę pić tamtą wodę. (あちらの = tamtą, dalej od nas)	temoii sluchanie blad	この　みずを　のんでもいいですか。いいえ、のんでは　いけません。あちらの　みずを　のんでください。
+listen	0006-L4	部屋で　たばこを　吸ってもいいですか。すみません、部屋では　ちょっと…。外で　お願いします。	Czy mogę palić w pokoju? Przepraszam, w pokoju raczej nie… Proszę na zewnątrz. (ちょっと = odmowa; 外 = na zewnątrz)	temoii sluchanie	部屋で　たばこを　すってもいいですか。すみません、部屋では　ちょっと…。そとで　おねがいします。
+listen	0006-L5	すみません、窓を　開けてもいいですか。ええ、いいですよ。暑いですね。	Czy mogę otworzyć okno? Tak, jasne. Gorąco, prawda? (あけて = 開ける, otworzyć)	temoii sluchanie	すみません、まどを　あけてもいいですか。ええ、いいですよ。あついですね。

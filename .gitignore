@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Python
+anki/.venv/
+__pycache__/
+*.pyc
+
+# Generowane przez anki/build.py z anki/src/*.tsv.
+# Audio to systemowy głos Kyoko (licencja macOS: tylko użytek osobisty), więc nie publikujemy.
+anki/media/
+anki/out/
+
+# Kompilowane z anki/segment.swift
+anki/.segment
+
+# Lokalne ustawienia i sekrety
+.claude/settings.local.json
+.env
+.env.*

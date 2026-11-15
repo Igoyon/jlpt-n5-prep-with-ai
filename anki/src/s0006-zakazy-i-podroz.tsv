@@ -1,0 +1,19 @@
+#typ	id	słowo	czytanie	znaczenie	przykład	przykład_pl	tagi	przykład_do_audio	uwaga
+word	s0006-01	忘れる	わすれる	zapomnieć	かさを　忘れないでください。	Proszę nie zapomnieć parasola.	nai	かさを　わすれないでください。	Czasownik る: 忘れない, 忘れて.
+word	s0006-02	話す	はなす	mówić, rozmawiać	電車の　中で　電話で　話さないでください。	Proszę nie rozmawiać przez telefon w pociągu.	nai	でんしゃの　なかで　でんわで　はなさないでください。	す → さない, す → して.
+word	s0006-03	走る	はしる	biegać, biec	駅の　中で　走らないでください。	Proszę nie biegać na dworcu.	nai	えきの　なかで　はしらないでください。	Wygląda jak る, ale to u: 走らない, 走って.
+word	s0006-04	飲む	のむ	pić	お酒は　飲まない。	Alkoholu nie piję.	nai blad	おさけは　のまない。	Nie myl z 読む（よむ, czytać). 飲 ma radykał 食 (jedzenie). W 0009 ✗ 読む zamiast 飲む.
+word	s0006-05	読む	よむ	czytać	毎日　新聞を　読みます。	Codziennie czytam gazetę.	nai blad	毎日、新聞を　よみます。	Nie myl z 飲む（のむ, pić). 読 ma radykał 言 (mowa).
+word	s0006-06	飲み物	のみもの	napój	飲み物は　何に　しますか。	Co pan weźmie do picia?	nai	のみものは　なにに　しますか。	飲む + 物 (rzecz) = „rzecz do picia”. Tak samo 食べ物, 買い物.
+word	s0006-07	お酒	おさけ	alkohol; sake	お酒は　飲みません。	Nie piję alkoholu.	nai	おさけは　のみません。	Ogólnie „alkohol”, nie tylko sake.
+word	s0006-08	押す	おす	nacisnąć, pchać	この　ボタンを　押してください。	Proszę nacisnąć ten przycisk.	nai	この　ボタンを　おしてください。	す → して, す → さない. Na drzwiach: 押 = pchać.
+word	s0006-09	声	こえ	głos	大きい　声で　話さないでください。	Proszę nie mówić głośno.	nai	おおきい　こえで　はなさないでください。	大きい声で = głośno (dosł. dużym głosem).
+word	s0006-10	危ない	あぶない	niebezpieczny	危ないですから、入らないでください。	To niebezpieczne, więc proszę nie wchodzić.	nai	あぶないですから、はいらないでください。	Przymiotnik い. Krzyk 危ない！ = „uwaga!”.
+word	s0006-11	渡る	わたる	przejść (na drugą stronę)	ここで　道を　渡らないでください。	Proszę tu nie przechodzić przez ulicę.	nai	ここで　みちを　わたらないでください。	Czasownik u: 渡らない, 渡って. 橋を渡る = przejść przez most.
+word	s0006-12	泳ぐ	およぐ	pływać	この　海で　泳がないでください。	Proszę nie pływać w tym morzu.	nai	この　うみで　およがないでください。	ぐ → がない, ぐ → いで.
+word	s0006-13	海	うみ	morze	明日、海に　行かない？	Pójdziemy jutro nad morze?	nai	あした、うみに　いかない？	
+word	s0006-14	洗う	あらう	myć	ご飯の　前に　手を　洗います。	Przed jedzeniem myję ręce.	nai	ごはんの　まえに　てを　あらいます。	Na う: 洗わない (う → わ), 洗って.
+word	s0006-15	薬	くすり	lekarstwo	この　薬を　飲んでください。	Proszę wziąć to lekarstwo.	nai	この　くすりを　のんでください。	Lekarstwo się „pije”: 薬を飲む.
+word	s0006-16	病院	びょういん	szpital; przychodnia	明日、病院へ　行きます。	Jutro idę do lekarza.	nai	あした、びょういんへ　いきます。	Długie びょう. 美容院（びよういん）to fryzjer.
+word	s0006-17	脱ぐ	ぬぐ	zdjąć (buty, ubranie)	ここで　靴を　脱いでください。	Proszę tu zdjąć buty.	nai	ここで　くつを　ぬいでください。	ぐ → いで (jak 泳いで). Kapelusz i okulary zdejmuje się innym czasownikiem (とる).
+word	s0006-18	靴	くつ	buty	靴を　脱がないでください。	Proszę nie zdejmować butów.	nai	くつを　ぬがないでください。	Typowe w świątyni, ryokanie, domu: 靴を脱ぐ.

@@ -1,0 +1,21 @@
+#typ	id	tekst	wyjaśnienie	tagi	tekst_do_audio
+cloze	0011-01	朝、コーヒーを　{{c1::飲んだ::飲む → forma た}}。	Rano wypiłem kawę (forma zwykła). Forma た = forma て z た zamiast て: 飲んで → 飲んだ. Nie 読んだ (to 読む, czytać).	ta	あさ、コーヒーを　のんだ。
+cloze	0011-02	友達が　うちに　{{c1::来た::来る → forma た}}。	Przyszedł do mnie znajomy. 来る ma trzy czytania: くる, こない, きた (jak きて i きます). Nie ✗ こた.	ta	ともだちが　うちに　きた。
+cloze	0011-03	昨日は　どこにも　{{c1::行かなかった::行く → nie poszedłem (forma zwykła)}}。	Wczoraj nigdzie nie poszedłem. Forma ない odmienia się jak przymiotnik い: 行かない → 行かなかった. Grzecznie: 行きませんでした.	ta	きのうは　どこにも　いかなかった。
+cloze	0011-04	ご飯を　{{c1::食べたあとで::食べる → po}}、薬を　飲みます。	Po jedzeniu biorę lekarstwo. Przed あとで forma た (✗ 食べるあとで, ✗ 食べてあとで).	taato	ごはんを　たべた　あとで、くすりを　のみます。
+cloze	0011-05	仕事が　{{c1::終わったあとで::終わる → po (zdanie o przyszłości)}}、映画を　見ませんか。	Może po pracy pójdziemy do kina? Przed あとで forma た także w zdaniu o przyszłości: w tamtej chwili praca będzie już skończona. Czas pokazuje koniec zdania.	taato	しごとが　おわった　あとで、えいがを　みませんか。
+cloze	0011-06	授業{{c1::の::rzeczownik + ? + あとで}}　あとで、図書館へ　行きます。	Po zajęciach idę do biblioteki. Rzeczownik + の + あとで (tak samo: 授業の まえに). Po czasowniku bez の: 終わったあとで.	taato	授業の　あとで、図書館へ　行きます。
+cloze	0011-07	本を　{{c1::読んだ::読む → forma przed あとで}}あとで、寝ます。	Po przeczytaniu książki idę spać. Lustro: 寝るまえに (forma słownikowa), 読んだあとで (forma た).	taato mae	ほんを　よんだ　あとで、ねます。
+cloze	0011-08	週末は　本を　{{c1::読んだり::読む → m.in.}}、映画を　見たり　します。	W weekendy m.in. czytam książki i oglądam filmy. Forma た + り: 読んだり (✗ 読んでり).	tari	しゅうまつは　ほんを　よんだり、えいがを　みたり　します。
+cloze	0011-09	京都で　お寺を　見たり、買い物を　したり　{{c1::しました::koniec zdania po たり (przeszłość)}}。	W Kioto m.in. zwiedzałem świątynie i robiłem zakupy. Po ostatnim たり zawsze する; czas niesie tylko ono (✗ 見たり、買い物を しました).	tari	京都で　おてらを　みたり、かいものを　したり　しました。
+cloze	0011-10	日本へ　{{c1::行ったことがあります::行く → zdarzyło mi się}}。	Byłem kiedyś w Japonii. Forma た + ことがあります = doświadczenie. あります zostaje w czasie teraźniejszym.	takoto	にほんへ　いった　ことが　あります。
+cloze	0011-11	海で　{{c1::泳いだことがあります::泳ぐ → zdarzyło mi się}}。	Pływałem kiedyś w morzu. 泳ぐ → 泳いで → 泳いだ. „Umiem pływać” to forma słownikowa: 泳ぐことができます.	takoto	うみで　およいだ　ことが　あります。
+cloze	0011-12	富士山に　登ったことが　ありますか。― いいえ、{{c1::一度も::ani razu}}　ありません。	Wszedłeś kiedyś na Fuji? – Nie, ani razu. 一度も + przeczenie = ani razu (zero). Samo 一度 = raz. W 0011 ze słuchu いちども zamieniło się w „raz”.	takoto blad	ふじさんに　のぼった　ことが　ありますか。いいえ、いちども　ありません。
+cloze	0011-13	ここで　写真を　撮る{{c1::こと::czego brakuje przed が?}}が　できます。	Tu można robić zdjęcia. できます łączy się z rzeczownikiem (日本語が できます), a こと robi z czasownika rzeczownik: 撮る + こと + が できます. W 0011 napisałeś ✗ 話すができます.	koto blad	ここで　しゃしんを　とる　ことが　できます。
+cloze	0011-14	私は　漢字を　{{c1::読むことができます::読みます → umiem}}。	Umiem czytać kanji. Trzy klocki: forma słownikowa (読む) + こと + ができます. Nie ✗ 読むができます, nie ✗ 読みことが.	koto blad	わたしは　かんじを　よむ　ことが　できます。
+cloze	0011-15	この　切符で　新幹線に　{{c1::乗ることができます::乗る → można}}。	Z tym biletem można jechać shinkansenem. Forma słownikowa + ことができます = można／umiem. Z formą た i あります to co innego: 新幹線に 乗ったことがあります = jechałem kiedyś.	koto takoto	この　切符で　新幹線に　のる　ことが　できます。
+listen	0011-L1	沖縄へ　行ったことは　一度も　ありません。でも、北海道は　二回　行きました。	Na Okinawie nie byłem ani razu. Ale na Hokkaido byłem dwa razy. (いちども ありません = zero; にかい = dwa razy)	takoto sluchanie blad	沖縄へいった　ことは　いちども　ありません。でも、北海道は　二回　行きました。
+listen	0011-L2	京都へ　三回　行ったことが　あります。	Byłem w Kioto trzy razy. (いっかい, にかい, さんかい = raz, dwa, trzy razy)	takoto sluchanie blad	京都へ　三回　いった　ことが　あります。
+listen	0011-L3	この　薬は　ご飯を　食べた　あとで　飲んでください。	Proszę brać to lekarstwo po jedzeniu. (食べたあとで = po zjedzeniu)	taato sluchanie	この　くすりは　ごはんを　たべた　あとで　のんでください。
+listen	0011-L4	昨日の　映画、見た？― うん、見た。	Widziałeś wczorajszy film? – No, widziałem. (potocznie: 見た？ = 見ましたか, うん = はい)	ta sluchanie	きのうの　えいが、みた？うん、みた。
+listen	0011-L5	休みの　日は　掃除を　したり、友達に　会ったり　します。	W wolne dni m.in. sprzątam i spotykam się ze znajomymi. (～たり～たりします = przykłady czynności)	tari sluchanie	やすみの　ひは　そうじを　したり、ともだちに　あったり　します。

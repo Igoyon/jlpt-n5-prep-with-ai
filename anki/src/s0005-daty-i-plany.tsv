@@ -1,0 +1,21 @@
+#typ	id	słowo	czytanie	znaczenie	przykład	przykład_pl	tagi	przykład_do_audio	uwaga
+word	s0005-01	誕生日	たんじょうび	urodziny	誕生日は　いつですか。	Kiedy masz urodziny?	daty	たんじょうびは　いつですか。	Długie じょう. Przy です bez に: 誕生日は　七月七日です.
+word	s0005-02	いつ	いつ	kiedy	いつ　日本へ　行きますか。	Kiedy jedziesz do Japonii?	daty	いつ　日本へ　行きますか。	Zawsze bez に (✗ いつに). Nie myl z いつか (5. dzień miesiąca).
+word	s0005-03	今週	こんしゅう	w tym tygodniu	今週は　忙しいです。	W tym tygodniu jestem zajęty.	daty	こんしゅうは　いそがしいです。	Bez に. 今 czyta się tu こん, jak w 今月, 今晩.
+word	s0005-04	来週	らいしゅう	w przyszłym tygodniu	来週　京都へ　行きます。	W przyszłym tygodniu jadę do Kioto.	daty	来週　京都へ　行きます。	来 = przyszły: 来週, 来月, 来年. Bez に.
+word	s0005-05	先週	せんしゅう	w zeszłym tygodniu	先週　友達に　会いました。	W zeszłym tygodniu spotkałem się z kolegą.	daty	先週　友達に　あいました。	先 = poprzedni: 先週, 先月. Ale „zeszły rok” to 去年.
+word	s0005-06	来月	らいげつ	w przyszłym miesiącu	来月、日本へ　行きます。	W przyszłym miesiącu jadę do Japonii.	daty	らいげつ、にほんへ　いきます。	月 jako „miesiąc” po 来／先／今 czyta się げつ (nie がつ, to nazwy miesięcy).
+word	s0005-07	先月	せんげつ	w zeszłym miesiącu	先月　大阪へ　行きました。	W zeszłym miesiącu byłem w Osace.	daty	せんげつ　おおさかへ　いきました。	げつ, jak 来月, 今月（こんげつ）.
+word	s0005-08	今年	ことし	w tym roku	今年の　十二月に　試験が　あります。	W grudniu tego roku mam egzamin.	daty	ことしの　じゅうにがつに　しけんが　あります。	Czytanie nieregularne: ことし (nie こんねん).
+word	s0005-09	来年	らいねん	w przyszłym roku	来年　また　来ます。	Przyjadę znowu w przyszłym roku.	daty	らいねん　また　きます。	Bez に. また = znowu.
+word	s0005-10	去年	きょねん	w zeszłym roku	去年　日本へ　行きました。	W zeszłym roku byłem w Japonii.	daty	去年　日本へ　行きました。	Nie 先年: zeszły rok to 去年.	去年
+word	s0005-11	おととい	おととい	przedwczoraj	おととい　東京に　着きました。	Przedwczoraj przyjechałem do Tokio.	daty	おととい　東京に　つきました。	Rząd: おととい・昨日・今日・明日・あさって.
+word	s0005-12	あさって	あさって	pojutrze	あさって　大阪へ　行きます。	Pojutrze jadę do Osaki.	daty	あさって　おおさかへ　いきます。	Nie myl z 朝（あさ）, rano.
+word	s0005-13	毎週	まいしゅう	co tydzień	毎週　日曜日に　テニスを　します。	Co tydzień w niedzielę gram w tenisa.	daty	毎週　日曜日に　テニスを　します。	毎 = każdy: 毎日, 毎朝, 毎週, 毎月（まいつき）.
+word	s0005-14	夏休み	なつやすみ	wakacje letnie	夏休みに　日本へ　行きます。	W wakacje jadę do Japonii.	daty	なつやすみに　にほんへ　いきます。	夏（なつ）+ 休み. Z に, jak konkretny okres w kalendarzu.
+word	s0005-15	旅行	りょこう	podróż	来月、京都へ　旅行に　行きます。	W przyszłym miesiącu jadę na wycieczkę do Kioto.	daty	来月、京都へ　旅行に　行きます。	Długie こう. 旅行を　する = podróżować.
+word	s0005-16	パーティー	パーティー	impreza, przyjęcie	土曜日に　パーティーが　あります。	W sobotę jest impreza.	daty	どようびに　パーティーが　あります。	Wydarzenie „jest”: が　あります (nie います).
+word	s0005-17	テスト	テスト	test, sprawdzian	明日　テストが　あります。	Jutro jest sprawdzian.	daty	あした　テストが　あります。	Na N5 też 試験（しけん）, ale to słowo z N4.
+word	s0005-18	カレンダー	カレンダー	kalendarz	カレンダーを　見てください。	Proszę spojrzeć na kalendarz.	daty	カレンダーを　みてください。	Długie ダー.
+word	s0005-19	忙しい	いそがしい	zajęty	今週は　ちょっと　忙しいです。	W tym tygodniu jestem trochę zajęty.	daty	こんしゅうは　ちょっと　いそがしいです。	Przymiotnik い: 忙しくない, 忙しかった. Przeciwieństwo: ひま（な）.
+word	s0005-20	見せる	みせる	pokazywać	すみません、メニューを　見せてください。	Przepraszam, proszę pokazać menu.	daty blad	すみません、メニューを　みせてください。	Czasownik る: 見せて. Nie myl z 見る (patrzeć) → 見て. W 0008 ✗ 見てください zamiast 見せてください.

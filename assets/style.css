@@ -1,0 +1,155 @@
+/* Wspólny arkusz stylów kursu JLPT N5 — lekcje i dokumenty referencyjne */
+
+:root {
+  --bg: #fffff8;
+  --ink: #1f1f1c;
+  --muted: #6b6a63;
+  --rule: #d9d6c8;
+  --panel: #f4f2e7;
+  --accent: #a3321d;      /* czerwień hanko */
+  --ok: #2d6a3e;
+  --ok-bg: #e5f0e3;
+  --bad: #9b2c2c;
+  --bad-bg: #f6e3df;
+  --i-adj: #1d5f8a;       /* kolor przymiotników い */
+  --na-adj: #8a5a1d;      /* kolor przymiotników な */
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --jp: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif;
+  --jp-sans: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1b1a17; --ink: #e9e6da; --muted: #a3a092; --rule: #3a3833; --panel: #25241f;
+    --accent: #e0785f; --ok: #8fcf9c; --ok-bg: #22362a; --bad: #f0a097; --bad-bg: #3d2522;
+    --i-adj: #7cb7e0; --na-adj: #e0b27c;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #1b1a17; --ink: #e9e6da; --muted: #a3a092; --rule: #3a3833; --panel: #25241f;
+  --accent: #e0785f; --ok: #8fcf9c; --ok-bg: #22362a; --bad: #f0a097; --bad-bg: #3d2522;
+  --i-adj: #7cb7e0; --na-adj: #e0b27c;
+}
+
+* { box-sizing: border-box; }
+html { font-size: 18px; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font-family: var(--serif); line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+main { max-width: 44rem; margin: 0 auto; padding: 2.5rem 16px 5rem; }
+
+/* Typografia */
+h1 { font-weight: 400; font-size: 2.1rem; line-height: 1.2; margin: 0.2rem 0 0.4rem; }
+h2 { font-weight: 400; font-style: italic; font-size: 1.45rem; margin: 3rem 0 0.8rem; border-top: 1px solid var(--rule); padding-top: 1.6rem; }
+h3 { font-weight: 600; font-size: 1.05rem; margin: 2rem 0 0.5rem; }
+p, li { max-width: 38rem; }
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+.kicker { font-variant: small-caps; letter-spacing: 0.08em; color: var(--muted); font-size: 0.9rem; }
+.lede { font-size: 1.12rem; color: var(--muted); }
+.jp, [lang="ja"] { font-family: var(--jp); }
+.jp-big { font-family: var(--jp); font-size: 1.5rem; }
+small, .muted { color: var(--muted); }
+hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
+
+/* Nawigacja */
+nav.crumbs { font-size: 0.85rem; color: var(--muted); display: flex; gap: 1rem; flex-wrap: wrap; }
+nav.crumbs a { color: var(--muted); }
+.toolbar { display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap; font-size: 0.85rem; color: var(--muted); margin: 1rem 0 0; }
+
+/* Cel lekcji */
+.goal { background: var(--panel); border-left: 3px solid var(--accent); padding: 0.9rem 1.1rem; margin: 1.5rem 0; }
+.goal strong { font-weight: 600; }
+
+/* Tabele */
+table { border-collapse: collapse; width: 100%; margin: 1rem 0 1.5rem; font-size: 0.95rem; }
+th, td { text-align: left; padding: 0.45rem 0.6rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font-weight: 600; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
+td.jp, td [lang="ja"] { font-size: 1.05rem; }
+.table-wrap { overflow-x: auto; }
+.i-adj { color: var(--i-adj); }
+.na-adj { color: var(--na-adj); }
+mark { background: none; color: var(--accent); font-weight: 600; }
+
+/* Notatki na marginesie (inline na wąskich ekranach) */
+.side { display: block; font-size: 0.82rem; color: var(--muted); border-left: 2px solid var(--rule); padding-left: 0.7rem; margin: 0.5rem 0 1rem; }
+@media (min-width: 1440px) {
+  .side { float: right; clear: right; width: 13rem; margin: 0 -15rem 1rem 0; border-left: 0; padding-left: 0; }
+}
+
+/* Pułapki */
+.trap { border: 1px solid var(--rule); border-radius: 6px; padding: 0.8rem 1rem; margin: 1rem 0; }
+.trap::before { content: "⚠ Pułapka"; display: block; font-variant: small-caps; letter-spacing: 0.06em; color: var(--accent); font-size: 0.85rem; margin-bottom: 0.2rem; }
+
+/* Pytania */
+.q { margin: 1.4rem 0; padding: 1rem 1.1rem; background: var(--panel); border-radius: 8px; }
+.q .prompt { margin: 0 0 0.7rem; font-size: 1.05rem; }
+.q .prompt .jp, .q .prompt [lang="ja"] { font-size: 1.2rem; }
+.q .num { color: var(--muted); font-size: 0.85rem; margin-right: 0.4rem; }
+.opts { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 0.5rem; }
+.opts.two { grid-template-columns: 1fr 1fr; max-width: 16rem; }
+.opts button, .typed button, .btn {
+  font: inherit; font-size: 1rem; color: var(--ink); background: var(--bg);
+  border: 1px solid var(--rule); border-radius: 6px; padding: 0.5rem 0.7rem; cursor: pointer; text-align: left;
+}
+.opts button { font-family: var(--jp), var(--serif); }
+.opts button:hover:not(:disabled), .btn:hover { border-color: var(--ink); }
+.opts button:disabled { cursor: default; }
+.opts button.ok { background: var(--ok-bg); border-color: var(--ok); color: var(--ok); }
+.opts button.bad { background: var(--bad-bg); border-color: var(--bad); color: var(--bad); text-decoration: line-through; }
+.why { display: none; margin: 0.8rem 0 0; font-size: 0.92rem; }
+.q.done .why { display: block; }
+.transcript { display: none; font-family: var(--jp); margin: 0.6rem 0 0; }
+.q.done .transcript { display: block; }
+
+.typed .row { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.typed input {
+  font-family: var(--jp); font-size: 1.15rem; flex: 1 1 14rem; min-width: 0;
+  padding: 0.45rem 0.6rem; border: 1px solid var(--rule); border-radius: 6px; background: var(--bg); color: var(--ink);
+}
+.typed input.ok { border-color: var(--ok); background: var(--ok-bg); }
+.typed input.bad { border-color: var(--bad); background: var(--bad-bg); }
+.feedback { margin: 0.6rem 0 0; font-size: 0.92rem; min-height: 1.2em; }
+.feedback.ok { color: var(--ok); }
+.feedback.bad { color: var(--bad); }
+
+/* Audio */
+button.say {
+  font: inherit; font-size: 0.85rem; border: 1px solid var(--rule); background: var(--bg); color: var(--ink);
+  border-radius: 999px; padding: 0.1rem 0.6rem; cursor: pointer; vertical-align: middle;
+}
+button.say:hover { border-color: var(--accent); color: var(--accent); }
+button.say.big { font-size: 1rem; padding: 0.35rem 0.9rem; margin-bottom: 0.6rem; }
+
+/* Podsumowanie */
+.summary { position: sticky; bottom: 0; background: var(--bg); border-top: 1px solid var(--rule); padding: 0.6rem 0; font-size: 0.9rem; display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; }
+.summary .score { font-variant-numeric: tabular-nums; }
+
+/* Źródło i pytania do nauczyciela */
+.source, .ask { border: 1px solid var(--rule); border-radius: 8px; padding: 1rem 1.1rem; margin: 1.5rem 0; }
+.source::before { content: "Źródło główne"; }
+.ask::before { content: "Masz pytanie?"; }
+.source::before, .ask::before { display: block; font-variant: small-caps; letter-spacing: 0.06em; color: var(--muted); font-size: 0.85rem; margin-bottom: 0.3rem; }
+
+/* Druk (dokumenty referencyjne) */
+@media print {
+  :root { --bg: #fff; --ink: #000; --panel: #f3f3f3; }
+  html { font-size: 11pt; }
+  main { max-width: none; padding: 0; }
+  nav.crumbs, .toolbar, .summary, button.say { display: none !important; }
+  h2 { margin-top: 1.2rem; padding-top: 0.6rem; break-after: avoid; }
+  table, .trap { break-inside: avoid; }
+  a { color: inherit; text-decoration: none; }
+}
+
+/* Kalendarz miesiąca: siatka 7 kolumn, każdy dzień z czytaniem (lekcja 0008, ściąga daty) */
+.cal { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; margin: 1rem 0 1.5rem; font-size: 0.8rem; }
+.cal > div { background: var(--panel); border-radius: 4px; padding: 0.35rem 0.3rem; min-height: 3.2rem; line-height: 1.25; }
+.cal .wd { background: none; min-height: 0; font-family: var(--jp); text-align: center; color: var(--muted); padding: 0.2rem 0; }
+.cal .wd.sun, .cal .d.sun .n { color: var(--accent); }
+.cal .d .n { font-weight: 600; font-family: var(--jp); display: block; }
+.cal .d .r { font-family: var(--jp); color: var(--muted); font-size: 0.72rem; display: block; }
+.cal .d.sp .r { color: var(--accent); }
+.cal .d.today { outline: 2px solid var(--accent); }
+.cal .empty { background: none; }
+@media (max-width: 520px) { .cal { font-size: 0.68rem; } .cal .d .r { font-size: 0.6rem; } }
