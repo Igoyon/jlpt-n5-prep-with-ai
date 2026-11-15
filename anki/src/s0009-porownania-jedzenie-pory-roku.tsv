@@ -1,0 +1,21 @@
+#typ	id	słowo	czytanie	znaczenie	przykład	przykład_pl	tagi	przykład_do_audio	uwaga	słowo_do_audio
+word	s0009-01	肉	にく	mięso	私は　肉より　魚の　ほうが　好きです。	Wolę ryby niż mięso.	houga	わたしは　肉より　魚の　ほうが　すきです。	牛肉（ぎゅうにく）= wołowina, 豚肉（ぶたにく）= wieprzowina.
+word	s0009-02	魚	さかな	ryba	この　店は　魚が　いちばん　おいしいです。	W tej restauracji najlepsze są ryby.	ichiban	この　みせは　魚が　いちばん　おいしいです。
+word	s0009-03	野菜	やさい	warzywa	毎日　野菜を　食べなければなりません。	Trzeba codziennie jeść warzywa.	nakereba	毎日　野菜を　たべなければなりません。
+word	s0009-04	果物	くだもの	owoce	果物の　中で　何が　いちばん　好きですか。	Jaki owoc lubisz najbardziej?	ichiban	くだものの　なかで　なにが　いちばん　すきですか。
+word	s0009-05	紅茶	こうちゃ	herbata czarna	コーヒーと　紅茶と　どちらが　好きですか。	Co wolisz, kawę czy herbatę?	houga	コーヒーと　こうちゃと　どちらが　すきですか。	お茶（おちゃ）= herbata zielona albo herbata ogólnie.
+word	s0009-06	春	はる	wiosna	春は　冬より　暖かいです。	Wiosną jest cieplej niż zimą.	yori	春は　冬より　あたたかいです。		ハル
+word	s0009-07	夏	なつ	lato	一年で　夏が　いちばん　暑いです。	W roku najgoręcej jest latem.	ichiban	いちねんで　なつが　いちばん　あついです。	夏休み（なつやすみ）= wakacje letnie.
+word	s0009-08	秋	あき	jesień	春と　秋と　どちらが　好きですか。	Co wolisz, wiosnę czy jesień?	houga	春と　秋と　どちらが　すきですか。
+word	s0009-09	冬	ふゆ	zima	北海道の　冬は　東京の　冬より　寒いです。	Zima na Hokkaido jest zimniejsza niż w Tokio.	yori	北海道の　冬は　東京の　冬より　さむいです。
+word	s0009-10	犬	いぬ	pies	猫より　犬の　ほうが　好きです。	Wolę psy niż koty.	houga	ねこより　いぬの　ほうが　すきです。
+word	s0009-11	猫	ねこ	kot	この　猫は　その　猫より　小さいです。	Ten kot jest mniejszy od tamtego.	yori	この　ねこは　その　ねこより　ちいさいです。
+word	s0009-12	鳥	とり	ptak	動物の　中で　鳥が　いちばん　好きです。	Ze zwierząt najbardziej lubię ptaki.	ichiban	どうぶつの　なかで　とりが　いちばん　すきです。	動物（どうぶつ）= zwierzę. とり肉（とりにく）= kurczak, drób.
+word	s0009-13	地下鉄	ちかてつ	metro	地下鉄は　バスより　速いです。	Metro jest szybsze niż autobus.	yori	地下鉄は　バスより　速いです。
+word	s0009-14	速い	はやい	szybki	電車と　バスと　どちらが　速いですか。	Co jest szybsze, pociąg czy autobus?	houga	でんしゃと　バスと　どちらが　速いですか。	速い = szybki (prędkość), 早い = wczesny (pora). Czytanie to samo.	ハヤイ
+word	s0009-15	若い	わかい	młody	クラスで　だれが　いちばん　若いですか。	Kto jest najmłodszy w klasie?	ichiban	クラスで　だれが　いちばん　わかいですか。
+word	s0009-16	少し	すこし	trochę	今日は　昨日より　少し　寒いです。	Dziś jest trochę zimniej niż wczoraj.	yori	今日は　きのうより　すこし　さむいです。	Potocznie ちょっと. Stoi przed przymiotnikiem albo czasownikiem.
+word	s0009-17	背	せ	wzrost (dosłownie: plecy)	田中さんは　山田さんより　背が　高いです。	Pan Tanaka jest wyższy od pana Yamady.	yori	たなかさんは　やまださんより　背が　たかいです。	背が 高い = wysoki, 背が 低い（ひくい）= niski.	セ
+word	s0009-18	難しい	むずかしい	trudny	漢字は　ひらがなより　難しいです。	Kanji są trudniejsze od hiragany.	yori	かんじは　ひらがなより　むずかしいです。	Przeciwieństwo: 易しい（やさしい）= łatwy.
+word	s0009-19	近い	ちかい	bliski, blisko	この　ホテルは　駅から　いちばん　近いです。	Ten hotel jest najbliżej stacji.	ichiban	この　ホテルは　えきから　いちばん　ちかいです。	駅から 近い = blisko stacji (dosłownie „od stacji”). 近く = okolica: うちの 近く.
+word	s0009-20	遠い	とおい	daleki, daleko	空港は　駅より　遠いです。	Lotnisko jest dalej niż stacja.	yori	空港は　駅より　遠いです。	Przeciwieństwo: 近い. Długie お: とおい.	遠い

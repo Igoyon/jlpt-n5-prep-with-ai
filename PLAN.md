@@ -32,7 +32,7 @@ Mniej więcej 5 lekcji w tygodniu. Dzień bez lekcji = samo słuchanie i powtór
 | 3 | 12–18.10 | ～てもいいです／～てはいけません · łączenie zdań przez て · daty i kalendarz (曜日, dni miesiąca) |
 | 4–5 | 19.10–01.11 | Przerwa 18.10–31.10 (0008 zrobiona 01.11). Plan przesunięty o ~1,5 tygodnia, tematy z tygodni 4–7 ściśnięte w dwa tygodnie niżej |
 | 6 | 02–08.11 | 0009 forma słownikowa i ない · ～ないでください (02.11). Potem przerwa 03–08.11, 0010 przeniesiona na 09.11 |
-| 7 | 09–15.11 | 09.11 0010 ～なければなりません · ～ことができます · ～まえに · 10.11 0011 forma た · ～たあとで · ～たり～たり · ～たことがあります. Przerwa 11–13.11 (0012 napisana 10.11, nieprzerobiona). Powrót 14.11: 0012 porównania (より, ほうが, いちばん) · 15.11 0013 liczniki (～つ, ～人, ～本, ～枚, ～匹, ～回) |
+| 7 | 09–15.11 | 09.11 0010 ～なければなりません · ～ことができます · ～まえに · 10.11 0011 forma た · ～たあとで · ～たり～たり · ～たことがあります. Przerwa 11–13.11 (0012 napisana 10.11, nieprzerobiona). Powrót 14.11: 0012 porównania (より, ほうが, いちばん), oddana 15.11 (29/32) · 15.11 0013 liczniki (～つ, ～人, ～本, ～枚, ～匹, ～回) |
 | 8 | 16–22.11 | 16.11 0014 ～たい · ～がほしい · ～に行く · 17.11 0015 ～とき · でしょう · もう／まだ · 18.11 0016 から／が · こ・そ・あ・ど · 19.11 lekcja powtórkowa z całej gramatyki · 20–21.11 **pełny test próbny #1** · 22.11 omówienie testu, łatanie dziur |
 | 9 | 23–29.11 | Łatanie dziur z testu #1, intensywne słuchanie, strategie czytania i słuchania · **test próbny #2** (ok. 27.11) |
 | 10 | 30.11–06.12 | Lekka powtórka · **test #3 najpóźniej w środę 02.12** · potem odpoczynek |

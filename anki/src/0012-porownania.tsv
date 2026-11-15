@@ -1,0 +1,19 @@
+#typ	id	tekst	wyjaśnienie	tagi	tekst_do_audio
+cloze	0012-01	新幹線は　バス{{c1::より::niż}}　速いです。	Shinkansen jest szybszy niż autobus. A は B より + przymiotnik: より stoi po tym, co przegrywa. Przymiotnik się nie zmienia.	yori	しんかんせんは　バスより　速いです。
+cloze	0012-02	昨日は　今日より　{{c1::寒かったです::寒い → było}}。	Wczoraj było zimniej niż dziś. Czas niesie przymiotnik na końcu, より się nie zmienia.	yori	きのうは　今日より　さむかったです。
+cloze	0012-03	この　かばんは　その　かばんより　{{c1::少し::trochę}}　高いです。	Ta torba jest trochę droższa od tamtej. 少し stoi tuż przed przymiotnikiem, po より.	yori	この　かばんは　その　かばんより　すこし　たかいです。
+cloze	0012-04	肉と　魚と　{{c1::どちら::który z dwojga}}が　好きですか。	Co wolisz, mięso czy ryby? Dwie rzeczy → どちら (potocznie どっち). が stoi już w zdaniu za luką: w 0012 wpisałeś どちらが. Czytaj zdanie do końca, zanim wpiszesz.	houga blad	肉と　魚と　どちらが　すきですか。
+cloze	0012-05	私は　肉より　魚{{c1::のほうが::(z dwojga) bardziej}}　好きです。	Wolę ryby niż mięso. Zwycięzca dostaje の ほうが. より można pominąć: 魚の ほうが 好きです.	houga yori	わたしは　肉より　魚の　ほうが　すきです。
+cloze	0012-06	コーヒーと　紅茶と　どちらが　好きですか。― {{c1::どちらも::oba}}　好きです。	Co wolisz, kawę czy herbatę? – Lubię obie. どちらも + zdanie twierdzące = oba; z przeczeniem = żadne (どちらも 好きじゃありません).	houga	コーヒーと　こうちゃと　どちらが　すきですか。どちらも　すきです。
+cloze	0012-07	田中さんと　山田さんと　{{c1::どちら::kto z dwojga}}が　背が　高いですか。	Kto jest wyższy, pan Tanaka czy pan Yamada? Przy porównaniu dwóch osób też どちら, nie だれ.	houga	たなかさんと　やまださんと　どちらが　背が　たかいですか。
+cloze	0012-08	日本で　どこが　{{c1::いちばん::naj-}}　きれいですか。	Gdzie w Japonii jest najładniej? Trzy i więcej → いちばん + przymiotnik. Odpowiedź: 京都が いちばん きれいです.	ichiban	日本で　どこが　いちばん　きれいですか。
+cloze	0012-09	果物{{c1::の中で::spośród}}　何が　いちばん　好きですか。	Jaki owoc lubisz najbardziej? Grupa rzeczy + の 中で. Miejsce i okres samo で: 日本で, 一年で.	ichiban	くだものの　なかで　なにが　いちばん　すきですか。
+cloze	0012-10	一年{{c1::で::partykuła zakresu}}　いつが　いちばん　暑いですか。	Kiedy w roku jest najgoręcej? で wyznacza zakres, w którym szukasz „naj”. Odpowiedź: 八月が いちばん 暑いです.	ichiban	いちねんで　いつが　いちばん　あついですか。
+cloze	0012-11	富士山は　日本で　{{c1::いちばん高い::najwyższa}}　山です。	Fuji to najwyższa góra w Japonii. いちばん + przymiotnik + rzeczownik.	ichiban	ふじさんは　日本で　いちばん　たかい　やまです。
+cloze	0012-12	コーヒーと　紅茶と　ジュースの　中で　{{c1::どれ::który (z trzech)}}が　いちばん　好きですか。	Co lubisz najbardziej: kawę, herbatę czy sok? Dwie rzeczy → どちら, trzy i więcej → どれ.	ichiban houga	コーヒーと　こうちゃと　ジュースの　なかで　どれが　いちばん　すきですか。
+cloze	0012-13	クラスで　だれ{{c1::が::partykuła po pytajniku}}　いちばん　若いですか。	Kto jest najmłodszy w klasie? Po pytajniku zawsze が, nigdy は (だれが, どちらが, いつが, 何が). W odpowiedzi też が: 田中さんが いちばん 若いです.	ichiban	クラスで　だれが　いちばん　わかいですか。
+listen	0012-L1	一年で　いつが　いちばん　忙しいですか。― 十二月が　いちばん　忙しいです。	Kiedy w roku jest pan najbardziej zajęty? – W grudniu. (じゅうにがつ = grudzień, じゅういちがつ = listopad; w 0012 usłyszałeś listopad)	ichiban sluchanie blad	いちねんで　いつが　いちばん　いそがしいですか。十二月が　いちばん　いそがしいです。
+listen	0012-L2	テストは　十一月じゃなくて、十二月です。	Test jest nie w listopadzie, tylko w grudniu. (じゅういちがつ = 11, じゅうにがつ = 12)	daty sluchanie blad	テストは　十一月じゃなくて、十二月です。
+listen	0012-L3	猫と　犬と、どっちが　好き？― 犬の　ほうが　好き！でも、鳥が　いちばん　好き。	Wolisz koty czy psy? – Psy! Ale najbardziej lubię ptaki. (po でも pada właściwa odpowiedź: いちばん = ptaki; w 0012 wybrałeś psy)	ichiban houga sluchanie blad	ねこと　いぬと、どっちが　すき？いぬの　ほうが　すき！でも、とりが　いちばん　すき。
+listen	0012-L4	今日は　昨日より　暖かいですね。	Dziś jest cieplej niż wczoraj. (czyli zimniej było wczoraj; より stoi po tym, co przegrywa)	yori sluchanie	今日は　きのうより　あたたかいですね。
+listen	0012-L5	空港まで　電車の　ほうが　速いです。でも、バスの　ほうが　安いですよ。	Na lotnisko szybciej jest pociągiem. Ale autobus jest tańszy. (dwa porównania: szybciej pociąg, taniej autobus)	houga sluchanie	くうこうまで　でんしゃの　ほうが　速いです。でも、バスの　ほうが　やすいですよ。
