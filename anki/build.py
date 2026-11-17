@@ -46,6 +46,10 @@ Pułapki zapisu kaną (sama hiragana nie ma granic słów, syntezator zgaduje po
   Pisz 今日は: po kanji granica słowa jest pewna i po partykule jest pauza (今日は　きのうより　あたたかいですね).
   To samo w data-say w lekcjach. Tak samo zlewa się くうこうは　えきより (pisz 空港は　駅より); きのうは　今日より jest dobre.
   Wykrywanie: długość nagrania z は i z わ w tym samym miejscu różni się o więcej niż ok. 0,08 s.
+- liczniki kaną w środku zdania i przed います: にひきと Kyoko wycisza prawie do zera, a w いっぴき　います gubi morę
+  (うちに　ねこが　にひきと　いぬが　いっぴき　います nie dało się zrozumieć). .segment wygląda dobrze i długość całego
+  zdania jest taka sama jak w kanji, więc widać to dopiero na obwiedni głośności: anki/.venv/bin/python anki/envelope.py "kana" "kanji".
+  Pisz kanji: 猫が　二匹と　犬が　一匹　います. To samo w data-say w lekcjach.
 Podział słów syntezatora pokazuje anki/segment.swift (instrukcja w pliku); „は | つか” albo „と | おか” = błąd.
 Sam .segment nie wystarcza (えいがかんへ wyglądało dobrze, a brzmiało źle): nagrania z nowej talii warto przepuścić
 przez rozpoznawanie mowy (model whisper large-v3-turbo, language="ja"; mlx-whisper liczy ok. 1,5 s na plik,

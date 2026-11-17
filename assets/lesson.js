@@ -31,7 +31,7 @@
  *   data-register="plain" → oczekiwana forma zwykła zamiast grzecznej
  *   te = forma łącząca (寒くて, 静かで, よくて); podpowiada przy ✗ 静かくて, ✗ 安いで, ✗ いくて, ✗ 寒くで.
  *   Odmiana czasownika (odpowiedzi i typowe błędy generowane automatycznie):
- *   <div class="q typed" data-id="t3" data-verb="書く|かく" data-group="u|ru|irr" data-form="te|ta|kudasai|teimasu|temoii|tewaikenai|nai|naide|nakereba|dict|koto|mae|taato|tari|takoto"></div>
+ *   <div class="q typed" data-id="t3" data-verb="書く|かく" data-group="u|ru|irr" data-form="te|ta|kudasai|teimasu|temoii|tewaikenai|nai|naide|nakereba|dict|koto|mae|taato|tari|takoto|tai|takunai|takatta|ni"></div>
  *   u = godan (行く obsłużone jako wyjątek), ru = ichidan, irr = する／来る (też 勉強する).
  *   kudasai = forma て + ください (przyjmuje też 下さい; podpowiada przy samym て i przy ✗ 待ちください).
  *   teimasu = forma て + います (podpowiada przy samym て, przy zwykłym ている i przy ✗ 読みています).
@@ -55,6 +55,11 @@
  *   tari = forma た + り (読んだり, 見たり, したり); podpowiada przy ✗ 読んでり, ✗ 読むたり, ✗ 読みたり, samej formie た i て.
  *   takoto = forma た + ことがあります (przyjmuje też 事, ～か); podpowiada przy formie słownikowej (to wzór ～ことができます),
  *   ✗ ～たことができます, braku が, zwykłym ～たことがある, ✗ ～たことがありました, ✗ ～ましたことが i formie て.
+ *   tai／takunai／takatta = rdzeń formy ます + たいです／たくないです (też たくありません)／たかったです; podpowiada przy formie
+ *   słownikowej i て przed たい, ✗ 飲みますたい, złym rdzeniu (✗ 食べりたい, ✗ 飲またい), formie zwykłej, ✗ たいじゃないです,
+ *   ✗ たいでした, ✗ ～がほしいです po czasowniku i przy samym ～ます／～ません／～ました.
+ *   ni = rdzeń formy ます + に (cel ruchu: 買いに 行きます; する z rzeczownikiem też 勉強に); podpowiada przy formie słownikowej
+ *   i て, braku に, innej partykule (へ／を／で) i gdy wpisano też czasownik ruchu, który stoi za luką.
  *   Czytanie daty (odpowiedź hiraganą; typowe błędy generowane automatycznie):
  *   <div class="q typed" data-id="t4" data-date="4/8"></div>     → しがつようか
  *   data-date="4/" → sam miesiąc (しがつ), data-date="/8" → sam dzień (ようか), data-date="12/24" → じゅうにがつにじゅうよっか.
@@ -65,7 +70,8 @@
  *   Liczniki: tsu (～つ), nin (～人), hon (～本), mai (～枚), hiki (～匹), kai (～回). data-count="?/hon" → pytajnik (なんぼん, いくつ).
  *   Przyjmuje warianty (はっぽん／はちほん, じゅっぽん／じっぽん, ななにん／しちにん). Podpowiada przy ✗ さんつ, dniu miesiąca
  *   zamiast sztuk (みっか), ✗ いちにん, ✗ よんにん, braku zmiany brzmienia (✗ さんほん, ✗ いちかい), ✗ さんがい (piętro),
- *   złym liczniku (さんまい zamiast さんぼん) i gdy wpisano kanji albo cyfry. N5.Counters.read(n, "hon") zwraca czytanie.
+ *   złym liczniku (さんまい zamiast さんぼん), ✗ いちど przy 一回 i gdy wpisano kanji albo cyfry. Przy ～つ zapis 三つ jest
+ *   przyjmowany (IME podstawia go z みっつ, a prompt nie pokazuje kanji). N5.Counters.read(n, "hon") zwraca czytanie.
  *   data-near działa też przy data-adj/data-verb/data-date/data-count. data-hint="…" → podpowiedź po błędzie bez dopasowania
  *   (przy data-verb domyślnie reguła dla końcówki).
  *
@@ -223,8 +229,21 @@
       if (this.isAru(word)) return ["ない"];
       return [word.slice(0, -1) + this.A_ROW[word.slice(-1)] + "ない"];
     },
+    // Rdzenie formy ます z wariantem kaną dla 来る (来／き).
+    stems(word, group) {
+      const s = [this.masuStem(word, group)];
+      if (group === "irr" && word.endsWith("来る")) s.push(word.slice(0, -2) + "き");
+      return s;
+    },
+    TAI: { tai: ["たいです"], takunai: ["たくないです", "たくありません"], takatta: ["たかったです"] },
     form(word, group, form) {
       if (form === "dict") return [word];
+      if (this.TAI[form]) return this.stems(word, group).flatMap(s => this.TAI[form].map(e => s + e));
+      if (form === "ni") {
+        const out = this.stems(word, group).map(s => s + "に");
+        if (group === "irr" && word.endsWith("する") && word.length > 2) out.push(word.slice(0, -2) + "に"); // 勉強に, 買い物に
+        return out;
+      }
       if (form === "nai") return this.nai(word, group);
       if (form === "nakereba") return this.nai(word, group).flatMap(n => {
         const s = n.slice(0, -1); // 飲まな
@@ -256,6 +275,7 @@
       if (form === "nai" || form === "naide" || form === "nakereba") return this.nearNai(word, group, form);
       if (form === "koto" || form === "mae") return this.nearDict(word, group, form);
       if (form === "taato" || form === "tari" || form === "takoto") return this.nearTa(word, group, form);
+      if (this.TAI[form] || form === "ni") return this.nearStem(word, group, form);
       if (form === "dict") {
         const bad = this.masuStem(word, group) + "る";
         return group !== "u" ? [] : [[bad, `Forma słownikowa czasownika u kończy się na rzędzie う: ${this.masuStem(word, group)} → ${word}.`]];
@@ -441,7 +461,59 @@
       const seen = new Set(ok);
       return out.filter(([a]) => !seen.has(a) && seen.add(a));
     },
+    // Typowe błędy ～たい (odmiana jak przymiotnik い) i ～に 行く: przed nimi zawsze rdzeń formy ます.
+    nearStem(word, group, form) {
+      const ok = this.form(word, group, form), out = [];
+      const stem = this.masuStem(word, group), end = word.slice(-1), base = word.slice(0, -1);
+      const tail = form === "ni" ? "に" : this.TAI[form][0], what = form === "ni" ? "に (cel ruchu)" : "たい";
+      const bad = [];
+      if (group === "ru") bad.push([base + "り", `${word} to czasownik る: odcinasz る i od razu dodajesz końcówkę (${ok[0]}).`]);
+      if (group === "u") {
+        if (end === "る") bad.push([base, `${word} wygląda jak czasownik る, ale to u (wyjątek): る → り, ${ok[0]}.`]);
+        bad.push([base + this.A_ROW[end], `Tu potrzebny rdzeń formy ます (rząd い), nie rząd あ z formy ない: ${ok[0]}.`]);
+      }
+      bad.push([word, `Przed ${what} stoi rdzeń formy ます (${stem}ます → ${stem}), nie forma słownikowa: ${ok[0]}.`]);
+      bad.push([stem + "ます", `Najpierw odetnij ます: ${ok[0]}.`]);
+      bad.push([this.te(word, group), `Przed ${what} stoi rdzeń formy ます, nie forma て: ${ok[0]}.`]);
+      bad.forEach(([b, m]) => out.push([b + tail, m]));
+      if (form === "ni") {
+        out.push([stem, `Rdzeń dobry. Dodaj jeszcze に (cel ruchu): ${ok[0]}.`]);
+        ["へ", "を", "で"].forEach(p => out.push([stem + p, `Cel ruchu („żeby coś zrobić”) oznacza に: ${ok[0]}.`]));
+        ["行きます", "いきます", "来ます", "きます", "帰ります", "かえります"].forEach(v =>
+          out.push([stem + "に" + v, `Czasownik ruchu stoi już za luką. Wpisz samo: ${ok[0]}.`]));
+      } else {
+        const plain = "Forma poprawna, ale zwykła. Tu grzecznie: dodaj です.";
+        const adj = `たい odmienia się jak przymiotnik い: ${ok[0]}.`;
+        if (form === "tai") {
+          out.push([stem + "たい", plain]);
+          out.push([stem + "ます", `To „robię”. „Chcę zrobić” to rdzeń formy ます + たいです: ${ok[0]}.`]);
+          out.push([stem + "たいます", `たい zachowuje się jak przymiotnik い, więc na końcu です, nie ます: ${ok[0]}.`]);
+        }
+        if (form === "takunai") {
+          out.push([stem + "たくない", plain]);
+          ["たいじゃないです", "たいじゃありません", "たいではありません", "たいくないです"].forEach(e => out.push([stem + e, adj]));
+          out.push([stem + "ません", `To „nie robię”. „Nie chcę zrobić” to ${ok[0]}.`]);
+          out.push([stem + "たいです", `To „chcę”. Przeczenie: い → くない, ${ok[0]}.`]);
+          out.push([stem + "たくなかったです", `To czas przeszły („nie chciałem”). Tu teraźniejszy: ${ok[0]}.`]);
+        }
+        if (form === "takatta") {
+          out.push([stem + "たかった", plain]);
+          ["たいでした", "たかったでした", "たいかったです"].forEach(e => out.push([stem + e, adj]));
+          out.push([stem + "ました", `To „zrobiłem”. „Chciałem zrobić” to ${ok[0]}.`]);
+          out.push([stem + "たいです", `To czas teraźniejszy („chcę”). Przeszły: い → かった, ${ok[0]}.`]);
+        }
+        [word, stem].forEach(x => out.push([x + "がほしいです", `ほしい łączy się tylko z rzeczownikiem. Z czasownikiem: rdzeń formy ます + たい (${ok[0]}).`]));
+      }
+      const seen = new Set(ok);
+      return out.filter(([a]) => !seen.has(a) && seen.add(a));
+    },
     hint(word, group, form) {
+      if (this.TAI[form] || form === "ni") {
+        const s = group === "irr" ? "Nieregularny: します → し, 来ます → き"
+          : group === "ru" ? "Czasownik る: odetnij る"
+          : `Czasownik u: ${word.slice(-1)} → ${this.masuStem(word, group).slice(-1)} (rdzeń formy ます)`;
+        return `${s}. Potem ${form === "ni" ? "に" : this.TAI[form][0]}.`;
+      }
       if (form === "dict") {
         if (group === "irr") return "Nieregularny: します → する, 来ます → くる.";
         if (group === "ru") return `Czasownik る: rdzeń + る (${word}).`;
@@ -559,7 +631,8 @@
     all(n, c) {
       const k = this.C[c];
       if (!n) return [k.q];
-      if (c === "tsu") return [this.TSU[n]];
+      // 三つ: IME podstawia ten zapis z みっつ, a prompt przy ～つ nie pokazuje kanji, więc to nie jest przepisanie.
+      if (c === "tsu") return n < 10 ? [this.TSU[n], this.KANJI[n] + "つ"] : [this.TSU[n]];
       if (k.irr[n]) return k.irr[n];
       const out = [this.NUM[n] + k.base];
       if (n === 7) out.push("しち" + k.base);
@@ -613,6 +686,7 @@
           if (c === "kai" && e === "がい") push(s + e, `${s + e} brzmi jak piętro (～階, np. さんがい). „Razy” się nie udźwięcznia: ${right}.`);
           else push(s + e, k.irr[n] ? this.rule(c) : `Po ${n} licznik się nie zmienia: ${right}. ${this.rule(c)}`);
         }));
+        if (c === "kai") push(plain + "ど", `${plain}ど to czytanie ${this.KANJI[n]}度. Znaczy to samo, ale znak 回 czyta się かい: ${right}.`);
         if (n === 4) push("し" + k.base, `4 przed licznikiem to よん: ${right}.`);
         if (n === 9) push("く" + k.base, `9 przed licznikiem to きゅう: ${right}.`);
         if (n === 10) push("じゅう" + k.base, this.rule(c));
