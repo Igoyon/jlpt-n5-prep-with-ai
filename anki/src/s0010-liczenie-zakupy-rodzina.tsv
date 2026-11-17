@@ -1,0 +1,21 @@
+#typ	id	słowo	czytanie	znaczenie	przykład	przykład_pl	tagi	przykład_do_audio	uwaga	słowo_do_audio
+word	s0010-01	卵	たまご	jajko	卵を　二つ　食べました。	Zjadłem dwa jajka.	jedzenie tsu	たまごを　ふたつ　食べました。		
+word	s0010-02	パン	パン	chleb, bułka	パンを　三つ　ください。	Poproszę trzy bułki.	jedzenie tsu	パンを　みっつ　ください。		
+word	s0010-03	牛乳	ぎゅうにゅう	mleko	毎朝　牛乳を　飲みます。	Co rano piję mleko.	jedzenie	まいあさ　牛乳を　のみます。		牛乳
+word	s0010-04	コーヒー	コーヒー	kawa	コーヒーを　一つ　おねがいします。	Poproszę jedną kawę.	jedzenie tsu	コーヒーを　ひとつ　おねがいします。		
+word	s0010-05	切手	きって	znaczek pocztowy	切手を　五枚　買いました。	Kupiłem pięć znaczków.	poczta mai	切手を　ごまい　かいました。	Nie mylić z 切符（きっぷ）= bilet.	
+word	s0010-06	封筒	ふうとう	koperta	封筒を　一枚　ください。	Poproszę jedną kopertę.	poczta mai	封筒を　いちまい　ください。		封筒
+word	s0010-07	葉書	はがき	pocztówka, kartka pocztowa	友達に　はがきを　出しました。	Wysłałem znajomemu pocztówkę.	poczta	ともだちに　葉書を　だしました。	Zwykle pisane kaną: はがき.	ハガキ
+word	s0010-08	紙	かみ	papier, kartka	紙を　三枚　ください。	Poproszę trzy kartki.	mai	紙を　さんまい　ください。		
+word	s0010-09	お皿	おさら	talerz	お皿を　洗って　ください。	Proszę umyć talerze.	dom	お皿を　あらって　ください。	Liczy się przez 枚: お皿を　二枚.	お皿
+word	s0010-10	コップ	コップ	szklanka, kubek	コップが　四つ　あります。	Są cztery szklanki.	dom tsu	コップが　よっつ　あります。		
+word	s0010-11	シャツ	シャツ	koszula	白い　シャツを　二枚　買いました。	Kupiłem dwie białe koszule.	ubrania mai	しろい　シャツを　にまい　かいました。		
+word	s0010-12	家族	かぞく	rodzina	家族は　四人です。	Moja rodzina to cztery osoby.	ludzie nin	家族は　よにんです。		家族
+word	s0010-13	兄弟	きょうだい	rodzeństwo	兄弟が　二人　います。	Mam dwoje rodzeństwa.	ludzie nin	兄弟が　ふたり　います。		
+word	s0010-14	大人	おとな	dorosły	大人の　切符を　二枚　ください。	Poproszę dwa bilety dla dorosłych.	ludzie mai	大人の　切符を　にまい　ください。		大人
+word	s0010-15	子供	こども	dziecko	子供が　三人　います。	Mam troje dzieci. / Jest troje dzieci.	ludzie nin	こどもが　さんにん　います。	Często pisane 子ども.	
+word	s0010-16	一人	ひとり	jedna osoba; sam	一人で　旅行します。	Podróżuję sam.	ludzie nin	ひとりで　旅行します。	一人で = w pojedynkę. ✗ いちにん.	
+word	s0010-17	二人	ふたり	dwie osoby, we dwoje	二人で　映画を　見ました。	Obejrzeliśmy film we dwoje.	ludzie nin	ふたりで　映画を　見ました。	✗ ににん. Od trzech: さんにん.	
+word	s0010-18	いくつ	いくつ	ile (sztuk); ile lat	りんごは　いくつ　ありますか。	Ile jest jabłek?	pytajniki tsu	りんごは　いくつ　ありますか。	おいくつですか = ile ma Pan/Pani lat. いくら pyta o cenę.	
+word	s0010-19	全部	ぜんぶ	wszystko, razem	全部で　いくらですか。	Ile to kosztuje razem?	zakupy	全部で　いくらですか。	全部で = łącznie, za wszystko.	全部
+word	s0010-20	一日	いちにち	jeden dzień, cały dzień	一日に　三回　薬を　飲みます。	Biorę lek trzy razy dziennie.	czas kai	いちにちに　さんかい　薬を　のみます。	Ten sam zapis czyta się ついたち, gdy znaczy „pierwszy dzień miesiąca”.	イチニチ

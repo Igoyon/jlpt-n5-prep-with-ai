@@ -1,0 +1,22 @@
+#typ	id	tekst	wyjaśnienie	tagi	tekst_do_audio
+cloze	0013-01	りんごを　{{c1::みっつ::3 sztuki, kaną}}　ください。	Poproszę trzy jabłka. ～つ ma własne liczebniki: ひとつ, ふたつ, みっつ. Trzy to みっつ, sześć to むっつ (み → む jak ひ → ふ). Zapis: 三つ.	liczniki tsu	りんごを　みっつ　ください。
+cloze	0013-02	卵が　{{c1::やっつ::8 sztuk, kaną}}　あります。	Jest osiem jajek. Cztery to よっつ, osiem to やっつ (よ → や). Ten sam rdzeń co ようか, ósmy dzień miesiąca.	liczniki tsu	たまごが　やっつ　あります。
+cloze	0013-03	コーヒー{{c1::を::partykuła}}　二つ　おねがいします。	Poproszę dwie kawy. Partykuła stoi po rzeczy, a po liczbie nie ma już nic: ✗ 二つを ください.	liczniki tsu partykuly	コーヒーを　ふたつ　おねがいします。
+cloze	0013-04	りんごは　{{c1::いくつ::ile sztuk}}　ありますか。― 五つ　あります。	Ile jest jabłek? – Pięć. いくつ pyta o liczbę sztuk, いくら o cenę.	liczniki tsu pytajniki	りんごは　いくつ　ありますか。いつつ　あります。
+cloze	0013-05	{{c1::ひとり::1 osoba, kaną}}で　京都へ　行きました。	Pojechałem do Kioto sam. Jedna osoba to ひとり (✗ いちにん), a 一人で = w pojedynkę.	liczniki nin	ひとりで　京都へ　行きました。
+cloze	0013-06	家族は　{{c1::よにん::4 osoby, kaną}}です。	Moja rodzina to cztery osoby. よ bez ん: ✗ よんにん, ✗ しにん.	liczniki nin	家族は　よにんです。
+cloze	0013-07	兄弟が　{{c1::ふたり::2 osoby, kaną}}　います。	Mam dwoje rodzeństwa. Dwie osoby to ふたり (✗ ににん). Od trzech w górę już regularnie: さんにん.	liczniki nin	兄弟が　ふたり　います。
+cloze	0013-08	ビールを　{{c1::いっぽん::一本, czytanie}}　ください。	Poproszę jedno piwo (butelkę). Po 1, 6, 8, 10 liczba kończy się na っ, a h robi się p: いっぽん, ろっぽん, はっぽん, じゅっぽん.	liczniki hon	ビールを　いっぽん　ください。
+cloze	0013-09	鉛筆が　{{c1::さんぼん::三本, czytanie}}　あります。	Są trzy ołówki. Po 3 i po なん h robi się b: さんぼん, なんぼん.	liczniki hon	えんぴつが　さんぼん　あります。
+cloze	0013-10	かさが　{{c1::なんぼん::何本, czytanie}}　ありますか。	Ile jest parasoli? Pytajnik = 何 + licznik. Przy 本 i 匹 po なん jest b: なんぼん, なんびき.	liczniki hon pytajniki	かさが　なんぼん　ありますか。
+cloze	0013-11	切符を　二{{c1::枚::licznik: bilety}}　ください。	Poproszę dwa bilety. Rzeczy płaskie (bilety, znaczki, kartki, koszule, talerze) liczy 枚（まい）. Nigdy nie zmienia brzmienia: いちまい, にまい, さんまい.	liczniki mai	切符を　にまい　ください。
+cloze	0013-12	猫が　{{c1::さんびき::三匹, czytanie}}　います。	Są trzy koty. 匹 zmienia się tak samo jak 本: いっぴき, にひき, さんびき, ろっぴき, はっぴき, じゅっぴき.	liczniki hiki	猫が　三匹　います。
+cloze	0013-13	日本へ　{{c1::いっかい::一回, czytanie}}　行きました。	Byłem w Japonii raz. Znak 回 czyta się かい: いっかい. W 0013 wpisałeś いちど, a to czytanie innego zapisu: 一度. Oba znaczą „raz”.	liczniki kai blad	日本へ　いっかい　行きました。
+cloze	0013-14	一週間{{c1::に::partykuła}}　二回　日本語を　勉強します。	Uczę się japońskiego dwa razy w tygodniu. Częstotliwość: okres + に + liczba razy (一日に　三回 = trzy razy dziennie).	liczniki kai partykuly	一週間に　にかい　日本語を　勉強します。
+cloze	0013-15	すみません、もう　{{c1::いちど::一度, czytanie}}　おねがいします。	Przepraszam, proszę jeszcze raz. 一度 = いちど, 一回 = いっかい: to samo znaczenie, dwa różne znaki i czytania. もう　一つ to „jeszcze jedną sztukę”.	liczniki kai blad	すみません、もう　いちど　おねがいします。
+listen	0013-L1	コーヒーを　二つと、パンを　三つ　おねがいします。	Poproszę dwie kawy i trzy bułki. (ふたつ = 2, みっつ = 3; sześć to むっつ)	liczniki tsu sluchanie	コーヒーを　ふたつと、パンを　みっつ　おねがいします。
+listen	0013-L2	何名様ですか。― 四人です。大人　二人と　子ども　二人です。	Ile osób? – Cztery. Dwoje dorosłych i dwoje dzieci. (何名様 = grzeczne 何人; よにん = 4)	liczniki nin sluchanie	何名様ですか。よにんです。おとな　ふたりと　こども　ふたりです。
+listen	0013-L3	うちに　猫が　二匹と　犬が　一匹　います。	W domu są dwa koty i jeden pies. (にひき = 2, いっぴき = 1; nagranie z lekcji 0013 było wadliwe, to jest poprawione)	liczniki hiki sluchanie	うちに　猫が　二匹と　犬が　一匹　います。
+listen	0013-L4	この　薬は　一日に　三回、ご飯の　あとで　飲んで　ください。	Ten lek proszę brać trzy razy dziennie, po jedzeniu. (いちにちに さんかい; あとで = po, まえに = przed)	liczniki kai sluchanie	この　薬は　いちにちに　さんかい、ご飯の　あとで　飲んで　ください。
+listen	0013-L5	何回　日本へ　行きましたか。― 一回　行きました。	Ile razy byłeś w Japonii? – Raz. (なんかい → いっかい; 一回 czyta się いっかい, nie いちど)	liczniki kai sluchanie blad	なんかい　日本へ　いきましたか。いっかい　行きました。
+listen	0013-L6	大人　二枚と　子ども　一枚　ください。	Poproszę dwa bilety dla dorosłych i jeden dziecięcy. (にまい, いちまい; razem さんまい)	liczniki mai sluchanie	おとな　にまいと　こども　いちまい　ください。
