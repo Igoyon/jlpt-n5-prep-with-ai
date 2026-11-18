@@ -1,0 +1,25 @@
+# Kanji, które uczeń zna: WaniKani poziomy 1–10 (zrzuty ekranu z 18.11.2026) + trzy znaki N5 spoza tych poziomów.
+# Słowo z jakimkolwiek znakiem spoza tej listy dostaje w lekcji czytanie w nawiasie: 歯（は）. Zob. CLAUDE.md.
+# Sprawdzanie lekcji: python3 tools/check-kanji.py lessons/NNNN-slug.html
+# WaniKani 1
+上下大工八入山口九一人力川七十三二女
+# WaniKani 2
+玉本子丸正土犬夕出目火五四手天王左中月々田右六小立丁日刀才千木水白文円
+# WaniKani 3
+矢明市牛切方戸太父少友毛半心字生台母午北今古外分引止用万広冬
+# WaniKani 4
+竹車央写仕耳早気平花足打穴百氷虫内男主名不号元他去皿先赤休申見貝石礼糸町宝村世年
+# WaniKani 5
+角斤青体色来社当図毎羽林行金草里光作多肉会交近夜兄豚雨米走同言自形皮空音学代考回谷声西何麦弟
+# WaniKani 6
+全後血両化国亡死地東食前有家私知活長曲首姉点安室科海羊店星州取茶思歩向妹
+# WaniKani 7
+辺付札鳥黒船必象末氏失魚床以組画欠未紙通民理由映校雪南強夏高教時弱週風記黄
+# WaniKani 8
+答反身君局買京雲楽数決住電森助馬間場医朝次番絵所池究道役研者支話投対
+# WaniKani 9
+受美予服比度発定表客重歴史持像負相要新事部和県保返乗屋売送辛苦泳談仮験物具実試勝界
+# WaniKani 10
+進酒始業算運漢鳴集配飲終顔落農速了頭聞院調鉄語葉習軽線最開頁親公読求転路病横解歌直使起
+# N5 spoza WaniKani 1–10 (uczone osobno)
+書駅曜
