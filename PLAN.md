@@ -33,7 +33,7 @@ Mniej więcej 5 lekcji w tygodniu. Dzień bez lekcji = samo słuchanie i powtór
 | 4–5 | 19.10–01.11 | Przerwa 18.10–31.10 (0008 zrobiona 01.11). Plan przesunięty o ~1,5 tygodnia, tematy z tygodni 4–7 ściśnięte w dwa tygodnie niżej |
 | 6 | 02–08.11 | 0009 forma słownikowa i ない · ～ないでください (02.11). Potem przerwa 03–08.11, 0010 przeniesiona na 09.11 |
 | 7 | 09–15.11 | 09.11 0010 ～なければなりません · ～ことができます · ～まえに · 10.11 0011 forma た · ～たあとで · ～たり～たり · ～たことがあります. Przerwa 11–13.11 (0012 napisana 10.11, nieprzerobiona). Powrót 14.11: 0012 porównania (より, ほうが, いちばん), oddana 15.11 (29/32) · 15.11 0013 liczniki (～つ, ～人, ～本, ～枚, ～匹, ～回) |
-| 8 | 16–22.11 | 17.11 0013 oddana (30/32) · 18.11 0014 ～たい · ～がほしい · ～に行く oddana (32/34) · 19.11 0015 ～とき · でしょう · もう／まだ · 20.11 0016 から／が · こ・そ・あ・ど · 21.11 lekcja powtórkowa z całej gramatyki · 22–23.11 **pełny test próbny #1** |
+| 8 | 16–22.11 | 17.11 0013 oddana (30/32) · 18.11 0014 ～たい · ～がほしい · ～に行く oddana (32/34) · 19.11 0015 ～とき · でしょう · もう／まだ, oddana 20.11 (33/35) · 20.11 0016 ～から · ～が · こ・そ・あ・ど · 21.11 0017 lekcja powtórkowa z całej gramatyki · 22–23.11 **pełny test próbny #1** |
 | 9 | 23–29.11 | 24.11 omówienie testu #1 · łatanie dziur, intensywne słuchanie, strategie czytania i słuchania · **test próbny #2** (27–28.11) |
 | 10 | 30.11–06.12 | Lekka powtórka · **test #3 01–02.12, najpóźniej w środę 02.12** · potem odpoczynek |
 
@@ -42,5 +42,7 @@ Plan przeliczony 14.11 po przerwie 11–13.11 (test #1 przesunięty z 17–18.11
 Plan przeliczony 17.11: 0013 oddana dwa dni po planie, więc wszystko od 0014 przesuwa się o dzień lub dwa (test #1 z 20–21.11 na 21–22.11, test #2 na 27–28.11). 0014 jest gotowa od 17.11; zrobiona tego samego dnia co wynik 0013 (wolno, bo 0013 ≥ 90%) oddaje jeden dzień zapasu.
 
 Plan przeliczony 19.11: 0014 oddana 18.11, 0015 gotowa 19.11 (dzień po planie), więc 0016, lekcja powtórkowa i test #1 przesuwają się o dzień (test #1 na 22–23.11, omówienie 24.11). Testy #2 i #3 zostają. Dzień wraca, jeśli 0016 zostanie zrobiona 19.11 zaraz po 0015 (wolno przy ≥ 90%).
+
+Stan na 20.11: wynik 0015 oddany 20.11 (33/35), 0016 gotowa tego samego dnia, więc daty z 19.11 zostają (0016 20.11, powtórkowa 21.11, test #1 22–23.11). 0016 to ostatnia lekcja z nową gramatyką.
 
 Plan jest żywy: po każdej lekcji kolejność może się przesunąć zgodnie z wynikami.

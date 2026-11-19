@@ -1,0 +1,21 @@
+#typ	id	słowo	czytanie	znaczenie	przykład	przykład_pl	tagi	przykład_do_audio	uwaga	słowo_do_audio
+word	s0012-01	雨	あめ	deszcz	午後は　雨が　降るでしょう。	Po południu pewnie będzie padać.	pogoda	午後は　雨が　降るでしょう。	Deszcz „pada” przez 降る: 雨が 降ります.	雨
+word	s0012-02	雪	ゆき	śnieg	北海道は　雪でしょう。	Na Hokkaido pewnie będzie śnieg.	pogoda	北海道は　雪でしょう。		雪
+word	s0012-03	晴れ	はれ	słoneczna pogoda, pogodnie	明日は　晴れでしょう。	Jutro pewnie będzie słonecznie.	pogoda	あしたは　晴れでしょう。	Rzeczownik. Czasownik: 晴れる (rozpogadzać się).	晴れ
+word	s0012-04	曇り	くもり	pochmurno, zachmurzenie	午前は　曇りでしょう。	Rano pewnie będzie pochmurno.	pogoda	午前は　曇りでしょう。	Często kaną: くもり. Czasownik: 曇る.	曇り
+word	s0012-05	降る	ふる	padać (deszcz, śnieg)	まだ　雨が　降っています。	Wciąż pada deszcz.	pogoda czasownik	まだ　雨が　降っています。	Czasownik u: 降ります, 降って, 降らない. Nie mylić z 降りる (おりる, wysiadać).	降る
+word	s0012-06	寒い	さむい	zimny, zimno (o pogodzie)	寒い　とき、あたたかい　お茶を　飲みます。	Kiedy jest zimno, piję ciepłą herbatę.	pogoda przymiotnik	寒い　とき、あたたかい　お茶を　飲みます。	O pogodzie. Zimny w dotyku (napój, woda) = 冷たい.
+word	s0012-07	暑い	あつい	gorący, upalny (o pogodzie)	日本の　夏は　暑いです。	Lato w Japonii jest upalne.	pogoda przymiotnik	日本の　夏は　暑いです。	O pogodzie. Gorący w dotyku (herbata, zupa) = 熱い, też あつい.	暑い
+word	s0012-08	涼しい	すずしい	chłodny, rześki (przyjemnie)	今朝は　涼しいですね。	Dziś rano jest przyjemnie chłodno, prawda?	pogoda przymiotnik	今朝は　涼しいですね。	Przymiotnik い na ～しい: 涼しくない, 涼しかった.	涼しい
+word	s0012-09	風	かぜ	wiatr	今日は　風が　強いですね。	Dziś mocno wieje, prawda?	pogoda	今日は　風が　強いですね。	Tak samo brzmi 風邪 (przeziębienie).	風
+word	s0012-10	空	そら	niebo	今日は　空が　きれいです。	Dziś niebo jest piękne.	pogoda	今日は　そらが　きれいです。
+word	s0012-11	たぶん	たぶん	prawdopodobnie, chyba	田中さんは　たぶん　来ないでしょう。	Tanaka raczej nie przyjdzie.	przypuszczenie	田中さんは　たぶん　来ないでしょう。	Często razem z でしょう.
+word	s0012-12	もう	もう	już; (z przeczeniem) już nie	もう　昼ご飯を　食べました。	Już zjadłem obiad.	juzjeszcze	もう　昼ご飯を　食べました。	もう + ました = już. もう + przeczenie = już nie: もう ありません. Przed ilością = jeszcze: もう 一つ.
+word	s0012-13	まだ	まだ	jeszcze, wciąż; (z przeczeniem) jeszcze nie	ケーキは　まだ　ありますか。	Czy jest jeszcze ciasto?	juzjeszcze	ケーキは　まだ　ありますか。	まだ + twierdzenie = wciąż: まだ あります. まだ + ていません = jeszcze nie. また (bez dakuten) = znowu.
+word	s0012-14	暇	ひま	wolny czas; mający wolne	ひまな　とき、何を　しますか。	Co robisz, kiedy masz wolną chwilę?	czas przymiotnik	ひまな　とき、何を　しますか。	Zwykle kaną. Przymiotnik な: ひまな 日, ひまじゃないです.	
+word	s0012-15	分かる	わかる	rozumieć, wiedzieć	この　漢字が　分かりません。	Nie rozumiem tego kanji.	czasownik	この　漢字が　分かりません。	Czasownik u: 分かります, 分かって, 分からない. To, co rozumiesz, dostaje が.	分かる
+word	s0012-16	今朝	けさ	dziś rano	今朝、何も　食べませんでした。	Dziś rano nic nie jadłem.	czas pora	今朝、何も　食べませんでした。	Czytanie specjalne: nie ✗ いまあさ.	今朝
+word	s0012-17	夕方	ゆうがた	późne popołudnie, wczesny wieczór	夕方、雨が　降るでしょう。	Pod wieczór pewnie będzie padać.	czas pora	夕方、雨が　降るでしょう。	Kolejność: 朝, 昼, 夕方, 夜.	夕方
+word	s0012-18	夜	よる	noc, wieczór	あの　公園は　夜、静かでしょう。	W tamtym parku nocą jest pewnie cicho.	czas pora	あの　公園は　よる、静かでしょう。
+word	s0012-19	時々	ときどき	czasami	時々　喫茶店で　本を　読みます。	Czasami czytam książkę w kawiarni.	czestotliwosc	時々　喫茶店で　本を　読みます。	Częstotliwość: いつも (zawsze), よく (często), 時々 (czasami), あまり + przeczenie (niezbyt).	時々
+word	s0012-20	よく	よく	często; dobrze	若い　とき、よく　山に　登りました。	Kiedy byłam młoda, często chodziłam po górach.	czestotliwosc	若い　とき、よく　山に　登りました。	Dwa znaczenia: よく 行きます (często chodzę), よく 分かります (dobrze rozumiem).
