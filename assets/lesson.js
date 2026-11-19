@@ -30,11 +30,15 @@
  *   <div class="q typed" data-id="t2" data-adj="寒い|さむい" data-kind="i|na|ii" data-form="pres|neg|past|pastneg|te"></div>
  *   data-register="plain" → oczekiwana forma zwykła zamiast grzecznej
  *   te = forma łącząca (寒くて, 静かで, よくて); podpowiada przy ✗ 静かくて, ✗ 安いで, ✗ いくて, ✗ 寒くで.
+ *   Przy przymiotniku い podpowiada też, gdy końcowe い zostało przed końcówką (✗ ほしいくないです, ✗ ほしいかったです).
  *   Odmiana czasownika (odpowiedzi i typowe błędy generowane automatycznie):
- *   <div class="q typed" data-id="t3" data-verb="書く|かく" data-group="u|ru|irr" data-form="te|ta|kudasai|teimasu|temoii|tewaikenai|nai|naide|nakereba|dict|koto|mae|taato|tari|takoto|tai|takunai|takatta|ni"></div>
+ *   <div class="q typed" data-id="t3" data-verb="書く|かく" data-group="u|ru|irr" data-form="te|ta|kudasai|teimasu|teimasen|temoii|tewaikenai|nai|naide|nakereba|dict|koto|mae|taato|tari|takoto|tai|takunai|takatta|ni"></div>
  *   u = godan (行く obsłużone jako wyjątek), ru = ichidan, irr = する／来る (też 勉強する).
  *   kudasai = forma て + ください (przyjmuje też 下さい; podpowiada przy samym て i przy ✗ 待ちください).
  *   teimasu = forma て + います (podpowiada przy samym て, przy zwykłym ている i przy ✗ 読みています).
+ *   teimasen = forma て + いません („jeszcze nie”: まだ 食べていません); podpowiada przy samym て, ✗ 食べませんでした
+ *   („nie zjadłem” zamiast „jeszcze nie jadłem”), ✗ 食べません, twierdzącym ～ています, zwykłym ～ていない, potocznym
+ *   ～てない／～てません i ✗ ～ていませんでした.
  *   temoii = forma て + もいいです (przyjmuje też ～てもいいですか; podpowiada przy braku も, przy zwykłym ～てもいい).
  *   tewaikenai = forma て + はいけません (przyjmuje też ～てはだめです; podpowiada przy ✗ ～てわ, ✗ ～てもいけません,
  *   potocznym ～ちゃいけない／～ちゃだめ i zwykłym ～てはいけない).
@@ -199,12 +203,13 @@
       if (this.isIku(word)) return word.slice(0, -1) + "って";
       return word.slice(0, -1) + this.U_TE[word.slice(-1)];
     },
-    // Forma て → forma docelowa: ta (て→た, で→だ), kudasai (+ください), teimasu (+います),
+    // Forma て → forma docelowa: ta (て→た, で→だ), kudasai (+ください), teimasu (+います), teimasen (+いません),
     // temoii (+もいいです), tewaikenai (+はいけません), te (bez zmian).
     fix(x, form) {
       if (form === "ta") return x.replace(/て$/, "た").replace(/で$/, "だ");
       if (form === "kudasai") return x + "ください";
       if (form === "teimasu") return x + "います";
+      if (form === "teimasen") return x + "いません";
       if (form === "temoii") return x + "もいいです";
       if (form === "tewaikenai") return x + "はいけません";
       return x;
@@ -293,6 +298,22 @@
           out.push([t + "る", `To potoczne ～てる (い wypada). Tu grzecznie: ${t}います.`]);
         });
         out.push([this.masuStem(word, group) + "ています", `います łączy się z formą て, nie z rdzeniem formy ます: ${this.form(word, group, form)[0]}.`]);
+      }
+      if (form === "teimasen") {
+        const right = this.form(word, group, form)[0];
+        this.form(word, group, "te").forEach(t => {
+          out.push([t, `Forma て jest dobra. „Jeszcze nie”: dodaj いません.`]);
+          out.push([t + "います", `To twierdzenie. „Jeszcze nie” to przeczenie: ${t}いません.`]);
+          out.push([t + "いない", `To forma zwykła (～ていない). Tu grzecznie: ${t}いません.`]);
+          out.push([t + "ない", `To potoczne ～てない (い wypada). Tu grzecznie: ${t}いません.`]);
+          out.push([t + "ません", `To potoczne ～てません (い wypada). W piśmie i na egzaminie: ${t}いません.`]);
+          out.push([t + "いませんでした", `„Jeszcze nie” opisuje stan na teraz, więc いません zostaje w czasie teraźniejszym: ${t}いません.`]);
+        });
+        this.stems(word, group).forEach(st => {
+          out.push([st + "ませんでした", `To „nie zrobiłem” (wtedy, sprawa zamknięta). „Jeszcze nie zrobiłem” to forma て + いません: ${right}.`]);
+          out.push([st + "ません", `To „nie robię” albo „nie zrobię”. „Jeszcze nie zrobiłem” to forma て + いません: ${right}.`]);
+          out.push([st + "ていません", `いません łączy się z formą て, nie z rdzeniem formy ます: ${right}.`]);
+        });
       }
       if (form === "temoii") {
         this.form(word, group, "te").forEach(t => {
@@ -536,6 +557,7 @@
       const fix = x => form === "ta" ? x.replace(/て/g, "た").replace(/で/g, "だ") : x;
       if (form === "kudasai") return this.hint(word, group, "te").replace(/\.$/, ". Potem ください.");
       if (form === "teimasu") return this.hint(word, group, "te").replace(/\.$/, ". Potem います.");
+      if (form === "teimasen") return this.hint(word, group, "te").replace(/\.$/, ". Potem いません.");
       if (form === "temoii") return this.hint(word, group, "te").replace(/\.$/, ". Potem もいいです.");
       if (form === "tewaikenai") return this.hint(word, group, "te").replace(/\.$/, ". Potem はいけません.");
       if (group === "irr") return `Nieregularny: ${fix("する → して, 来る → きて")}.`;
@@ -794,6 +816,12 @@
         if (kind === "na") { near.push([w.replace(/な$/, "") + "くて", msg]); near.push([w.replace(/な$/, "") + "なで", `Przymiotnik な łączysz przez samo で: ${shown}.`]); }
         else { near.push([w + "で", msg]); near.push([w.slice(0, -1) + "くで", `Forma łącząca przymiotnika い to くて, nie くで: ${shown}.`]); }
         if (kind === "ii") near.push([w + "くて", "いい odmienia się od よ: よくて, tak jak よくない i よかった."]);
+      });
+      // ✗ ほしいくないです: końcowe い zostało przed końcówką.
+      if (kind === "i" && form !== "pres") spellings.forEach(w => {
+        const s = w.slice(0, -1);
+        ["polite", "plain"].forEach(r => Adj.forms(w, kind, form)[r].forEach(a =>
+          near.push([w + a.slice(s.length), `Końcowe い znika przed końcówką: ${w} → ${a} (nie ${w + a.slice(s.length)}).`])));
       });
       ["polite", "plain"].forEach(r => Adj.all(spellings, other, form, r).forEach(a => near.push([a, msg])));
       if (kind === "ii") {
