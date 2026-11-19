@@ -1,0 +1,22 @@
+#typ	id	tekst	wyjaśnienie	tagi	tekst_do_audio
+cloze	0014-01	水が　{{c1::飲みたいです::飲む　→　chcę}}。	Chcę się napić wody. Rdzeń formy ます + たい: 飲みます → 飲みたい. Grzecznie z です. Przy たい rzecz może mieć が albo を.	tai	水が　のみたいです。
+cloze	0014-02	今日は　何も　{{c1::食べたくないです::食べる　→　nie　chcę}}。	Dziś nic nie chcę jeść. たい odmienia się jak przymiotnik い: たい → たくない. ✗ 食べたいじゃないです.	tai	今日は　何も　食べたくないです。
+cloze	0014-03	富士山が　{{c1::見たかったです::見る　→　chciałem}}。	Chciałem zobaczyć Fuji. Przeszły: たい → たかった, です zostaje bez zmian. ✗ 見たいでした.	tai	富士山が　見たかったです。
+cloze	0014-04	大阪へ　{{c1::行きたくなかったです::行く　→　nie　chciałem}}。	Nie chciałem jechać do Osaki. Przeczenie przeszłe: たい → たくなかった. ✗ 行きたくないでした, ✗ 行きたいじゃなかったです.	tai	大阪へ　行きたくなかったです。
+cloze	0014-05	今日は　うちへ　{{c1::帰りたくないです::帰る　→　nie　chcę}}。	Dziś nie chcę wracać do domu. 帰る to czasownik u (帰ります), więc 帰りたい, nie ✗ 帰たい.	tai	今日は　うちへ　帰りたくないです。
+cloze	0014-06	新しい　カメラ{{c1::が::partykuła}}　ほしいです。	Chcę nowy aparat. ほしい to przymiotnik, więc rzecz dostaje が (jak 好き): カメラが ほしい. ✗ カメラを ほしいです.	hoshii partykuly	あたらしい　カメラが　ほしいです。
+cloze	0014-07	今は　何も　{{c1::ほしくないです::ほしい　→　nie　chcę}}。	Teraz niczego nie chcę. ほしい to zwykły przymiotnik い: końcowe い znika i wchodzi くない. ほし|い → ほし|くない. ✗ ほしいくないです (い zostało). Tak samo 食べた|い → 食べた|くない.	hoshii blad	今は　何も　ほしくないです。
+cloze	0014-08	去年は　車が　{{c1::ほしかったです::ほしい　→　chciałem}}。	W zeszłym roku chciałem samochód. い → かった: ほし|い → ほし|かった. ✗ ほしいでした.	hoshii	去年は　車が　ほしかったです。
+cloze	0014-09	きのうは　何も　{{c1::ほしくなかったです::ほしい　→　nie　chciałem}}。	Wczoraj niczego nie chciałem. い → くなかった: ほし|い → ほし|くなかった. Cztery formy: ほしい, ほしくない, ほしかった, ほしくなかった. Końcowe い znika w każdej oprócz pierwszej.	hoshii blad	きのうは　何も　ほしくなかったです。
+cloze	0014-10	くつを　{{c1::買いたいです::買う　→　chcę　(kupić)}}。	Chcę kupić buty. Chcę coś zrobić = czasownik + たい. Chcę coś mieć = rzecz + が ほしい (くつが ほしいです). ✗ くつを 買うが ほしいです.	tai hoshii	くつを　買いたいです。
+cloze	0014-11	デパートへ　くつを　{{c1::買いに::買う　→　żeby　kupić}}　行きます。	Idę do domu towarowego kupić buty. Cel ruchu = rdzeń formy ます + に: 買います → 買いに. Miejsce ma へ, cel ma に.	niiku	デパートへ　くつを　買いに　行きます。
+cloze	0014-12	京都へ　桜を　{{c1::見に::見る　→　żeby　zobaczyć}}　行きたいです。	Chcę pojechać do Kioto zobaczyć kwitnące wiśnie. 見ます → 見に. Na końcu 行きたい: cel i chęć w jednym zdaniu.	niiku tai	京都へ　桜を　みに　行きたいです。
+cloze	0014-13	図書館へ　{{c1::勉強しに::勉強する　→　żeby　się　uczyć}}　行きます。	Idę do biblioteki się uczyć. Czasownik する: 勉強します → 勉強しに. Przy rzeczowniku czynności wystarczy samo に: 勉強に 行きます, 買い物に 行きます, 旅行に 来ました.	niiku	図書館へ　勉強しに　行きます。
+cloze	0014-14	日本へ　何を　{{c1::しに::する　→　w　jakim　celu}}　来ましたか。―　旅行に　来ました。	Po co przyjechałeś do Japonii? – W podróż. Pytanie o cel: 何を しに. します → しに.	niiku pytajniki	日本へ　なにを　しに　来ましたか。旅行に　来ました。
+cloze	0014-15	友達が　うちへ　遊び{{c1::に::partykuła}}　来ました。	Przyjaciel przyszedł do mnie w odwiedziny. Po rdzeniu czasownika (遊び) stoi に celu, a czasownik ruchu może być dowolny: 行きます, 来ます, 帰ります.	niiku partykuly	友達が　うちへ　あそびに　来ました。
+listen	0014-L1	すみません、東京まで　行きたいです。切符を　二枚　ください。	Przepraszam, chcę jechać do Tokio. Poproszę dwa bilety. (とうきょう = Tokio; きょうと = Kioto. Te same mory, inna kolejność)	tai sluchanie blad	すみません、東京まで　行きたいです。切符を　にまい　ください。
+listen	0014-L2	明日、京都へ　お寺を　見に　行きます。	Jutro jadę do Kioto zwiedzać świątynie. (きょうと = Kioto; とうきょう = Tokio)	niiku sluchanie blad	あした、京都へ　お寺を　みに　行きます。
+listen	0014-L3	すみません、今日は　飲みたくないです。うちへ　帰って、寝たいです。	Przepraszam, dziś nie chcę pić. Chcę wrócić do domu i spać. (たくない = nie chcę; 帰って、寝たい = wrócić i spać)	tai sluchanie	すみません、今日は　飲みたくないです。うちへ　帰って、寝たいです。
+listen	0014-L4	大阪にも　行きたかったです。でも、時間が　ありませんでした。	Chciałem pojechać też do Osaki. Ale nie było czasu. (行きたかった = chciałem, więc nie pojechałem)	tai sluchanie	大阪にも　行きたかったです。でも、時間が　ありませんでした。
+listen	0014-L5	新しい　かばんが　ほしいです。でも、お金が　ありません。	Chcę nową torbę. Ale nie mam pieniędzy. (が ほしい = chcę mieć)	hoshii sluchanie	あたらしい　かばんが　ほしいです。でも、お金が　ありません。
+listen	0014-L6	何が　食べたいですか。―　すしが　食べたいです。―　じゃ、食べに　行きましょう。	Co chcesz zjeść? – Sushi. – To chodźmy zjeść. (食べたい = chcę zjeść; 食べに 行く = iść zjeść)	tai niiku sluchanie	なにが　食べたいですか。すしが　食べたいです。じゃ、食べに　行きましょう。

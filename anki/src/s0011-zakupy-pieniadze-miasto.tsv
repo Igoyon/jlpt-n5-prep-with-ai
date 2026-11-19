@@ -1,0 +1,21 @@
+#typ	id	słowo	czytanie	znaczenie	przykład	przykład_pl	tagi	przykład_do_audio	uwaga	słowo_do_audio
+word	s0011-01	欲しい	ほしい	chcieć (mieć), upragniony	新しい　車が　ほしいです。	Chcę nowy samochód.	chce przymiotnik	あたらしい　車が　ほしいです。	Zwykle kaną. Przymiotnik い: ほしくない, ほしかった, ほしくなかった. Rzecz dostaje が.	
+word	s0011-02	お金	おかね	pieniądze	お金が　ありません。	Nie mam pieniędzy.	zakupy	お金が　ありません。		お金
+word	s0011-03	時間	じかん	czas; godzina (okres)	今日は　時間が　ありません。	Dziś nie mam czasu.	czas	今日は　時間が　ありません。	三時 = godzina trzecia, 三時間 = trzy godziny.	時間
+word	s0011-04	デパート	デパート	dom towarowy	デパートへ　くつを　買いに　行きます。	Idę do domu towarowego kupić buty.	zakupy miasto	デパートへ　くつを　買いに　行きます。		
+word	s0011-05	時計	とけい	zegar, zegarek	この　時計は　高いです。	Ten zegarek jest drogi.	rzeczy	この　時計は　高いです。		時計
+word	s0011-06	カメラ	カメラ	aparat fotograficzny	新しい　カメラが　ほしいです。	Chcę nowy aparat.	rzeczy	あたらしい　カメラが　ほしいです。		
+word	s0011-07	服	ふく	ubranie	デパートで　服を　買いたいです。	Chcę kupić ubranie w domu towarowym.	ubranie zakupy	デパートで　服を　買いたいです。		
+word	s0011-08	帽子	ぼうし	czapka, kapelusz	この　帽子は　いくらですか。	Ile kosztuje ta czapka?	ubranie	この　帽子は　いくらですか。		帽子
+word	s0011-09	眼鏡	めがね	okulary	新しい　眼鏡を　買いに　行きます。	Idę kupić nowe okulary.	rzeczy	あたらしい　眼鏡を　買いに　行きます。	Często kaną: めがね.	
+word	s0011-10	お菓子	おかし	słodycze, przekąski	子どもは　お菓子が　好きです。	Dzieci lubią słodycze.	jedzenie	子供は　お菓子が　好きです。		
+word	s0011-11	甘い	あまい	słodki	甘い　ものが　食べたいです。	Chcę zjeść coś słodkiego.	jedzenie przymiotnik	あまい　ものが　食べたいです。		
+word	s0011-12	食べ物	たべもの	jedzenie	日本の　食べ物が　好きです。	Lubię japońskie jedzenie.	jedzenie	日本の　食べ物が　好きです。	飲み物 = napój.	
+word	s0011-13	レストラン	レストラン	restauracja	レストランへ　晩ご飯を　食べに　行きます。	Idę do restauracji na kolację.	miasto jedzenie	レストランへ　晩ご飯を　食べに　行きます。		
+word	s0011-14	喫茶店	きっさてん	kawiarnia	喫茶店で　コーヒーを　飲みたいです。	Chcę się napić kawy w kawiarni.	miasto	喫茶店で　コーヒーを　飲みたいです。		喫茶店
+word	s0011-15	銀行	ぎんこう	bank	銀行は　九時から　三時までです。	Bank jest czynny od dziewiątej do trzeciej.	miasto	銀行は　くじから　さんじまでです。		銀行
+word	s0011-16	郵便局	ゆうびんきょく	poczta	郵便局へ　切手を　買いに　行きます。	Idę na pocztę kupić znaczki.	miasto	郵便局へ　切手を　買いに　行きます。		郵便局
+word	s0011-17	今晩	こんばん	dziś wieczorem	今晩、映画を　見に　行きませんか。	Może pójdziemy dziś wieczorem do kina?	czas	今晩、映画を　みに　行きませんか。	Stąd こんばんは = dobry wieczór.	今晩
+word	s0011-18	買う	かう	kupować	スーパーで　卵を　買いました。	Kupiłem jajka w supermarkecie.	zakupy czasownik	スーパーで　たまごを　買いました。	Czasownik u: 買います, 買って. Przeciwieństwo: 売る.	
+word	s0011-19	借りる	かりる	pożyczać (od kogoś)	図書館で　本を　借りました。	Wypożyczyłem książkę z biblioteki.	czasownik	図書館で　本を　借りました。	Czasownik る: 借ります, 借りて. Pożyczam komuś = 貸す.	借りる
+word	s0011-20	売る	うる	sprzedawać	あの　店で　切符を　売っています。	W tamtym sklepie sprzedają bilety.	zakupy czasownik	あの　店で　切符を　売っています。	Czasownik u: 売ります, 売って. Przeciwieństwo: 買う.	
