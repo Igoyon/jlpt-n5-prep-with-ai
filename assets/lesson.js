@@ -80,6 +80,18 @@
  *   (przy data-verb domyślnie reguła dla końcówki).
  *
  * Wynik: <div class="summary"></div> — liczy pierwsze podejścia, „Kopiuj wynik” do wklejenia nauczycielowi.
+ *
+ * Arkusz odpowiedzi do testu próbnego (pytania są w oficjalnym PDF, tu tylko kratki 1–4 i zegar):
+ *   <body data-test="0001"> …
+ *   <section class="sheet" data-id="v" data-title="もじ・ごい" data-minutes="25"
+ *            data-groups="もんだい１:1-10:4|もんだい２:11-18:4"></section>
+ *   data-groups = części rozdzielone „|”, każda „nazwa:od-do:liczba opcji”. data-minutes = limit czasu części.
+ *   data-audio="adres1.mp3|adres2.mp3" (opcjonalnie, część ze słuchu): jeden odtwarzacz, „Start” włącza pierwsze
+ *   nagranie, kolejne ruszają same (jeden element <audio>, bo Safari nie pozwala drugiemu zacząć bez kliknięcia).
+ *   „Start” uruchamia zegar (kratki są do tego czasu zablokowane), „Koniec części” zamyka arkusz. Odpowiedź
+ *   zaznaczona po upływie czasu dostaje „*”, a przycisk „?” przy pytaniu oznacza zgadywanie. Stan jest
+ *   w localStorage (n5.sheet.<test>.<id>), więc odświeżenie strony niczego nie gubi.
+ *   Klucza odpowiedzi tu nie ma: „Kopiuj wynik” daje same odpowiedzi ucznia, sprawdza je nauczyciel.
  */
 (function () {
   "use strict";
@@ -734,11 +746,20 @@
   function renderSummary() {
     const el = document.querySelector(".summary .score");
     if (!el) return;
+    if (sheets.length) {
+      const all = sheets.reduce((n, s) => n + s.total, 0), done = sheets.reduce((n, s) => n + s.answered(), 0);
+      el.textContent = `Zaznaczone odpowiedzi: ${done} / ${all}`;
+      return;
+    }
     const total = document.querySelectorAll(".q").length;
     const ok = [...results.values()].filter(r => r.ok).length;
     el.textContent = `Wynik (pierwsze podejście): ${ok} / ${results.size} · pozostało ${total - results.size}`;
   }
   function summaryText() {
+    if (sheets.length) {
+      return `Test próbny ${document.body.dataset.test || "?"} — odpowiedzi (? = zgadywałem, * = po czasie, – = brak)\n\n` +
+        sheets.map(s => s.text()).join("\n\n");
+    }
     const lesson = document.body.dataset.lesson || "?";
     const total = document.querySelectorAll(".q").length;
     const ok = [...results.values()].filter(r => r.ok).length;
@@ -912,6 +933,171 @@
     reveal.addEventListener("click", () => { record(q.dataset.id, false, "(pokazano odpowiedź)", labelOf(q)); finish(false); });
   }
 
+  /* ---------- Arkusz odpowiedzi (test próbny) ---------- */
+  const sheets = [];
+  const mmss = s => { const a = Math.abs(Math.round(s)); return String(Math.floor(a / 60)).padStart(2, "0") + ":" + String(a % 60).padStart(2, "0"); };
+  function initSheet(el) {
+    const key = `n5.sheet.${document.body.dataset.test || "?"}.${el.dataset.id}`;
+    let state = {};
+    try { state = JSON.parse(store.get(key)) || {}; } catch (e) {}
+    state.a = state.a || {};   // "grupa-numer" → { v: 1–4, guess: bool, late: bool }
+    const save = () => { store.set(key, JSON.stringify(state)); renderSummary(); };
+    const limit = (parseFloat(el.dataset.minutes) || 0) * 60;
+    const groups = el.dataset.groups.split("|").map((g, gi) => {
+      const [name, range, opts] = g.split(":");
+      const [from, to] = range.split("-").map(Number);
+      return { name, gi, from, to, opts: Number(opts) || 4 };
+    });
+    const elapsed = () => state.start ? ((state.end || Date.now()) - state.start) / 1000 : 0;
+    const running = () => !!state.start && !state.end;
+
+    const head = document.createElement("div");
+    head.className = "clock";
+    const title = document.createElement("strong");
+    title.setAttribute("lang", "ja");
+    title.textContent = el.dataset.title || "";
+    const time = document.createElement("span");
+    time.className = "time";
+    const go = document.createElement("button");
+    go.type = "button"; go.className = "btn";
+    head.append(title, time, go);
+    el.append(head);
+
+    const tracks = (el.dataset.audio || "").split("|").filter(Boolean);
+    let player = null, trackLabel = null, lastPos = 0;
+    const loadTrack = (i, pos) => {
+      state.track = i;
+      player.src = tracks[i];
+      lastPos = pos || 0;
+      if (pos) player.addEventListener("loadedmetadata", () => { player.currentTime = pos; }, { once: true });
+      trackLabel.textContent = `Nagranie ${i + 1} z ${tracks.length}`;
+    };
+    if (tracks.length) {
+      const box = document.createElement("div");
+      box.className = "tracks";
+      trackLabel = document.createElement("span");
+      player = document.createElement("audio");
+      player.controls = true; player.preload = "none";
+      player.addEventListener("ended", () => {
+        if (state.track + 1 >= tracks.length) { trackLabel.textContent = "Koniec nagrań"; return; }
+        loadTrack(state.track + 1);
+        state.pos = 0; save();
+        player.play().catch(() => {});
+      });
+      player.addEventListener("timeupdate", () => {   // pozycja co 5 s, żeby po odświeżeniu strony wrócić w to samo miejsce
+        if (Math.abs(player.currentTime - lastPos) < 5) return;
+        lastPos = state.pos = player.currentTime;
+        store.set(key, JSON.stringify(state));
+      });
+      player.addEventListener("error", () => { trackLabel.textContent = `Nagranie ${state.track + 1} się nie wczytało. Sprawdź internet albo otwórz plik z linku pod arkuszem.`; });
+      box.append(trackLabel, player);
+      el.append(box);
+      loadTrack(state.track || 0, state.start && !state.end ? state.pos : 0);
+      if (state.start && !state.end) trackLabel.textContent += " · strona była odświeżona: naciśnij ▶, żeby słuchać dalej";
+    }
+
+    const rows = [];
+    groups.forEach(g => {
+      const h = document.createElement("h3");
+      h.setAttribute("lang", "ja");
+      h.textContent = g.name;
+      const box = document.createElement("div");
+      box.className = "grp";
+      for (let n = g.from; n <= g.to; n++) {
+        const id = g.gi + "-" + n;
+        const row = document.createElement("div");
+        row.className = "ans";
+        const num = document.createElement("span");
+        num.className = "n"; num.textContent = n;
+        row.append(num);
+        const btns = [];
+        for (let v = 1; v <= g.opts; v++) {
+          const b = document.createElement("button");
+          b.type = "button"; b.textContent = v;
+          b.addEventListener("click", () => {
+            const cur = state.a[id] || {};
+            if (cur.v === v) delete state.a[id];
+            else state.a[id] = { v, guess: !!cur.guess, late: limit > 0 && elapsed() > limit };
+            save(); paint();
+          });
+          btns.push(b); row.append(b);
+        }
+        const q = document.createElement("button");
+        q.type = "button"; q.className = "guess"; q.textContent = "?"; q.title = "zgadywałem";
+        q.addEventListener("click", () => {
+          const cur = state.a[id];
+          if (!cur) return;
+          cur.guess = !cur.guess; save(); paint();
+        });
+        row.append(q);
+        rows.push({ id, btns, q });
+        box.append(row);
+      }
+      el.append(h, box);
+    });
+
+    const reset = document.createElement("button");
+    reset.type = "button"; reset.className = "reset"; reset.textContent = "Wyczyść tę część";
+    reset.addEventListener("click", () => {
+      if (!confirm("Usunąć odpowiedzi i czas tej części?")) return;
+      state = { a: {} };
+      if (player) { player.pause(); loadTrack(0); }
+      save(); paint();
+    });
+    el.append(reset);
+
+    function paint() {
+      const on = running();
+      rows.forEach(r => {
+        const cur = state.a[r.id];
+        r.btns.forEach((b, i) => { b.disabled = !on; b.classList.toggle("sel", !!cur && cur.v === i + 1); });
+        r.q.disabled = !on || !cur;
+        r.q.classList.toggle("sel", !!cur && cur.guess);
+      });
+      go.textContent = !state.start ? "Start" : state.end ? "Część zakończona" : "Koniec części";
+      go.disabled = !!state.end;
+      el.classList.toggle("running", on);
+      tick();
+    }
+    function tick() {
+      const e = elapsed();
+      if (!state.start) time.textContent = limit ? `limit ${mmss(limit)}` : "";
+      else if (state.end) time.textContent = `czas ${mmss(e)}` + (limit ? ` z ${mmss(limit)}` : "");
+      else if (!limit) time.textContent = mmss(e);
+      else time.textContent = e <= limit ? `zostało ${mmss(limit - e)}` : `czas minął, +${mmss(e - limit)}`;
+      time.classList.toggle("over", !!limit && e > limit);
+    }
+    go.addEventListener("click", () => {
+      if (!state.start) {
+        state.start = Date.now();
+        if (player) { loadTrack(0); player.play().catch(() => {}); }
+      } else if (!state.end) {
+        if (!confirm("Zakończyć tę część? Odpowiedzi nie będzie już można zmienić.")) return;
+        state.end = Date.now();
+        if (player) player.pause();
+      }
+      save(); paint();
+    });
+    setInterval(() => { if (running()) tick(); }, 1000);
+    paint();
+
+    sheets.push({
+      total: rows.length,
+      answered: () => rows.filter(r => state.a[r.id]).length,
+      text() {
+        const used = state.start ? `czas ${mmss(elapsed())}` + (limit ? ` z ${mmss(limit)}` : "") + (state.end ? "" : " (część niezakończona)") : "nie rozpoczęto";
+        return `${el.dataset.title} · ${used}\n` + groups.map(g => {
+          const out = [];
+          for (let n = g.from; n <= g.to; n++) {
+            const cur = state.a[g.gi + "-" + n];
+            out.push(cur ? cur.v + (cur.guess ? "?" : "") + (cur.late ? "*" : "") : "–");
+          }
+          return `${g.name} (${g.from === g.to ? g.from : g.from + "–" + g.to}): ${out.join(" ")}`;
+        }).join("\n");
+      },
+    });
+  }
+
   /* ---------- Pasek narzędzi i podsumowanie ---------- */
   function initToolbar() {
     const bar = document.querySelector(".toolbar");
@@ -963,6 +1149,7 @@
       if (q.classList.contains("mcq")) initMcq(q);
       if (q.classList.contains("typed")) initTyped(q);
     });
+    document.querySelectorAll(".sheet").forEach(initSheet);
     initToolbar();
     initSummary();
   });

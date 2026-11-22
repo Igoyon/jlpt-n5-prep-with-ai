@@ -125,6 +125,30 @@ button.say.big { font-size: 1rem; padding: 0.35rem 0.9rem; margin-bottom: 0.6rem
 .summary { position: sticky; bottom: 0; background: var(--bg); border-top: 1px solid var(--rule); padding: 0.6rem 0; font-size: 0.9rem; display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; }
 .summary .score { font-variant-numeric: tabular-nums; }
 
+/* Arkusz odpowiedzi do testu próbnego (lesson.js: .sheet) */
+.sheet { margin: 2rem 0; padding: 0 1.1rem 1rem; background: var(--panel); border-radius: 8px; }
+.sheet .clock { position: sticky; top: 0; z-index: 1; display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; padding: 0.7rem 0; background: var(--panel); border-bottom: 1px solid var(--rule); }
+.sheet .clock strong { font-size: 1.15rem; }
+.sheet .clock .time { font-variant-numeric: tabular-nums; color: var(--muted); margin-left: auto; }
+.sheet.running .clock .time { color: var(--ink); font-weight: 600; }
+.sheet .clock .time.over { color: var(--bad); }
+.sheet h3 { margin: 1.1rem 0 0.4rem; font-size: 1rem; }
+.sheet .grp { display: grid; grid-template-columns: repeat(auto-fill, minmax(13.5rem, 1fr)); gap: 0.35rem 1.2rem; }
+.sheet .ans { display: flex; align-items: center; gap: 0.3rem; }
+.sheet .ans .n { width: 1.8rem; text-align: right; color: var(--muted); font-variant-numeric: tabular-nums; margin-right: 0.2rem; }
+.sheet .ans button {
+  font: inherit; font-size: 0.95rem; width: 2.1rem; height: 2.1rem; border: 1px solid var(--rule); border-radius: 50%;
+  background: var(--bg); color: var(--ink); cursor: pointer; padding: 0;
+}
+.sheet .ans button:hover:not(:disabled) { border-color: var(--ink); }
+.sheet .ans button:disabled { cursor: default; opacity: 0.55; }
+.sheet .ans button.sel { background: var(--ink); border-color: var(--ink); color: var(--bg); opacity: 1; }
+.sheet .ans button.guess { border-radius: 6px; width: 1.7rem; margin-left: 0.3rem; color: var(--muted); }
+.sheet .ans button.guess.sel { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+.sheet .reset { font: inherit; font-size: 0.8rem; margin-top: 1rem; background: none; border: none; color: var(--muted); text-decoration: underline; cursor: pointer; padding: 0; }
+.sheet .tracks { padding-top: 0.7rem; font-size: 0.85rem; color: var(--muted); }
+.sheet audio { display: block; width: 100%; margin: 0.3rem 0 0; }
+
 /* Źródło i pytania do nauczyciela */
 .source, .ask { border: 1px solid var(--rule); border-radius: 8px; padding: 1rem 1.1rem; margin: 1.5rem 0; }
 .source::before { content: "Źródło główne"; }
