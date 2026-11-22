@@ -1,0 +1,21 @@
+#typ	id	słowo	czytanie	znaczenie	przykład	przykład_pl	tagi	przykład_do_audio	uwaga	słowo_do_audio
+word	s0013-01	どうして	どうして	dlaczego	どうして　日本語を　勉強していますか。	Dlaczego uczysz się japońskiego?	pytanie powod	どうして　日本語を　勉強していますか。	Odpowiedź kończy się na から: 日本へ 行きたいですから. なぜ znaczy to samo, bardziej oficjalnie.	
+word	s0013-02	仕事	しごと	praca	明日は　仕事が　ありますから、行きません。	Jutro mam pracę, więc nie pójdę.	powod praca	あしたは　仕事が　ありますから、行きません。	仕事を します = pracować.	仕事
+word	s0013-03	病気	びょうき	choroba	父は　病気ですから、うちに　います。	Ojciec jest chory, więc jest w domu.	powod zdrowie	父は　病気ですから、うちに　います。	Rzeczownik: 病気です = jestem chory. Potocznie przed から: 病気だから.	病気
+word	s0013-04	痛い	いたい	bolesny; boli	頭が　痛いですから、帰ります。	Boli mnie głowa, więc wracam do domu.	powod zdrowie przymiotnik	頭が　痛いですから、帰ります。	Przymiotnik い. To, co boli, dostaje が: おなかが 痛いです.	痛い
+word	s0013-05	おなか	おなか	brzuch	おなかが　痛いですから、何も　食べたくないです。	Boli mnie brzuch, więc nic nie chcę jeść.	cialo zdrowie	おなかが　痛いですから、何も　食べたくないです。	おなかが すきました = zgłodniałem.	
+word	s0013-06	頭	あたま	głowa	朝から　頭が　痛いです。	Od rana boli mnie głowa.	cialo zdrowie	朝から　頭が　痛いです。	Tu から stoi po rzeczowniku, więc znaczy „od”.	頭
+word	s0013-07	隣	となり	obok, sąsiedni	トイレは　エレベーターの　隣です。	Toaleta jest obok windy.	miejsce	トイレは　エレベーターの　隣です。	Tuż obok, zwykle o rzeczach tego samego rodzaju: 隣の 店 (sąsiedni sklep), 隣の 人.	隣
+word	s0013-08	近く	ちかく	pobliże, w pobliżu	この　近くに　コンビニが　ありますか。	Czy jest tu w pobliżu konbini?	miejsce	この　近くに　コンビニが　ありますか。	Rzeczownik od 近い: 駅の 近く = okolice dworca.	近く
+word	s0013-09	向こう	むこう	po drugiej stronie, tam dalej	駅は　あの　公園の　向こうです。	Dworzec jest za tamtym parkiem.	miejsce	駅は　あの　公園の　向こうです。		向こう
+word	s0013-10	入口	いりぐち	wejście	入口は　あそこです。	Wejście jest tam.	miejsce podroz	入口は　あそこです。	Para: 出口 (wyjście). Pisane też 入り口.	入口
+word	s0013-11	出口	でぐち	wyjście	すみません、出口は　どこですか。	Przepraszam, gdzie jest wyjście?	miejsce podroz	すみません、出口は　どこですか。	Na dworcach: 東口, 西口 (wyjście wschodnie, zachodnie).	出口
+word	s0013-12	お手洗い	おてあらい	toaleta (grzecznie)	すみませんが、お手洗いは　どこですか。	Przepraszam, gdzie jest toaleta?	miejsce podroz	すみませんが、お手洗いは　どこですか。	Grzeczniejsze niż トイレ; dosłownie „miejsce mycia rąk”.	お手洗い
+word	s0013-13	トイレ	トイレ	toaleta	トイレに　行っても　いいですか。	Czy mogę iść do toalety?	miejsce podroz	トイレに　いっても　いいですか。	Grzeczniej: お手洗い.	
+word	s0013-14	赤い	あかい	czerwony	あの　赤い　傘は　いくらですか。	Ile kosztuje tamten czerwony parasol?	kolor przymiotnik	あの　赤い　傘は　いくらですか。	Przymiotnik い. Kolor jako rzeczownik: 赤 (あか).	赤い
+word	s0013-15	青い	あおい	niebieski	この　青い　傘は　千円です。	Ten niebieski parasol kosztuje 1000 jenów.	kolor przymiotnik	この　青い　傘は　千円です。	Także o zielonym świetle na przejściu i o zieleni roślin. Rzeczownik: 青 (あお).	青い
+word	s0013-16	白い	しろい	biały	白い　シャツが　ほしいです。	Chcę białą koszulę.	kolor przymiotnik	白い　シャツが　ほしいです。	Rzeczownik: 白 (しろ).	白い
+word	s0013-17	黒い	くろい	czarny	その　黒い　かばんを　見せて　ください。	Proszę pokazać tę czarną torbę.	kolor przymiotnik	その　黒い　かばんを　見せて　ください。	Rzeczownik: 黒 (くろ).	黒い
+word	s0013-18	色	いろ	kolor	どの　色が　いちばん　好きですか。	Który kolor lubisz najbardziej?	kolor	どの　色が　いちばん　好きですか。	どの + rzeczownik: どの 色. Samo: どれが 好きですか.	色
+word	s0013-19	おいしい	おいしい	smaczny	この　店は　高いですが、おいしいです。	Ten lokal jest drogi, ale smaczny.	jedzenie przymiotnik	この　店は　高いですが、おいしいです。	Przymiotnik い: おいしくない, おいしかった. Przeciwieństwo: まずい.	
+word	s0013-20	いくら	いくら	ile (kosztuje)	これは　いくらですか。―　八百円です。	Ile to kosztuje? – 800 jenów.	pytanie zakupy	これは　いくらですか。八百円です。	O cenę. O liczbę sztuk pyta いくつ.	

@@ -22,6 +22,8 @@
   に przy czasie jako „pinezka na osi czasu”, から／まで jako od–do. Use for: lekcja 0002.
 - [Tofugu: Japanese Counters Guide](https://www.tofugu.com/japanese/japanese-counters-guide/) · [つ](https://www.tofugu.com/japanese/japanese-counter-tsu/) · [人](https://www.tofugu.com/japanese/japanese-counter-nin/) · [本](https://www.tofugu.com/japanese/japanese-counter-hon/) · [枚](https://www.tofugu.com/japanese/japanese-counter-mai/) · [匹](https://www.tofugu.com/japanese/japanese-counter-hiki/) · [回](https://www.tofugu.com/japanese/japanese-counter-kai-times/)
   Czytania 1–10 i pytajniki dla każdego licznika, zmiany brzmienia (いっぽん, さんぼん), co czym się liczy. Sprawdzone 14.11.2026. Use for: lekcja 0013.
+- [Tae Kim: Compound Sentences](https://guidetojapanese.org/learn/grammar/compound) · [Tofugu: ので](https://www.tofugu.com/japanese-grammar/conjunctive-particle-node/)
+  から i łagodniejsze ので (雨なので), が i potoczne けど, が／けど bez przeciwstawienia. Tofugu nie ma strony o けど. Sprawdzone 22.11.2026. Use for: pytania ucznia po lekcji 0016, rozpoznawanie ので／けど w nagraniach.
 - [Maggie Sensei: ませんか / ましょうか / ましょう](https://maggiesensei.com/2023/10/06/how-to-use-%E3%81%BE%E3%81%9B%E3%82%93%E3%81%8B-%E3%81%BE%E3%81%97%E3%82%87%E3%81%86%E3%81%8B-%E3%81%BE%E3%81%97%E3%82%87%E3%81%86-masenka-mashouka-mashou/)
   Nauczycielka japońskiego, bardzo dużo naturalnych przykładów. Use for: zaproszenia i propozycje.
 - [Coto Academy: ちょっと](https://cotoacademy.com/chotto/)
