@@ -50,6 +50,9 @@ Pułapki zapisu kaną (sama hiragana nie ma granic słów, syntezator zgaduje po
   (うちに　ねこが　にひきと　いぬが　いっぴき　います nie dało się zrozumieć). .segment wygląda dobrze i długość całego
   zdania jest taka sama jak w kanji, więc widać to dopiero na obwiedni głośności: anki/.venv/bin/python anki/envelope.py "kana" "kanji".
   Pisz kanji: 猫が　二匹と　犬が　一匹　います. To samo w data-say w lekcjach.
+- 何ですか Kyoko czyta „なにですか” (nagranie identyczne co do bajta z wersją なにですか, rozpoznawanie mowy zapisuje 何ですか
+  w obu przypadkach). Pisz kaną i z przecinkiem po partykule: それは、なんですか (bez przecinka それわ　なんですか zlewa się
+  w jedno słowo bez pauzy). 何も czyta dobrze (なにも). To samo w data-say／data-dialog w lekcjach.
 Podział słów syntezatora pokazuje anki/segment.swift (instrukcja w pliku); „は | つか” albo „と | おか” = błąd.
 Sam .segment nie wystarcza (えいがかんへ wyglądało dobrze, a brzmiało źle): nagrania z nowej talii warto przepuścić
 przez rozpoznawanie mowy (model whisper large-v3-turbo, language="ja"; mlx-whisper liczy ok. 1,5 s na plik,
