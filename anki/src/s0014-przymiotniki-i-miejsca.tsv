@@ -1,0 +1,21 @@
+#typ	id	słowo	czytanie	znaczenie	przykład	przykład_pl	tagi	przykład_do_audio	uwaga	słowo_do_audio
+word	s0014-01	古い	ふるい	stary (o rzeczach i miejscach)	この　お寺は　古くて、有名です。	Ta świątynia jest stara i słynna.	przymiotnik	この　お寺は　古くて、有名です。	Nie o ludziach. Przeciwieństwo: 新しい. Łączenie: 古くて (nie ✗ 古いで).	古い
+word	s0014-02	新しい	あたらしい	nowy	新しい　かばんを　買いました。	Kupiłem nową torbę.	przymiotnik	新しい　かばんを　買いました。	Przeciwieństwo: 古い. Przeczenie: 新しくない.	新しい
+word	s0014-03	高い	たかい	drogi; wysoki	この　ホテルは　高いですが、きれいです。	Ten hotel jest drogi, ale ładny.	przymiotnik zakupy	この　ホテルは　高いですが、きれいです。	Dwa znaczenia: drogi (↔ 安い) i wysoki (↔ 低い). 背が 高い = wysoki (o człowieku).	高い
+word	s0014-04	安い	やすい	tani	この　店は　安くて、おいしいです。	Ta knajpa jest tania i smaczna.	przymiotnik zakupy	この　店は　安くて、おいしいです。	Przeciwieństwo: 高い. もっと 安いのは ありますか = czy jest coś tańszego?	安い
+word	s0014-05	大きい	おおきい	duży	もう　少し　大きい　かばんは　ありますか。	Czy jest trochę większa torba?	przymiotnik zakupy	もう　少し　大きい　かばんは　ありますか。	Przeciwieństwo: 小さい. Długie おお: nie おきい.	大きい
+word	s0014-06	小さい	ちいさい	mały	この　シャツは　ちょっと　小さいです。	Ta koszula jest trochę za mała.	przymiotnik zakupy	この　シャツは　ちょっと　小さいです。	Przeciwieństwo: 大きい. Długie ちい: nie ちさい.	小さい
+word	s0014-07	長い	ながい	długi	夏休みは　長くて、楽しかったです。	Wakacje były długie i przyjemne.	przymiotnik	夏休みは　長くて、楽しかったです。	Przeciwieństwo: 短い. Czas przeszły stoi tylko na końcu: 長くて、楽しかった.	長い
+word	s0014-08	短い	みじかい	krótki	この　映画は　短いですが、おもしろいです。	Ten film jest krótki, ale ciekawy.	przymiotnik	この　映画は　短いですが、おもしろいです。	Przeciwieństwo: 長い.	短い
+word	s0014-09	重い	おもい	ciężki	この　荷物は　重いですね。持ちましょうか。	Ten bagaż jest ciężki. Może poniosę?	przymiotnik podroz	この　荷物は　重いですね。持ちましょうか。	Przeciwieństwo: 軽い.	重い
+word	s0014-10	軽い	かるい	lekki	この　かばんは　軽くて、便利です。	Ta torba jest lekka i praktyczna.	przymiotnik podroz	この　かばんは　軽くて、便利です。	Przeciwieństwo: 重い.	軽い
+word	s0014-11	暗い	くらい	ciemny	この　道は　夜、暗いです。	Ta droga jest nocą ciemna.	przymiotnik	この　道は　夜、暗いです。	Przeciwieństwo: 明るい. Nie mylić z ～ぐらい (około).	暗い
+word	s0014-12	明るい	あかるい	jasny	この　部屋は　広くて、明るいです。	Ten pokój jest przestronny i jasny.	przymiotnik blad	この　部屋は　広くて、明るいです。	Przeciwieństwo: 暗い. Także o człowieku: 明るい 人 = pogodna osoba.	明るい
+word	s0014-13	広い	ひろい	przestronny, szeroki	この　公園は　広くて、静かです。	Ten park jest rozległy i cichy.	przymiotnik blad	この　公園は　広くて、静かです。	Przeciwieństwo: 狭い. Łączenie: 広くて (nie ✗ 広いで).	広い
+word	s0014-14	後ろ	うしろ	tył; za (czymś)	駅の　後ろに　銀行が　あります。	Za dworcem jest bank.	miejsce	駅の　後ろに　銀行が　あります。	Przeciwieństwo: 前. Budowa jak przy 前: rzecz + の + 後ろ + に.	後ろ
+word	s0014-15	横	よこ	bok; obok, z boku	入口の　横に　トイレが　あります。	Obok wejścia jest toaleta.	miejsce	入口の　横に　トイレが　あります。	横 = z boku czegokolwiek. 隣 = tuż obok i tego samego rodzaju (隣の 店).	横
+word	s0014-16	道	みち	droga, ulica	この　道を　まっすぐ　行ってください。	Proszę iść tą drogą prosto.	miejsce droga	この　道を　まっすぐ　いってください。	Droga, po której idziesz, dostaje を: 道を 行く, 道を 渡る.	道
+word	s0014-17	橋	はし	most	あの　橋を　渡ってください。	Proszę przejść przez tamten most.	miejsce droga	あの　橋を　渡ってください。	はし to też pałeczki (箸) i brzeg (端); w mowie rozróżnia je kontekst i akcent.	橋
+word	s0014-18	建物	たてもの	budynek	あの　白い　建物は　ホテルです。	Tamten biały budynek to hotel.	miejsce	あの　白い　建物は　ホテルです。	建てる (budować) + 物 (rzecz).	建物
+word	s0014-19	所	ところ	miejsce	静かな　所に　住みたいです。	Chcę mieszkać w cichym miejscu.	miejsce	静かな　所に　住みたいです。	Często pisane kaną: ところ. どんな 所ですか = jakie to miejsce?	所
+word	s0014-20	箱	はこ	pudełko	箱の　中に　お菓子が　あります。	W pudełku są słodycze.	rzecz	箱の　中に　お菓子が　あります。	お菓子 (おかし) = słodycze.	箱
