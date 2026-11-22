@@ -45,4 +45,6 @@ Plan przeliczony 19.11: 0014 oddana 18.11, 0015 gotowa 19.11 (dzień po planie),
 
 Stan na 20.11: wynik 0015 oddany 20.11 (33/35), 0016 gotowa tego samego dnia, więc daty z 19.11 zostają (0016 20.11, powtórkowa 21.11, test #1 22–23.11). 0016 to ostatnia lekcja z nową gramatyką.
 
+Stan na 22.11: 20–21.11 wypadły (0016 nieprzerobiona, lekcja powtórkowa 0017 nienapisana). Uczeń wrócił 22.11 z większą ilością czasu i nie chce przesuwać dat, więc zaległości nadrabia kilkoma jednostkami dziennie: 22.11 0016 i 0017 (0017 to powtórka bez nowej gramatyki, więc wolno ją zrobić tego samego dnia), 23.11 test #1 (drugi dzień pierwotnego okna 22–23.11), 24.11 omówienie. Testy #2 (27–28.11) i #3 (01–02.12) bez zmian.
+
 Plan jest żywy: po każdej lekcji kolejność może się przesunąć zgodnie z wynikami.
