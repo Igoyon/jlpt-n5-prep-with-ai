@@ -3,9 +3,9 @@ word	s0013-01	どうして	どうして	dlaczego	どうして　日本語を　�
 word	s0013-02	仕事	しごと	praca	明日は　仕事が　ありますから、行きません。	Jutro mam pracę, więc nie pójdę.	powod praca	あしたは　仕事が　ありますから、行きません。	仕事を します = pracować.	仕事
 word	s0013-03	病気	びょうき	choroba	父は　病気ですから、うちに　います。	Ojciec jest chory, więc jest w domu.	powod zdrowie	父は　病気ですから、うちに　います。	Rzeczownik: 病気です = jestem chory. Potocznie przed から: 病気だから.	病気
 word	s0013-04	痛い	いたい	bolesny; boli	頭が　痛いですから、帰ります。	Boli mnie głowa, więc wracam do domu.	powod zdrowie przymiotnik	頭が　痛いですから、帰ります。	Przymiotnik い. To, co boli, dostaje が: おなかが 痛いです.	痛い
-word	s0013-05	おなか	おなか	brzuch	おなかが　痛いですから、何も　食べたくないです。	Boli mnie brzuch, więc nic nie chcę jeść.	cialo zdrowie	おなかが　痛いですから、何も　食べたくないです。	おなかが すきました = zgłodniałem.	
+word	s0013-05	おなか	おなか	brzuch	おなかが　痛いですから、何も　食べたくないです。	Boli mnie brzuch, więc nic nie chcę jeść.	cialo zdrowie	おなかが　痛いですから、何も　食べたくないです。	おなかが すきました = jestem głodny (dosłownie: brzuch się opróżnił).	
 word	s0013-06	頭	あたま	głowa	朝から　頭が　痛いです。	Od rana boli mnie głowa.	cialo zdrowie	朝から　頭が　痛いです。	Tu から stoi po rzeczowniku, więc znaczy „od”.	頭
-word	s0013-07	隣	となり	obok, sąsiedni	トイレは　エレベーターの　隣です。	Toaleta jest obok windy.	miejsce	トイレは　エレベーターの　隣です。	Tuż obok, zwykle o rzeczach tego samego rodzaju: 隣の 店 (sąsiedni sklep), 隣の 人.	隣
+word	s0013-07	隣	となり	obok, sąsiedni	トイレは　エレベーターの　隣です。	Toaleta jest obok windy.	miejsce	トイレは　エレベーターの　隣です。	Tuż obok, bez niczego pomiędzy: 隣の 店 (sąsiedni sklep), 隣の 人 (osoba obok).	隣
 word	s0013-08	近く	ちかく	pobliże, w pobliżu	この　近くに　コンビニが　ありますか。	Czy jest tu w pobliżu konbini?	miejsce	この　近くに　コンビニが　ありますか。	Rzeczownik od 近い: 駅の 近く = okolice dworca.	近く
 word	s0013-09	向こう	むこう	po drugiej stronie, tam dalej	駅は　あの　公園の　向こうです。	Dworzec jest za tamtym parkiem.	miejsce	駅は　あの　公園の　向こうです。		向こう
 word	s0013-10	入口	いりぐち	wejście	入口は　あそこです。	Wejście jest tam.	miejsce podroz	入口は　あそこです。	Para: 出口 (wyjście). Pisane też 入り口.	入口
